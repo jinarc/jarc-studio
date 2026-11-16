@@ -1,0 +1,87 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+html { font-size: 17px; -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--ink);
+  font-family: var(--f-body);
+  font-size: var(--t-base);
+  line-height: 1.6;
+  word-break: keep-all;
+  /* 제도용 모눈 — 종이 위에 아주 옅게 */
+  background-color: var(--paper);
+  background-image:
+    linear-gradient(to right, rgb(19 19 18 / 0.045) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(19 19 18 / 0.045) 1px, transparent 1px);
+  background-size: var(--grid) var(--grid);
+}
+
+h1, h2, h3, p, ul, ol, figure { margin: 0; padding: 0; }
+ul, ol { list-style: none; }
+img { display: block; max-width: 100%; height: auto; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+.skip {
+  position: absolute; left: var(--gutter); top: -4rem; z-index: 50;
+  padding: 0.5rem 0.9rem; background: var(--ink); color: var(--paper);
+}
+.skip:focus { top: 0.6rem; }
+
+#view:focus { outline: none; }
+
+/* 작은 꼬리표 글씨 — 도면 표제란의 영문 대문자 */
+.label {
+  font-family: var(--f-display);
+  font-size: var(--t-micro);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+.sheet { padding: 0 var(--gutter) var(--space-section); max-width: 1680px; margin: 0 auto; }
+
+/* 위쪽 띠 — 모든 화면 공통 */
+.strip {
+  display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+  padding: 1.1rem 0 0.9rem;
+  border-bottom: 1.5px solid var(--ink);
+}
+.strip__brand { font-family: var(--f-display); font-weight: 600; letter-spacing: 0.06em; }
+.strip__brand b { color: var(--accent); font-weight: 600; }
+
+.btn {
+  display: inline-flex; align-items: center; gap: 0.55rem;
+  padding: 0.7rem 1.15rem;
+  border: 1.5px solid var(--ink);
+  font-family: var(--f-display); font-weight: 600; letter-spacing: 0.04em;
+  transition: background-color var(--fast), color var(--fast), transform var(--fast);
+}
+.btn:hover { background: var(--ink); color: var(--paper); }
+.btn:active { transform: translateY(1px); }
+.btn--accent { background: var(--accent-fill); border-color: var(--accent-fill); color: #fff; }
+.btn--accent:hover { background: var(--accent-ink); border-color: var(--accent-ink); color: #fff; }
+
+.toast {
+  position: fixed; left: 50%; bottom: 2.2rem; z-index: 60;
+  transform: translate(-50%, 1rem);
+  padding: 0.7rem 1.2rem;
+  background: var(--accent-fill); color: #fff;
+  font-family: var(--f-display); font-weight: 600; letter-spacing: 0.03em;
+  opacity: 0; pointer-events: none;
+  transition: opacity var(--fast), transform var(--normal) var(--ease-out);
+}
+.toast.is-on { opacity: 1; transform: translate(-50%, 0); }
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}

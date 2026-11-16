@@ -1,0 +1,40 @@
+/* 디자인 토큰 — 도면 한 장처럼: 종이 바탕 · 가는 먹선 · 주홍 한 색 */
+:root {
+  --paper: #f6f5f0;
+  --paper-2: #edebe3;
+  --ink: #131312;
+  --ink-2: #4b4a45;
+  --ink-3: #6b6960;
+  --hair: #cfccc1;
+  --accent: #e8472b;
+  --accent-ink: #b9321b;      /* 종이 위 작은 주홍 글씨 */
+  --accent-fill: #d43c22;     /* 흰 글씨가 얹히는 주홍 바탕 */
+  --accent-on-dark: #ff7a5f;  /* 어두운 무대 위 주홍 글씨 */
+
+  --stage: #0d0d0c;
+  --stage-2: #1b1b19;
+  --stage-hair: #34332f;
+  --stage-ink: #f3f1ea;
+  --stage-ink-2: #a9a69c;
+
+  /* 강의실 PC에서 인터넷 없이 열리도록 기기 글꼴만 쓴다 */
+  --f-display: "Bahnschrift", "DIN Alternate", "Pretendard", "Malgun Gothic", sans-serif;
+  --f-body: "Pretendard", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+  --f-mono: "Cascadia Mono", "Cascadia Code", Consolas, "D2Coding", monospace;
+
+  --t-micro: 0.72rem;
+  --t-small: 0.86rem;
+  --t-base: 1rem;
+  --t-lead: clamp(1.1rem, 0.98rem + 0.5vw, 1.4rem);
+  --t-h2: clamp(1.6rem, 1.2rem + 1.6vw, 2.6rem);
+  --t-h1: clamp(2.4rem, 1.4rem + 4vw, 5.2rem);
+  --t-hero: clamp(3.4rem, 1rem + 9.5vw, 10.5rem);
+
+  --gutter: clamp(1.25rem, 0.6rem + 2.6vw, 3.5rem);
+  --space-section: clamp(3rem, 2rem + 4vw, 6.5rem);
+  --grid: 28px;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --fast: 160ms;
+  --normal: 420ms;
+}

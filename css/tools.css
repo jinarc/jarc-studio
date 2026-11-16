@@ -1,0 +1,90 @@
+/* 위쪽 띠의 도구 · 찾기 결과 · 프롬프트 조립기 */
+.strip__left { display: flex; align-items: baseline; gap: 1.4rem; }
+a.strip__brand:hover { color: var(--accent-ink); }
+.strip__tools { display: flex; align-items: center; gap: 1.2rem; }
+.strip__link { font-family: var(--f-display); font-weight: 600; letter-spacing: 0.04em; border-bottom: 1.5px solid var(--accent); padding-bottom: 1px; }
+.strip__link:hover { color: var(--accent-ink); }
+
+.find { display: flex; border: 1.5px solid var(--ink); background: var(--paper); }
+.find__input { width: 15rem; padding: 0.4rem 0.7rem; border: 0; background: transparent; font: inherit; color: inherit; }
+.find__input::placeholder { color: var(--ink-3); }
+.find__input:focus { outline: none; background: #fff; }
+.find:focus-within { outline: 2px solid var(--accent); outline-offset: 2px; }
+.find__go { padding: 0 0.9rem; background: var(--ink); color: var(--paper); font-family: var(--f-display); font-weight: 600; letter-spacing: 0.06em; }
+.find__go:hover { background: var(--accent-fill); }
+
+.thead--plain { grid-template-columns: 1fr; padding-bottom: 1.6rem; }
+.formula__head { transition: color var(--fast); }
+.formula__head i { font-style: normal; font-family: var(--f-display); color: var(--accent-ink); }
+.formula__head:hover strong { color: var(--accent-ink); }
+
+/* 찾기 결과 */
+.hits { border-top: 1.5px solid var(--ink); }
+.hit { display: grid; grid-template-columns: minmax(12rem, 0.5fr) minmax(0, 1.5fr) 5rem; gap: 1.2rem; align-items: baseline; padding: 0.7rem 0.3rem; border-bottom: 1px solid var(--hair); }
+.hit__where { font-size: var(--t-small); color: var(--ink-2); }
+.hit__where b { font-family: var(--f-display); color: var(--accent-ink); }
+.hit__where:hover { color: var(--ink); text-decoration: underline; }
+.hit__main { text-align: left; display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.3rem 0.9rem; }
+.hit__main b { font-family: var(--f-display); font-weight: 600; font-size: 1.15rem; }
+.hit__main span { color: var(--ink-2); font-size: 0.95rem; }
+.hit__main:hover b { color: var(--accent-ink); }
+.hit--prompt .hit__main b { font-family: var(--f-mono); font-weight: 400; font-size: 0.98rem; line-height: 1.55; }
+.hit .label { text-align: right; }
+.hit .kw__chip { align-self: center; }
+
+/* 프롬프트 조립기 */
+.sheet--asm { padding-bottom: 16rem; }
+.asm__label { display: grid; gap: 0.5rem; margin-top: 1.6rem; max-width: 60rem; }
+.asm__subject { padding: 0.85rem 1rem; border: 1.5px solid var(--ink); background: #fff; font-family: var(--f-mono); font-size: 1.1rem; color: inherit; }
+.asm__subject:focus { outline: 2px solid var(--accent); outline-offset: 2px; }
+.asm__slots { border-top: 1.5px solid var(--ink); }
+.slot { display: grid; grid-template-columns: minmax(11rem, 0.42fr) minmax(0, 1.58fr); gap: var(--gutter); padding: 1.6rem 0 1.9rem; border-bottom: 1px solid var(--ink); }
+.slot__head h2 { font-family: var(--f-display); font-size: clamp(1.8rem, 1.3rem + 1.6vw, 2.8rem); font-weight: 700; line-height: 1; letter-spacing: 0.01em; margin-top: 0.3rem; }
+.slot:first-child .slot__head h2 { color: var(--accent-ink); }
+.slot__head p { color: var(--ink-2); margin-top: 0.3rem; }
+.slot__body { display: grid; gap: 0.9rem; }
+.slot__group { display: grid; grid-template-columns: 9.5rem minmax(0, 1fr); gap: 0.8rem; align-items: start; }
+.slot__group .label { padding-top: 0.5rem; }
+.slot__group > .chips:only-child { grid-column: 1 / -1; }
+.pick {
+  display: inline-flex; align-items: baseline; gap: 0.5rem; padding: 0.32rem 0.7rem; border: 1px solid var(--ink); background: var(--paper);
+  transition: background-color var(--fast), color var(--fast), border-color var(--fast);
+}
+.pick b { font-family: var(--f-display); font-weight: 600; }
+.pick span { font-size: var(--t-small); color: var(--ink-2); }
+.pick:hover { border-color: var(--accent); }
+.pick[aria-pressed="true"] { background: var(--accent-fill); border-color: var(--accent-fill); color: #fff; }
+.pick[aria-pressed="true"] span { color: #fff; }
+
+.asm__out {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 20;
+  padding: 0.9rem var(--gutter) 1.1rem; background: var(--stage); color: var(--stage-ink);
+  border-top: 4px solid var(--accent);
+}
+.asm__outhead { display: flex; justify-content: space-between; }
+.asm__outhead .label { color: var(--stage-ink-2); }
+.asm__text { font-family: var(--f-mono); font-size: clamp(1rem, 0.9rem + 0.4vw, 1.25rem); line-height: 1.6; margin: 0.5rem 0 0.8rem; max-height: 7.2em; overflow-y: auto; word-break: normal; }
+.asm__text.is-empty { color: var(--stage-ink-2); font-family: var(--f-body); }
+.asm__ko { margin: -0.2rem 0 0.9rem; padding-top: 0.6rem; border-top: 1px dashed var(--stage-hair); color: var(--stage-ink-2); line-height: 1.65; max-height: 5em; overflow-y: auto; }
+.asm__ko .label { display: block; margin-bottom: 0.2rem; color: var(--stage-ink-2); }
+.asm__ko[hidden] { display: none; }
+.asm__actions { display: flex; gap: 0.7rem; }
+.asm__out .btn:not(.btn--accent) { border-color: var(--stage-hair); color: var(--stage-ink); }
+.asm__out .btn:not(.btn--accent):hover { background: var(--stage-ink); color: var(--stage); }
+
+@media (max-width: 1000px) {
+  .strip { flex-wrap: wrap; }
+  .find__input { width: 9rem; }
+  .hit { grid-template-columns: 1fr; gap: 0.2rem; }
+  .hit .label { text-align: left; }
+  .slot { grid-template-columns: 1fr; }
+  .slot__group { grid-template-columns: 1fr; gap: 0.3rem; }
+}
+
+/* 휴대폰 너비: 메뉴 글자가 세로로 꺾이지 않게 하고, 찾기 칸은 한 줄을 다 쓴다 */
+.strip__link { white-space: nowrap; }
+@media (max-width: 640px) {
+  .strip__tools { flex-wrap: wrap; width: 100%; gap: 0.7rem 1.2rem; }
+  .find { flex: 1 1 100%; }
+  .find__input { flex: 1; width: auto; min-width: 0; }
+}
