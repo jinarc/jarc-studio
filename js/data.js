@@ -4,7 +4,7 @@ window.JARC_DATA = {
   "built": "2026-11-17",
   "cards": 211,
   "prompts": 61,
-  "newImages": 389
+  "newImages": 475
  },
  "groups": [
   {
@@ -1320,7 +1320,13 @@ window.JARC_DATA = {
        "en": "Abstract Concept",
        "ko": "추상 컨셉",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k30.webp",
+        "thumb": "img/topic_keywords/tk30.webp",
+        "prompt": "Abstract concept diagram: a few bold circles, arrows and overlapping colored shapes expressing the idea of two volumes joined by a shared courtyard, minimal, white background, no labels.",
+        "promptKo": "추상 컨셉 다이어그램: 굵은 원 · 화살표 · 겹친 색 도형 몇 개로 '두 볼륨이 함께 쓰는 마당으로 이어진다'는 생각을 나타냈다, 미니멀, 흰 바탕, 글자 표기 없음."
+       }
       }
      ],
      "note": "",
@@ -1597,14 +1603,26 @@ window.JARC_DATA = {
        "en": "Windy Day",
        "ko": "바람 부는 날",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k49.webp",
+        "thumb": "img/topic_keywords/tk49.webp",
+        "prompt": "A small modern concrete and glass house with a front garden and one tree, seen from the street on a windy day, the tree bending, leaves flying through the air, curtains blowing out of an open window.",
+        "promptKo": "앞마당과 나무 한 그루가 있는 작은 현대식 콘크리트 · 유리 주택, 길에서 본 모습, 바람 부는 날, 휘는 나무, 공중에 날리는 잎, 열린 창밖으로 나부끼는 커튼."
+       }
       },
       {
        "n": 50,
        "en": "Overcast Light",
        "ko": "흐린 확산광",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k50.webp",
+        "thumb": "img/topic_keywords/tk50.webp",
+        "prompt": "A small modern concrete and glass house with a front garden and one tree, seen from the street under an overcast sky, soft even diffused light, no hard shadows.",
+        "promptKo": "앞마당과 나무 한 그루가 있는 작은 현대식 콘크리트 · 유리 주택, 길에서 본 모습, 흐린 하늘, 부드럽고 고른 확산광, 짙은 그림자 없음."
+       }
       }
      ],
      "note": "",
@@ -2354,7 +2372,7 @@ window.JARC_DATA = {
     }
    ],
    "cardPreview": true,
-   "examples": 97
+   "examples": 100
   },
   "thoughts_90": {
    "slug": "thoughts_90",
@@ -3854,7 +3872,13 @@ window.JARC_DATA = {
        "en": "Rotation",
        "ko": "회전",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k06.webp",
+        "thumb": "img/concept_encyclopedia/tk06.webp",
+        "prompt": "A clean white architectural massing model on a plain light grey studio background, soft shadows: two identical box volumes stacked, the upper one rotated 45 degrees on top of the lower one.",
+        "promptKo": "꾸밈없는 밝은 회색 스튜디오 바탕의 깨끗한 흰 건축 매스 모형, 부드러운 그림자: 똑같은 상자 볼륨 두 개를 쌓았다, 위의 것이 아래 것 위에서 45도 돌아가 있다."
+       }
       },
       {
        "n": 7,
@@ -4788,7 +4812,13 @@ window.JARC_DATA = {
        "en": "Materiality",
        "ko": "물성",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k70.webp",
+        "thumb": "img/concept_encyclopedia/tk70.webp",
+        "prompt": "A room where every surface is raw rammed earth, its weight, layers and grain evident, architectural photography.",
+        "promptKo": "모든 면이 날것의 흙다짐인 방, 그 무게 · 켜 · 결이 그대로 드러난다, 건축 사진."
+       }
       }
      ],
      "note": "빛과 그림자, 재료의 물성이 만나는 찰나의 감각적 체험 · 투명함과 반사를 통해 물리적 실체를 넘어서는 현상학 · 침묵 속에서 느껴지는 공간의 영적 울림과 서정성",
@@ -4813,70 +4843,130 @@ window.JARC_DATA = {
        "en": "Flexibility",
        "ko": "유연성",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k71.webp",
+        "thumb": "img/concept_encyclopedia/tk71.webp",
+        "prompt": "One large open hall with movable furniture being used for several different activities at once: a workshop, a talk and children playing, architectural photography.",
+        "promptKo": "옮길 수 있는 가구가 놓인 크고 열린 홀 하나가 여러 활동에 동시에 쓰인다: 워크숍, 강연, 아이들의 놀이, 건축 사진."
+       }
       },
       {
        "n": 72,
        "en": "Adaptability",
        "ko": "가변성",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k72.webp",
+        "thumb": "img/concept_encyclopedia/tk72.webp",
+        "prompt": "A room with sliding and folding wall panels half open, turning one big room into several smaller ones, architectural photography.",
+        "promptKo": "미닫이와 접이식 벽 패널이 반쯤 열려 큰 방 하나를 작은 방 여럿으로 바꾸는 방, 건축 사진."
+       }
       },
       {
        "n": 73,
        "en": "Communication",
        "ko": "소통",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k73.webp",
+        "thumb": "img/concept_encyclopedia/tk73.webp",
+        "prompt": "A wide stepped seating stair in an atrium where groups of people sit and talk, architectural photography.",
+        "promptKo": "아트리움의 넓은 계단식 좌석, 사람들이 무리 지어 앉아 이야기한다, 건축 사진."
+       }
       },
       {
        "n": 74,
        "en": "Privacy",
        "ko": "사유",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k74.webp",
+        "thumb": "img/concept_encyclopedia/tk74.webp",
+        "prompt": "A small enclosed window alcove with a curtain half drawn, one person reading alone, architectural photography.",
+        "promptKo": "커튼을 반쯤 친 작고 아늑하게 둘러싸인 창가 알코브, 혼자 책 읽는 한 사람, 건축 사진."
+       }
       },
       {
        "n": 75,
        "en": "Publicness",
        "ko": "공공성",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k75.webp",
+        "thumb": "img/concept_encyclopedia/tk75.webp",
+        "prompt": "A building whose ground floor is an open public passage and plaza, people of all ages freely walking through and sitting, architectural photography.",
+        "promptKo": "1층이 열린 공공 통로이자 광장인 건물, 모든 나이의 사람들이 자유롭게 지나가고 앉는다, 건축 사진."
+       }
       },
       {
        "n": 76,
        "en": "Closeness",
        "ko": "밀착",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k76.webp",
+        "thumb": "img/concept_encyclopedia/tk76.webp",
+        "prompt": "A narrow alley of houses whose facing windows and balconies almost touch, neighbors living very close together, architectural photography.",
+        "promptKo": "마주 보는 창과 발코니가 거의 닿을 듯한 좁은 골목의 집들, 아주 가까이 붙어 사는 이웃들, 건축 사진."
+       }
       },
       {
        "n": 77,
        "en": "Interaction",
        "ko": "상호작용",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k77.webp",
+        "thumb": "img/concept_encyclopedia/tk77.webp",
+        "prompt": "A public plaza with movable chairs and playful water jets, children playing in the water and people gathering around to watch, architectural photography.",
+        "promptKo": "옮길 수 있는 의자와 장난스러운 바닥 분수가 있는 공공 광장, 물에서 노는 아이들과 둘러서서 구경하는 사람들, 건축 사진."
+       }
       },
       {
        "n": 78,
        "en": "Sharing",
        "ko": "공유",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k78.webp",
+        "thumb": "img/concept_encyclopedia/tk78.webp",
+        "prompt": "A shared kitchen with a long communal dining table in a co-housing building, residents cooking and eating together, architectural photography.",
+        "promptKo": "공동 주택의 공유 주방과 긴 공동 식탁, 함께 요리하고 식사하는 입주민들, 건축 사진."
+       }
       },
       {
        "n": 79,
        "en": "Autonomy",
        "ko": "자율성",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k79.webp",
+        "thumb": "img/concept_encyclopedia/tk79.webp",
+        "prompt": "A row of identical small studio units, each arranged differently by its occupant with different curtains, plants and furniture seen through the windows, architectural photography.",
+        "promptKo": "똑같은 작은 스튜디오 유닛이 줄지어 있다, 창으로 보이는 커튼 · 식물 · 가구가 사는 사람마다 다르게 꾸며져 있다, 건축 사진."
+       }
       },
       {
        "n": 80,
        "en": "Hybrid",
        "ko": "하이브리드",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k80.webp",
+        "thumb": "img/concept_encyclopedia/tk80.webp",
+        "prompt": "Cutaway view of a building stacking different uses: a market on the ground floor, a library above, housing on top and a sports court on the roof, architectural photography.",
+        "promptKo": "서로 다른 쓰임을 쌓은 건물의 절개 뷰: 1층의 시장, 그 위의 도서관, 맨 위의 주거, 옥상의 운동 코트, 건축 사진."
+       }
       }
      ],
      "note": "인간의 삶과 행태를 담아내는 유연한 프로그램의 구성 · 사유와 공유의 균형을 통해 실현하는 하이브리드 공간 · 사용자의 창의적인 참여로 완성되는 역동적인 삶의 터전",
@@ -4901,70 +4991,130 @@ window.JARC_DATA = {
        "en": "Parametric",
        "ko": "파라메트릭",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k81.webp",
+        "thumb": "img/concept_encyclopedia/tk81.webp",
+        "prompt": "A pavilion whose surface is made of thousands of small panels that change gradually in size and rotation, generated by rules, architectural photography.",
+        "promptKo": "수천 개의 작은 패널이 크기와 회전을 조금씩 바꾸며 표면을 이루는 파빌리온, 규칙으로 생성한 형태, 건축 사진."
+       }
       },
       {
        "n": 82,
        "en": "Algorithmic",
        "ko": "알고리즘",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k82.webp",
+        "thumb": "img/concept_encyclopedia/tk82.webp",
+        "prompt": "A canopy structure of branching, cell-like patterns grown by an algorithm, like tree branches and soap bubbles, architectural photography.",
+        "promptKo": "알고리즘으로 자라난 가지와 세포 같은 무늬의 캐노피 구조, 나뭇가지와 비눗방울을 닮았다, 건축 사진."
+       }
       },
       {
        "n": 83,
        "en": "Folding",
        "ko": "접기",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k83.webp",
+        "thumb": "img/concept_encyclopedia/tk83.webp",
+        "prompt": "A building formed from one folded plate like origami, with sharp creases and angled planes, architectural photography.",
+        "promptKo": "종이접기처럼 한 장의 판을 접어 만든 건물, 날카로운 접힘 선과 기운 면, 건축 사진."
+       }
       },
       {
        "n": 84,
        "en": "Topology",
        "ko": "위상학",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k84.webp",
+        "thumb": "img/concept_encyclopedia/tk84.webp",
+        "prompt": "A building shaped as one continuous looping surface where the floor becomes the wall and then the roof, with flowing holes through it, architectural photography.",
+        "promptKo": "바닥이 벽이 되고 다시 지붕이 되는 한 장의 이어진 고리 면으로 된 건물, 그 사이로 흐르듯 뚫린 구멍들, 건축 사진."
+       }
       },
       {
        "n": 85,
        "en": "A-morphous",
        "ko": "비정형",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k85.webp",
+        "thumb": "img/concept_encyclopedia/tk85.webp",
+        "prompt": "A soft blob-like building with no clear geometry, no edges and no front or back, architectural photography.",
+        "promptKo": "뚜렷한 기하학도, 모서리도, 앞뒤도 없는 무르고 덩어리진 비정형 건물, 건축 사진."
+       }
       },
       {
        "n": 86,
        "en": "Fragmentation",
        "ko": "단편화",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k86.webp",
+        "thumb": "img/concept_encyclopedia/tk86.webp",
+        "prompt": "A building broken into many separate angular shards with gaps of light between them, architectural photography.",
+        "promptKo": "모난 조각 여럿으로 따로따로 깨어진 건물, 조각 사이로 드는 빛의 틈, 건축 사진."
+       }
       },
       {
        "n": 87,
        "en": "Deconstruction",
        "ko": "해체",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k87.webp",
+        "thumb": "img/concept_encyclopedia/tk87.webp",
+        "prompt": "A building of tilted colliding planes and skewed frames that looks unstable and pulled apart, architectural photography.",
+        "promptKo": "기울어 서로 부딪치는 면과 비틀린 뼈대로 이루어져 불안정하고 뜯겨 나간 듯 보이는 건물, 건축 사진."
+       }
       },
       {
        "n": 88,
        "en": "Skin / Envelope",
        "ko": "스킨",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k88.webp",
+        "thumb": "img/concept_encyclopedia/tk88.webp",
+        "prompt": "A simple box building wrapped in a separate lightweight outer skin of perforated metal mesh standing off from the inner walls, architectural photography.",
+        "promptKo": "단순한 상자 건물을, 안벽에서 띄워 세운 가벼운 타공 금속 망의 별도 겉 스킨으로 감쌌다, 건축 사진."
+       }
       },
       {
        "n": 89,
        "en": "Parasite",
        "ko": "기생",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k89.webp",
+        "thumb": "img/concept_encyclopedia/tk89.webp",
+        "prompt": "A small shiny new pod clinging to the side of an old brick building, attached like a parasite, architectural photography.",
+        "promptKo": "오래된 벽돌 건물 옆구리에 기생하듯 매달려 붙은 작고 반짝이는 새 포드, 건축 사진."
+       }
       },
       {
        "n": 90,
        "en": "Minimalism",
        "ko": "미니멀리즘",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k90.webp",
+        "thumb": "img/concept_encyclopedia/tk90.webp",
+        "prompt": "A pure white room with one window and one bench, nothing else, architectural photography.",
+        "promptKo": "창 하나와 벤치 하나뿐, 그 밖에는 아무것도 없는 순백의 방, 건축 사진."
+       }
       }
      ],
      "note": "디지털 기술과 해체적 사고가 제안하는 파격적인 실험 · 알고리즘과 폴딩 등 고정된 건축의 정의를 뒤흔드는 시도 · 개념이 형태의 가능성을 무한히 확장하는 혁신적인 현장",
@@ -4989,35 +5139,65 @@ window.JARC_DATA = {
        "en": "Regeneration",
        "ko": "재생",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k91.webp",
+        "thumb": "img/concept_encyclopedia/tk91.webp",
+        "prompt": "An abandoned industrial site brought back to life as a park, rusted steel structures kept among new planting, people walking, architectural photography.",
+        "promptKo": "버려진 공업 부지가 공원으로 되살아났다, 새 식재 사이에 남겨 둔 녹슨 철 구조물, 걷는 사람들, 건축 사진."
+       }
       },
       {
        "n": 92,
        "en": "Circulation",
        "ko": "순환",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k92.webp",
+        "thumb": "img/concept_encyclopedia/tk92.webp",
+        "prompt": "A courtyard building where rainwater flows from the roof into open channels, a reed-bed pond and a vegetable garden, a visible cycle of water, architectural photography.",
+        "promptKo": "빗물이 지붕에서 열린 수로 · 갈대 연못 · 텃밭으로 흘러가는 중정 건물, 눈에 보이는 물의 순환, 건축 사진."
+       }
       },
       {
        "n": 93,
        "en": "Organic Integration",
        "ko": "유기적 통합",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k93.webp",
+        "thumb": "img/concept_encyclopedia/tk93.webp",
+        "prompt": "A curving building that merges into the landscape, its green roof continuous with the hill, architectural photography.",
+        "promptKo": "풍경 속으로 녹아드는 곡선의 건물, 옥상 녹화가 언덕과 하나로 이어진다, 건축 사진."
+       }
       },
       {
        "n": 94,
        "en": "Ecological Transition",
        "ko": "생태적 전환",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k94.webp",
+        "thumb": "img/concept_encyclopedia/tk94.webp",
+        "prompt": "A former parking lot turned into an urban farm and wetland with solar canopies, the city behind, architectural photography.",
+        "promptKo": "옛 주차장이 태양광 캐노피가 있는 도시 농장과 습지로 바뀌었다, 뒤로 보이는 도시, 건축 사진."
+       }
       },
       {
        "n": 95,
        "en": "Modular",
        "ko": "모듈러",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k95.webp",
+        "thumb": "img/concept_encyclopedia/tk95.webp",
+        "prompt": "Factory-built timber room modules being lifted by a crane and stacked into a building on site, architectural photography.",
+        "promptKo": "공장에서 만든 목재 방 모듈을 크레인으로 들어 올려 현장에서 건물로 쌓는 모습, 건축 사진."
+       }
       },
       {
        "n": 96,
@@ -5031,14 +5211,26 @@ window.JARC_DATA = {
        "en": "Adaptive Reuse",
        "ko": "적응형 재사용",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k97.webp",
+        "thumb": "img/concept_encyclopedia/tk97.webp",
+        "prompt": "An old brick factory reused as a library, the original steel trusses kept and a new timber mezzanine inserted, architectural photography.",
+        "promptKo": "도서관으로 다시 쓰는 오래된 벽돌 공장, 원래의 철골 트러스를 남기고 새 목재 중층을 끼워 넣었다, 건축 사진."
+       }
       },
       {
        "n": 98,
        "en": "Restoration",
        "ko": "복원",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k98.webp",
+        "thumb": "img/concept_encyclopedia/tk98.webp",
+        "prompt": "Craftspeople on scaffolding carefully restoring a historic timber building, pale new pieces of wood set beside the dark old ones, architectural photography.",
+        "promptKo": "비계 위에서 역사적 목조 건물을 정성껏 복원하는 장인들, 어두운 옛 부재 옆에 끼운 밝은 새 나무, 건축 사진."
+       }
       },
       {
        "n": 99,
@@ -5062,7 +5254,7 @@ window.JARC_DATA = {
     }
    ],
    "cardPreview": true,
-   "examples": 68
+   "examples": 97
   },
   "interior_styles": {
    "slug": "interior_styles",
@@ -10049,70 +10241,130 @@ window.JARC_DATA = {
        "en": "Perforated Brickwork",
        "ko": "영롱쌓기",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k01.webp",
+        "thumb": "img/facade_encyclopedia/tk01.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: a brick screen wall laid with regular gaps between the bricks, daylight and glimpses of the interior passing through the holes, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 벽돌 사이에 규칙적인 틈을 두고 쌓은 벽돌 스크린 벽(영롱쌓기), 구멍으로 햇빛과 실내가 언뜻 비친다, 건축 사진."
+       }
       },
       {
        "n": 2,
        "en": "Corbeled Pattern",
        "ko": "캔틸레버 돌출 쌓기",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k02.webp",
+        "thumb": "img/facade_encyclopedia/tk02.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: brick courses stepping outward row by row so that the upper wall projects over the lower, deep stepped shadows, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 벽돌 켜가 한 줄씩 밖으로 내밀어 위쪽 벽이 아래쪽보다 튀어나온다, 계단진 깊은 그림자, 건축 사진."
+       }
       },
       {
        "n": 3,
        "en": "Twisted Brick",
        "ko": "파라메트릭 회전 쌓기",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k03.webp",
+        "thumb": "img/facade_encyclopedia/tk03.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: bricks each rotated a little more than the one before, making a rippling wave pattern across the wall, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 벽돌을 앞의 것보다 조금씩 더 돌려 쌓아 벽 전체에 물결치는 무늬를 만든다, 건축 사진."
+       }
       },
       {
        "n": 4,
        "en": "Fabric Brick",
        "ko": "와이어 인장 시스템 벽돌",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k04.webp",
+        "thumb": "img/facade_encyclopedia/tk04.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: bricks threaded on steel wires and hung like a draped curtain, the brick surface sagging in soft fabric-like folds, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 벽돌을 강선에 꿰어 드리운 커튼처럼 매달았다, 벽돌 면이 천처럼 부드러운 주름으로 늘어진다, 건축 사진."
+       }
       },
       {
        "n": 5,
        "en": "Brick & Glass Inlay",
        "ko": "이질 재료 혼합 쌓기",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k05.webp",
+        "thumb": "img/facade_encyclopedia/tk05.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: a red brick wall with glass bricks set into it at intervals, the glass bricks glowing among the solid ones, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 붉은 벽돌벽 군데군데에 유리 벽돌을 끼워 넣었다, 속 찬 벽돌 사이에서 유리 벽돌이 빛난다, 건축 사진."
+       }
       },
       {
        "n": 6,
        "en": "Stone Open Joint",
        "ko": "석재 오픈 조인트",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k06.webp",
+        "thumb": "img/facade_encyclopedia/tk06.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: large flat stone panels hung with open shadow gaps between them, crisp dark joints, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 크고 평평한 석재 판을 사이에 열린 틈을 두고 달았다(오픈 조인트), 또렷하고 어두운 줄눈, 건축 사진."
+       }
       },
       {
        "n": 7,
        "en": "Rough-faced Stone",
        "ko": "거친 질감의 혹두기",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k07.webp",
+        "thumb": "img/facade_encyclopedia/tk07.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: rough rock-faced stone blocks with chiseled bulging surfaces, heavy rustic texture, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 정으로 쪼아 표면이 불룩한 거친 혹두기 석재 블록, 묵직하고 투박한 질감, 건축 사진."
+       }
       },
       {
        "n": 8,
        "en": "Vertical Stone Slats",
        "ko": "수직 긴 석재 판재",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k08.webp",
+        "thumb": "img/facade_encyclopedia/tk08.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: long narrow vertical stone slabs standing side by side with slim gaps, a tall striped rhythm, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 길고 좁은 수직 석재 판이 가는 틈을 두고 나란히 선다, 키 큰 줄무늬의 리듬, 건축 사진."
+       }
       },
       {
        "n": 9,
        "en": "Terracotta Louver",
        "ko": "테라코타 루버",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k09.webp",
+        "thumb": "img/facade_encyclopedia/tk09.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: rows of horizontal terracotta baguette louvers in warm orange clay in front of the glass, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 유리 앞에 줄지은 따뜻한 주황빛 점토의 수평 테라코타 막대 루버, 건축 사진."
+       }
       },
       {
        "n": 10,
        "en": "Upcycled Brick",
        "ko": "폐벽돌 재활용 패턴",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k10.webp",
+        "thumb": "img/facade_encyclopedia/tk10.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: a patchwork wall of reclaimed bricks in mixed colors, sizes and ages, old paint traces still visible, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 색 · 크기 · 나이가 뒤섞인 재활용 벽돌의 조각보 같은 벽, 옛 페인트 자국이 그대로 보인다, 건축 사진."
+       }
       }
      ],
      "note": "",
@@ -10137,70 +10389,130 @@ window.JARC_DATA = {
        "en": "Board-formed",
        "ko": "송판 노출 콘크리트",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k11.webp",
+        "thumb": "img/facade_encyclopedia/tk11.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: exposed concrete imprinted with the grain and seams of wooden formwork boards, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 나무 거푸집 널의 결과 이음매가 찍힌 노출 콘크리트(송판 무늬), 건축 사진."
+       }
       },
       {
        "n": 12,
        "en": "Graphic Concrete",
        "ko": "비정형 거푸집 그래픽",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k12.webp",
+        "thumb": "img/facade_encyclopedia/tk12.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: concrete panels with a large leaf pattern etched into the surface, a subtle contrast between smooth and exposed-aggregate areas, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 표면에 큰 나뭇잎 무늬를 새긴 콘크리트 패널, 매끈한 곳과 골재가 드러난 곳의 은은한 대비, 건축 사진."
+       }
       },
       {
        "n": 13,
        "en": "Concrete Block",
        "ko": "노출 콘크리트 유닛 블록",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k13.webp",
+        "thumb": "img/facade_encyclopedia/tk13.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: exposed grey concrete masonry blocks stacked in a regular bond, plain and honest, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 규칙적으로 쌓은 회색 노출 콘크리트 블록, 꾸밈없고 정직하다, 건축 사진."
+       }
       },
       {
        "n": 14,
        "en": "Ribbed Concrete",
        "ko": "리브 콘크리트 수직 패턴",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k14.webp",
+        "thumb": "img/facade_encyclopedia/tk14.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: concrete with deep vertical ribs, fine parallel lines of light and shadow, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 깊은 수직 리브가 있는 콘크리트, 빛과 그림자의 가는 평행선, 건축 사진."
+       }
       },
       {
        "n": 15,
        "en": "Colored Concrete",
        "ko": "컬러 노출 콘크리트",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k15.webp",
+        "thumb": "img/facade_encyclopedia/tk15.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: exposed concrete tinted a deep terracotta red all the way through, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 속까지 짙은 테라코타 붉은색으로 물들인 노출 콘크리트, 건축 사진."
+       }
       },
       {
        "n": 16,
        "en": "Punched Concrete",
        "ko": "콘크리트 펀칭 패널",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k16.webp",
+        "thumb": "img/facade_encyclopedia/tk16.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: precast concrete panels pierced by many small round holes of varying sizes, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 크기가 다른 작고 둥근 구멍을 많이 뚫은 프리캐스트 콘크리트 패널, 건축 사진."
+       }
       },
       {
        "n": 17,
        "en": "GRC Panels",
        "ko": "GRC 비정형 외장 패널",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k17.webp",
+        "thumb": "img/facade_encyclopedia/tk17.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: thin curved GRC panels molded into flowing three-dimensional shapes, white and seamless, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 흐르는 듯한 입체 형태로 찍어 낸 얇은 곡면 GRC 패널, 희고 이음매가 없다, 건축 사진."
+       }
       },
       {
        "n": 18,
        "en": "Washed Aggregate",
        "ko": "워시드 아그리게이트",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k18.webp",
+        "thumb": "img/facade_encyclopedia/tk18.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: washed concrete where the cement skin is rinsed away to reveal small pebbles and stones, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 시멘트 겉면을 씻어 내 잔자갈과 돌을 드러낸 씻어내기 콘크리트, 건축 사진."
+       }
       },
       {
        "n": 19,
        "en": "Bio-concrete",
        "ko": "콘크리트와 식재의 결합",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k19.webp",
+        "thumb": "img/facade_encyclopedia/tk19.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: porous concrete with moss and small plants growing out of its grooves and pockets, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 홈과 주머니에서 이끼와 작은 식물이 자라는 다공질 콘크리트, 건축 사진."
+       }
       },
       {
        "n": 20,
        "en": "3D Printed Wall",
        "ko": "3D 프린팅 콘크리트 월",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k20.webp",
+        "thumb": "img/facade_encyclopedia/tk20.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: a wall 3D-printed in concrete, built of thin stacked layers with gentle wavy curves, the layer lines clearly visible, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 콘크리트로 3D 프린팅한 벽, 얇은 켜를 쌓아 완만하게 물결친다, 켜의 선이 또렷이 보인다, 건축 사진."
+       }
       }
      ],
      "note": "",
@@ -10225,70 +10537,130 @@ window.JARC_DATA = {
        "en": "Perforated Metal",
        "ko": "알루미늄 타공 패널",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k21.webp",
+        "thumb": "img/facade_encyclopedia/tk21.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: aluminum panels perforated with a pattern of round holes, light filtering through, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 둥근 구멍 무늬를 뚫은 알루미늄 타공 패널, 그 사이로 걸러지는 빛, 건축 사진."
+       }
       },
       {
        "n": 22,
        "en": "Metal Mesh",
        "ko": "스테인리스 메탈 패브릭",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k22.webp",
+        "thumb": "img/facade_encyclopedia/tk22.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: a woven stainless steel mesh fabric stretched in front of the building, semi-transparent and shimmering, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 건물 앞에 팽팽히 친 스테인리스 스틸 직조 메시, 반투명하게 반짝인다, 건축 사진."
+       }
       },
       {
        "n": 23,
        "en": "Expanded Metal",
        "ko": "익스팬디드 메탈",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k23.webp",
+        "thumb": "img/facade_encyclopedia/tk23.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: expanded metal sheets with diamond-shaped openings, a rough industrial veil, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 마름모꼴 구멍의 익스팬디드 메탈 판, 거친 산업적인 베일, 건축 사진."
+       }
       },
       {
        "n": 24,
        "en": "Corten Steel",
        "ko": "코르텐강 부식 패널",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k24.webp",
+        "thumb": "img/facade_encyclopedia/tk24.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: rust-brown Corten steel panels with natural streaked weathering, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 자연스럽게 줄지어 부식된 녹갈색 코르텐강 패널, 건축 사진."
+       }
       },
       {
        "n": 25,
        "en": "Mirror Finish",
        "ko": "스테인리스 스틸 미러",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k25.webp",
+        "thumb": "img/facade_encyclopedia/tk25.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: mirror-polished stainless steel panels reflecting the street, trees and sky, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 거리 · 나무 · 하늘을 비추는 거울 광택 스테인리스 스틸 패널, 건축 사진."
+       }
       },
       {
        "n": 26,
        "en": "Standing Seam",
        "ko": "징크 돌출이음 시스템",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k26.webp",
+        "thumb": "img/facade_encyclopedia/tk26.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: grey zinc cladding with raised vertical standing seams at regular intervals, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 일정한 간격으로 수직 돌출이음이 솟은 회색 징크 마감, 건축 사진."
+       }
       },
       {
        "n": 27,
        "en": "Metal Louver",
        "ko": "금속 수직 루버",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k27.webp",
+        "thumb": "img/facade_encyclopedia/tk27.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: tall slender vertical metal fins in front of the glass, casting striped shadows, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 유리 앞에 선 높고 가는 수직 금속 핀, 줄무늬 그림자를 드리운다, 건축 사진."
+       }
       },
       {
        "n": 28,
        "en": "Embossed Metal",
        "ko": "엠보싱 금속 패널",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k28.webp",
+        "thumb": "img/facade_encyclopedia/tk28.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: metal panels embossed with a raised pattern of small pyramids catching the light, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 작은 피라미드 무늬를 도드라지게 찍어 빛을 받는 엠보싱 금속 패널, 건축 사진."
+       }
       },
       {
        "n": 29,
        "en": "Copper Patina",
        "ko": "동판 산화 패턴",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k29.webp",
+        "thumb": "img/facade_encyclopedia/tk29.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: copper cladding weathering from bright brown to blue-green patina in streaks, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 밝은 갈색에서 청록색 녹청으로 줄지어 변해 가는 동판 마감, 건축 사진."
+       }
       },
       {
        "n": 30,
        "en": "Wire Rope System",
        "ko": "와이어 루프 시스템",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k30.webp",
+        "thumb": "img/facade_encyclopedia/tk30.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: a net of thin stainless steel wire ropes stretched over the facade, a few climbing plants beginning to grow on it, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 파사드 위에 친 가는 스테인리스 와이어 로프 그물, 덩굴 식물 몇 줄기가 타고 오르기 시작한다, 건축 사진."
+       }
       }
      ],
      "note": "",
@@ -10313,70 +10685,130 @@ window.JARC_DATA = {
        "en": "Vertical Timber",
        "ko": "수직 목재 루버",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k31.webp",
+        "thumb": "img/facade_encyclopedia/tk31.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: closely spaced vertical timber louvers running the full height, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 전체 높이로 촘촘히 선 수직 목재 루버, 건축 사진."
+       }
       },
       {
        "n": 32,
        "en": "Wood Shingle",
        "ko": "목재 슁글 레이어드",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k32.webp",
+        "thumb": "img/facade_encyclopedia/tk32.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: overlapping wooden shingles layered like fish scales, some weathered silver-grey, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 물고기 비늘처럼 겹겹이 포갠 목재 슁글, 일부는 은회색으로 바랬다, 건축 사진."
+       }
       },
       {
        "n": 33,
        "en": "Charred Wood",
        "ko": "탄화목 질감 강조",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k33.webp",
+        "thumb": "img/facade_encyclopedia/tk33.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: black charred timber boards with a cracked alligator-skin texture, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 악어가죽처럼 갈라진 질감의 검게 그을린 탄화목 판재, 건축 사진."
+       }
       },
       {
        "n": 34,
        "en": "Exposed CLT",
        "ko": "CLT 구조 노출 입면",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k34.webp",
+        "thumb": "img/facade_encyclopedia/tk34.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: exposed cross-laminated timber panels and structure visible on the outside, pale wood with its layers showing at the edges, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: CLT(구조용 직교 집성판) 패널과 구조를 밖으로 드러냈다, 가장자리에 켜가 보이는 밝은 나무, 건축 사진."
+       }
       },
       {
        "n": 35,
        "en": "Bamboo Screen",
        "ko": "대나무 스크린",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k35.webp",
+        "thumb": "img/facade_encyclopedia/tk35.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: a screen of slender bamboo poles tied side by side in front of the building, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 건물 앞에 가는 대나무 장대를 나란히 엮은 스크린, 건축 사진."
+       }
       },
       {
        "n": 36,
        "en": "Timber Lattice",
        "ko": "목재 격자 시스템",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k36.webp",
+        "thumb": "img/facade_encyclopedia/tk36.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: a diagonal timber lattice screen with diamond-shaped openings, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 마름모꼴로 뚫린 사선 목재 격자 스크린, 건축 사진."
+       }
       },
       {
        "n": 37,
        "en": "Timber-Glass Hybrid",
        "ko": "목재와 유리 커튼월",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k37.webp",
+        "thumb": "img/facade_encyclopedia/tk37.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: a curtain wall of large glass panes held by warm timber mullions and transoms, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 따뜻한 목재 멀리언과 가로대로 큰 유리를 잡은 커튼월, 건축 사진."
+       }
       },
       {
        "n": 38,
        "en": "Plywood Layering",
        "ko": "합판 레이어드 패턴",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k38.webp",
+        "thumb": "img/facade_encyclopedia/tk38.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: stacked plywood sheets showing their striped layered edges as the facade pattern, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 쌓은 합판의 줄무늬 진 단면 켜를 파사드 무늬로 드러냈다, 건축 사진."
+       }
       },
       {
        "n": 39,
        "en": "Cork Facade",
        "ko": "코르크 외장 패널",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k39.webp",
+        "thumb": "img/facade_encyclopedia/tk39.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: dark brown cork cladding panels with a soft granular texture, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 부드러운 알갱이 질감의 짙은 갈색 코르크 외장 패널, 건축 사진."
+       }
       },
       {
        "n": 40,
        "en": "Mycelium Skin",
        "ko": "버섯 균사체 실험 외장",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k40.webp",
+        "thumb": "img/facade_encyclopedia/tk40.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: experimental panels grown from mushroom mycelium, off-white, soft and slightly irregular like felt, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 버섯 균사체로 길러 낸 실험적인 패널, 미색이고 펠트처럼 부드럽고 조금 고르지 않다, 건축 사진."
+       }
       }
      ],
      "note": "",
@@ -10401,70 +10833,130 @@ window.JARC_DATA = {
        "en": "U-channel Glass",
        "ko": "U-Glass 수직 패턴",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k41.webp",
+        "thumb": "img/facade_encyclopedia/tk41.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: vertical U-channel glass planks, milky and translucent, with a fine vertical rhythm, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 수직 U자형 유리(U-Glass) 판, 젖빛으로 반투명하다, 가는 수직의 리듬, 건축 사진."
+       }
       },
       {
        "n": 42,
        "en": "Polycarbonate",
        "ko": "폴리카보네이트 복층판",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k42.webp",
+        "thumb": "img/facade_encyclopedia/tk42.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: multiwall polycarbonate sheets, translucent, the internal ribs visible, a soft glow from inside, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 폴리카보네이트 복층판, 반투명하고 속의 리브가 비친다, 안에서 은은히 번지는 빛, 건축 사진."
+       }
       },
       {
        "n": 43,
        "en": "Glass Brick",
        "ko": "투명 유리 블록",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k43.webp",
+        "thumb": "img/facade_encyclopedia/tk43.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: a wall built of solid transparent glass bricks, sparkling and watery, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 속 찬 투명 유리 벽돌로 쌓은 벽, 물처럼 맑게 반짝인다, 건축 사진."
+       }
       },
       {
        "n": 44,
        "en": "Fritted Glass",
        "ko": "프릿 글래스 패턴",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k44.webp",
+        "thumb": "img/facade_encyclopedia/tk44.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: glass printed with a fritted pattern of small white dots that grows denser toward the top, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 작은 흰 점의 프릿 무늬를 인쇄한 유리, 위로 갈수록 점이 촘촘해진다, 건축 사진."
+       }
       },
       {
        "n": 45,
        "en": "Dichroic Glass",
        "ko": "다이크로익 필름 반사",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k45.webp",
+        "thumb": "img/facade_encyclopedia/tk45.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: dichroic glass fins shifting between pink, gold and blue, casting colored light on the pavement, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 분홍 · 금빛 · 파랑으로 색이 바뀌는 다이크로익 유리 핀, 보도에 색 빛을 드리운다, 건축 사진."
+       }
       },
       {
        "n": 46,
        "en": "Glass Fin",
        "ko": "유리 핀 시스템",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k46.webp",
+        "thumb": "img/facade_encyclopedia/tk46.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: a clear glass wall supported by tall structural glass fins instead of metal frames, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 금속 틀 대신 높은 구조용 유리 핀이 받치는 투명한 유리벽, 건축 사진."
+       }
       },
       {
        "n": 47,
        "en": "Double Skin",
        "ko": "더블 스킨 시스템",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k47.webp",
+        "thumb": "img/facade_encyclopedia/tk47.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: a double-skin facade: an outer layer of glass set in front of the inner facade with an air gap and blinds in between, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 더블 스킨 파사드: 안쪽 파사드 앞에 유리 겉켜를 한 겹 더 두고, 그 사이에 공기층과 블라인드가 있다, 건축 사진."
+       }
       },
       {
        "n": 48,
        "en": "Acid-etched Glass",
        "ko": "반투명 에칭 유리",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k48.webp",
+        "thumb": "img/facade_encyclopedia/tk48.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: acid-etched frosted glass, matte and translucent, blurring the silhouettes behind, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 산으로 부식시킨 반투명 에칭 유리, 무광이고 뒤의 실루엣을 흐린다, 건축 사진."
+       }
       },
       {
        "n": 49,
        "en": "Glass Louver",
        "ko": "가변형 유리 루버",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k49.webp",
+        "thumb": "img/facade_encyclopedia/tk49.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: rows of adjustable horizontal glass louvers, some tilted open and some closed, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 줄지은 가변형 수평 유리 루버, 일부는 기울여 열고 일부는 닫았다, 건축 사진."
+       }
       },
       {
        "n": 50,
        "en": "Modern Stained Glass",
        "ko": "스테인드글라스 현대화",
        "desc": "",
-       "src": "txt"
+       "src": "txt",
+       "ex": {
+        "img": "img/facade_encyclopedia/k50.webp",
+        "thumb": "img/facade_encyclopedia/tk50.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: a modern stained glass wall of large abstract colored panes in a simple grid, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 단순한 격자에 크고 추상적인 색유리를 끼운 현대식 스테인드글라스 벽, 건축 사진."
+       }
       }
      ],
      "note": "",
@@ -10489,28 +10981,52 @@ window.JARC_DATA = {
        "en": "Tessellation",
        "ko": "테셀레이션(빈틈없는 조각 맞춤)",
        "desc": "",
-       "src": "ceo"
+       "src": "ceo",
+       "ex": {
+        "img": "img/facade_encyclopedia/k51.webp",
+        "thumb": "img/facade_encyclopedia/tk51.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: a skin of interlocking tiles in three shapes that fit together with no gaps, a tessellated pattern, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 세 가지 모양의 타일이 빈틈없이 맞물린 외피, 테셀레이션 무늬, 건축 사진."
+       }
       },
       {
        "n": 52,
        "en": "Voronoi Pattern",
        "ko": "보로노이 패턴",
        "desc": "",
-       "src": "ceo"
+       "src": "ceo",
+       "ex": {
+        "img": "img/facade_encyclopedia/k52.webp",
+        "thumb": "img/facade_encyclopedia/tk52.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: a white shell with irregular cell-like Voronoi openings of many sizes, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 크기가 제각각인 불규칙한 세포 모양(보로노이) 개구부가 뚫린 흰 껍질, 건축 사진."
+       }
       },
       {
        "n": 53,
        "en": "Fractal Geometry",
        "ko": "프랙털 기하학",
        "desc": "",
-       "src": "ceo"
+       "src": "ceo",
+       "ex": {
+        "img": "img/facade_encyclopedia/k53.webp",
+        "thumb": "img/facade_encyclopedia/tk53.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: a fractal pattern in which the same triangular shape repeats at smaller and smaller scales, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 같은 삼각형이 점점 더 작은 크기로 되풀이되는 프랙털 무늬, 건축 사진."
+       }
       },
       {
        "n": 54,
        "en": "Gradient Opening",
        "ko": "점점 커지는 개구부",
        "desc": "",
-       "src": "ceo"
+       "src": "ceo",
+       "ex": {
+        "img": "img/facade_encyclopedia/k54.webp",
+        "thumb": "img/facade_encyclopedia/tk54.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: a plain wall with round openings that grow gradually from tiny at one end to large at the other, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 민벽에 뚫린 둥근 개구부가 한쪽 끝의 아주 작은 것에서 반대쪽의 큰 것으로 점점 커진다, 건축 사진."
+       }
       },
       {
        "n": 55,
@@ -10914,7 +11430,7 @@ window.JARC_DATA = {
     }
    ],
    "cardPreview": true,
-   "examples": 0
+   "examples": 54
   },
   "facade_eras": {
    "slug": "facade_eras",
