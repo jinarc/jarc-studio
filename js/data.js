@@ -4,7 +4,7 @@ window.JARC_DATA = {
   "built": "2026-11-17",
   "cards": 211,
   "prompts": 61,
-  "newImages": 224
+  "newImages": 389
  },
  "groups": [
   {
@@ -907,70 +907,130 @@ window.JARC_DATA = {
        "en": "Sketchup Default",
        "ko": "스케치업 기본 렌더 느낌",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k01.webp",
+        "thumb": "img/topic_keywords/tk01.webp",
+        "prompt": "A raw untextured SketchUp-style 3D model view of a small two-storey modern house with a flat roof, white walls, large windows and a front lawn: flat plain colors, thin black edge lines, no reflections, no realistic materials, plain pale sky background.",
+        "promptKo": "평지붕 · 흰 벽 · 큰 창 · 앞 잔디밭이 있는 작은 2층 현대식 주택의 스케치업풍 날것 3D 모델 화면: 납작한 단색, 가는 검은 모서리 선, 반사 없음, 사실적인 재질 없음, 옅은 하늘색 바탕."
+       }
       },
       {
        "n": 2,
        "en": "Flat Glass Fix",
        "ko": "유리 반사 보정",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k02.webp",
+        "thumb": "img/topic_keywords/tk02.webp",
+        "prompt": "Photorealistic rendering of a small two-storey modern house with a flat roof, white walls, large windows and a front lawn, the windows are real glass with soft reflections of sky and trees and the interior visible behind.",
+        "promptKo": "평지붕 · 흰 벽 · 큰 창 · 앞 잔디밭이 있는 작은 2층 현대식 주택의 사실적인 렌더링, 창은 하늘과 나무가 은은히 비치고 안쪽 실내가 들여다보이는 진짜 유리."
+       }
       },
       {
        "n": 3,
        "en": "Flat Grass Fix",
        "ko": "잔디 텍스처 보정",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k03.webp",
+        "thumb": "img/topic_keywords/tk03.webp",
+        "prompt": "Photorealistic rendering of a small two-storey modern house with a flat roof, white walls, large windows and a front lawn, the lawn is real grass with individual blades, uneven tufts and small wildflowers, seen from a low angle.",
+        "promptKo": "평지붕 · 흰 벽 · 큰 창 · 앞 잔디밭이 있는 작은 2층 현대식 주택의 사실적인 렌더링, 잔디는 풀잎 하나하나 · 고르지 않은 풀 포기 · 작은 들꽃이 보이는 진짜 풀, 낮은 시점."
+       }
       },
       {
        "n": 4,
        "en": "Street View",
        "ko": "스트리트 뷰 스타일",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k04.webp",
+        "thumb": "img/topic_keywords/tk04.webp",
+        "prompt": "Photorealistic street view of a small two-storey modern house with a flat roof, white walls, large windows and a front lawn, seen from the sidewalk across the road at eye level, street trees, a parked car, a person walking past.",
+        "promptKo": "평지붕 · 흰 벽 · 큰 창 · 앞 잔디밭이 있는 작은 2층 현대식 주택의 사실적인 거리 뷰, 길 건너 보도에서 눈높이로 본 모습, 가로수, 주차된 차 한 대, 지나가는 사람."
+       }
       },
       {
        "n": 5,
        "en": "Material Swap",
        "ko": "재질 교체 변환",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k05.webp",
+        "thumb": "img/topic_keywords/tk05.webp",
+        "prompt": "Photorealistic rendering of a small two-storey modern house with a flat roof, large windows and a front lawn, its walls changed from white plaster to red brick and warm timber cladding.",
+        "promptKo": "평지붕 · 큰 창 · 앞 잔디밭이 있는 작은 2층 현대식 주택의 사실적인 렌더링, 벽을 흰 미장에서 붉은 벽돌과 따뜻한 목재 마감으로 바꿨다."
+       }
       },
       {
        "n": 6,
        "en": "Shadow Enhancement",
        "ko": "그림자 강화",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k06.webp",
+        "thumb": "img/topic_keywords/tk06.webp",
+        "prompt": "Photorealistic rendering of a small two-storey modern house with a flat roof, white walls, large windows and a front lawn, strong low sunlight casting crisp deep shadows of the roof overhang and a tree across the white walls and the lawn.",
+        "promptKo": "평지붕 · 흰 벽 · 큰 창 · 앞 잔디밭이 있는 작은 2층 현대식 주택의 사실적인 렌더링, 낮고 강한 햇빛이 처마와 나무의 또렷하고 짙은 그림자를 흰 벽과 잔디에 드리운다."
+       }
       },
       {
        "n": 7,
        "en": "Night View Conv.",
        "ko": "야경 변환",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k07.webp",
+        "thumb": "img/topic_keywords/tk07.webp",
+        "prompt": "Photorealistic rendering of a small two-storey modern house with a flat roof, white walls, large windows and a front lawn, at night, warm light glowing from every window, garden lights along the path, dark blue sky.",
+        "promptKo": "평지붕 · 흰 벽 · 큰 창 · 앞 잔디밭이 있는 작은 2층 현대식 주택의 사실적인 렌더링, 밤, 모든 창에서 새어 나오는 따뜻한 빛, 길을 따라 놓인 정원등, 짙푸른 하늘."
+       }
       },
       {
        "n": 8,
        "en": "Reflection",
        "ko": "반사 효과",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k08.webp",
+        "thumb": "img/topic_keywords/tk08.webp",
+        "prompt": "Photorealistic rendering of a small two-storey modern house with a flat roof, white walls, large windows and a front lawn, just after rain, the wet stone paving in front reflecting the house like a mirror, puddles.",
+        "promptKo": "평지붕 · 흰 벽 · 큰 창 · 앞 잔디밭이 있는 작은 2층 현대식 주택의 사실적인 렌더링, 비 갠 직후, 젖은 앞마당 돌 포장이 집을 거울처럼 비춘다, 물웅덩이."
+       }
       },
       {
        "n": 9,
        "en": "Sky Replacement",
        "ko": "하늘 교체",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k09.webp",
+        "thumb": "img/topic_keywords/tk09.webp",
+        "prompt": "Photorealistic rendering of a small two-storey modern house with a flat roof, white walls, large windows and a front lawn, under a dramatic sky of towering pink and orange sunset clouds filling the upper half of the image.",
+        "promptKo": "평지붕 · 흰 벽 · 큰 창 · 앞 잔디밭이 있는 작은 2층 현대식 주택의 사실적인 렌더링, 분홍 · 주황빛 노을 구름이 화면 위쪽 절반을 채운 극적인 하늘 아래."
+       }
       },
       {
        "n": 10,
        "en": "Detail Booster",
        "ko": "디테일 부스트",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k10.webp",
+        "thumb": "img/topic_keywords/tk10.webp",
+        "prompt": "Close photorealistic view of the entrance corner of a small modern house: fine detail in the window frames, door handle, wall joints, drip edge and plaster texture, everything crisp.",
+        "promptKo": "작은 현대식 주택 현관 모서리의 가까운 사실적 뷰: 창틀 · 문손잡이 · 벽 줄눈 · 물끊기 · 미장 질감의 세밀한 디테일, 모두 또렷하다."
+       }
       }
      ],
      "note": "",
@@ -995,70 +1055,130 @@ window.JARC_DATA = {
        "en": "Arctic Mode",
        "ko": "아이스 화이트 매싱",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k11.webp",
+        "thumb": "img/topic_keywords/tk11.webp",
+        "prompt": "A pure ice-white architectural massing model of a small building made of three stacked box volumes, on a white background, soft ambient shadows only, no materials.",
+        "promptKo": "순수한 얼음빛 흰색의 상자 세 개를 쌓은 작은 건물의 건축 매스 모형, 흰 바탕, 부드러운 음영만, 재질 없음."
+       }
       },
       {
        "n": 12,
        "en": "Clay Mode",
        "ko": "클레이 렌더링",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k12.webp",
+        "thumb": "img/topic_keywords/tk12.webp",
+        "prompt": "A matte grey clay render of an architectural massing model of a small building made of three stacked box volumes, soft diffuse light, gentle shadows, plain grey background.",
+        "promptKo": "상자 세 개를 쌓은 작은 건물의 건축 매스 모형의 무광 회색 클레이 렌더, 부드러운 확산광, 옅은 그림자, 꾸밈없는 회색 바탕."
+       }
       },
       {
        "n": 13,
        "en": "Volume Study",
        "ko": "볼륨 스터디",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k13.webp",
+        "thumb": "img/topic_keywords/tk13.webp",
+        "prompt": "Six different white foam massing study models of the same small building arranged in two rows on a grey table, each with a different arrangement of volumes.",
+        "promptKo": "같은 작은 건물의 서로 다른 흰 폼 매스 스터디 모형 여섯 개, 회색 탁자 위에 두 줄로 놓였다, 저마다 볼륨 배치가 다르다."
+       }
       },
       {
        "n": 14,
        "en": "Light & Shadow",
        "ko": "빛과 그림자",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k14.webp",
+        "thumb": "img/topic_keywords/tk14.webp",
+        "prompt": "A white architectural massing model of a small building made of three stacked box volumes under strong low raking sunlight, long sharp shadows across the base, high contrast.",
+        "promptKo": "흰 상자 세 개를 쌓은 작은 건물의 건축 매스 모형, 낮게 비껴 드는 강한 햇빛, 바닥판을 가로지르는 길고 날카로운 그림자, 강한 대비."
+       }
       },
       {
        "n": 15,
        "en": "Soft Model",
        "ko": "부드러운 모형",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k15.webp",
+        "thumb": "img/topic_keywords/tk15.webp",
+        "prompt": "A soft architectural massing model of a small building made of three stacked box volumes with rounded edges, made of white foam and felt, gentle light.",
+        "promptKo": "모서리가 둥근 부드러운 상자 세 개를 쌓은 작은 건물의 건축 매스 모형, 흰 폼과 펠트로 만들었다, 은은한 빛."
+       }
       },
       {
        "n": 16,
        "en": "Wood Block",
        "ko": "나무 블록",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k16.webp",
+        "thumb": "img/topic_keywords/tk16.webp",
+        "prompt": "An architectural massing model of a small building made of three stacked box volumes made of solid natural wood blocks with visible grain, on a pale table.",
+        "promptKo": "나뭇결이 보이는 원목 블록으로 만든 상자 세 개를 쌓은 작은 건물의 건축 매스 모형, 밝은 탁자 위."
+       }
       },
       {
        "n": 17,
        "en": "Translucent Mass",
        "ko": "반투명 매스",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k17.webp",
+        "thumb": "img/topic_keywords/tk17.webp",
+        "prompt": "An architectural massing model of a small building made of three stacked box volumes made of translucent frosted acrylic glowing softly from inside, on a dark table.",
+        "promptKo": "안에서 은은히 빛나는 반투명 불투명 아크릴로 만든 상자 세 개를 쌓은 작은 건물의 건축 매스 모형, 어두운 탁자 위."
+       }
       },
       {
        "n": 18,
        "en": "Urban Mass",
        "ko": "도시 매스",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k18.webp",
+        "thumb": "img/topic_keywords/tk18.webp",
+        "prompt": "A white urban massing model of several city blocks seen from above at an angle, one building mass in the middle made of warm wood among plain white neighbors.",
+        "promptKo": "도시 블록 여러 개를 담은 흰 도시 매스 모형, 비스듬히 위에서 본 모습, 가운데 건물 매스 하나만 따뜻한 나무이고 이웃은 모두 흰색."
+       }
       },
       {
        "n": 19,
        "en": "Gravity Defy",
        "ko": "중력 무시 형태",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k19.webp",
+        "thumb": "img/topic_keywords/tk19.webp",
+        "prompt": "A white massing model of a building with one huge volume cantilevering far out and seeming to float in the air, defying gravity, plain grey background.",
+        "promptKo": "거대한 볼륨 하나가 멀리 내밀어 공중에 뜬 듯한, 중력을 거스르는 건물의 흰 매스 모형, 꾸밈없는 회색 바탕."
+       }
       },
       {
        "n": 20,
        "en": "Scale Figure",
        "ko": "스케일 인물",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k20.webp",
+        "thumb": "img/topic_keywords/tk20.webp",
+        "prompt": "A white architectural massing model of a small building made of three stacked box volumes with tiny scale human figures and small model trees standing beside it, showing its size.",
+        "promptKo": "흰 상자 세 개를 쌓은 작은 건물의 건축 매스 모형, 옆에 아주 작은 스케일 인물과 모형 나무를 세워 크기를 보여 준다."
+       }
       }
      ],
      "note": "",
@@ -1083,63 +1203,117 @@ window.JARC_DATA = {
        "en": "Program Diagram",
        "ko": "프로그램 다이어그램",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k21.webp",
+        "thumb": "img/topic_keywords/tk21.webp",
+        "prompt": "Program diagram: axonometric view of a small three-storey building with its rooms shown as blocks in different flat colors by use, flat vector architectural diagram, clean white background, thin black lines, no labels.",
+        "promptKo": "프로그램 다이어그램: 작은 3층 건물의 액소노메트릭, 방을 쓰임새별로 다른 단색 블록으로 나타냈다, 납작한 벡터 건축 다이어그램, 깨끗한 흰 바탕, 가는 검은 선, 글자 표기 없음."
+       }
       },
       {
        "n": 22,
        "en": "Mass Process",
        "ko": "매스 프로세스",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k22.webp",
+        "thumb": "img/topic_keywords/tk22.webp",
+        "prompt": "Massing process diagram: a row of five small axonometric steps showing a simple box being cut, pushed, lifted and opened into the final building form, flat vector architectural diagram, clean white background, thin black lines, no labels.",
+        "promptKo": "매스 프로세스 다이어그램: 단순한 상자가 잘리고 · 밀리고 · 들리고 · 열려 최종 형태가 되는 과정을 작은 액소노메트릭 다섯 단계로 한 줄에 늘어놓았다, 납작한 벡터 건축 다이어그램, 깨끗한 흰 바탕, 가는 검은 선, 글자 표기 없음."
+       }
       },
       {
        "n": 23,
        "en": "Circulation Arrow",
        "ko": "동선 화살표",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k23.webp",
+        "thumb": "img/topic_keywords/tk23.webp",
+        "prompt": "Circulation diagram: transparent axonometric view of a small three-storey building with bold red arrows tracing how people move through the entrance, stairs and corridors, flat vector architectural diagram, clean white background, thin black lines, no labels.",
+        "promptKo": "동선 다이어그램: 속이 비치는 작은 3층 건물의 액소노메트릭, 사람들이 현관 · 계단 · 복도로 움직이는 길을 굵은 빨간 화살표로 그렸다, 납작한 벡터 건축 다이어그램, 깨끗한 흰 바탕, 가는 검은 선, 글자 표기 없음."
+       }
       },
       {
        "n": 24,
        "en": "Exploded Axon",
        "ko": "해체 액소노",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k24.webp",
+        "thumb": "img/topic_keywords/tk24.webp",
+        "prompt": "Exploded axonometric drawing of a small three-storey building, the roof, each floor and the facade lifted apart vertically with thin dashed guide lines, flat vector architectural diagram, clean white background, thin black lines, no labels.",
+        "promptKo": "작은 3층 건물의 해체 액소노메트릭, 지붕 · 각 층 · 파사드를 위아래로 띄우고 가는 점선으로 이었다, 납작한 벡터 건축 다이어그램, 깨끗한 흰 바탕, 가는 검은 선, 글자 표기 없음."
+       }
       },
       {
        "n": 25,
        "en": "Site Analysis",
        "ko": "대지 분석",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k25.webp",
+        "thumb": "img/topic_keywords/tk25.webp",
+        "prompt": "Site analysis diagram: a site plan seen from above with a yellow sun-path arc, blue wind arrows, green trees and view cones drawn over the building plot, flat vector architectural diagram, clean white background, thin black lines, no labels.",
+        "promptKo": "대지 분석 다이어그램: 위에서 본 배치도 위에 노란 태양 궤적 호 · 파란 바람 화살표 · 초록 나무 · 조망 범위를 그렸다, 납작한 벡터 건축 다이어그램, 깨끗한 흰 바탕, 가는 검은 선, 글자 표기 없음."
+       }
       },
       {
        "n": 26,
        "en": "Green Energy",
        "ko": "친환경 에너지",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k26.webp",
+        "thumb": "img/topic_keywords/tk26.webp",
+        "prompt": "Green energy section diagram of a small building: solar panels on the roof, yellow sun rays, blue arrows of natural ventilation, a green roof and rainwater collection, flat vector architectural diagram, clean white background, thin black lines, no labels.",
+        "promptKo": "작은 건물의 친환경 에너지 단면 다이어그램: 지붕의 태양광 패널, 노란 햇살, 자연 환기를 나타내는 파란 화살표, 옥상 녹화와 빗물 모으기, 납작한 벡터 건축 다이어그램, 깨끗한 흰 바탕, 가는 검은 선, 글자 표기 없음."
+       }
       },
       {
        "n": 27,
        "en": "Structural Diag",
        "ko": "구조 다이어그램",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k27.webp",
+        "thumb": "img/topic_keywords/tk27.webp",
+        "prompt": "Structural diagram: axonometric view of a small three-storey building showing only its columns, beams and bracing in red, the walls ghosted in pale grey, flat vector architectural diagram, clean white background, thin black lines, no labels.",
+        "promptKo": "구조 다이어그램: 작은 3층 건물의 액소노메트릭, 기둥 · 보 · 가새만 빨갛게 보이고 벽은 옅은 회색으로 흐리게 처리했다, 납작한 벡터 건축 다이어그램, 깨끗한 흰 바탕, 가는 검은 선, 글자 표기 없음."
+       }
       },
       {
        "n": 28,
        "en": "Public/Private",
        "ko": "공사 영역 구분",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k28.webp",
+        "thumb": "img/topic_keywords/tk28.webp",
+        "prompt": "Public and private zoning diagram: axonometric view of a small three-storey building with public areas in orange and private areas in blue, flat vector architectural diagram, clean white background, thin black lines, no labels.",
+        "promptKo": "공 · 사 영역 구분 다이어그램: 작은 3층 건물의 액소노메트릭, 공적 영역은 주황, 사적 영역은 파랑, 납작한 벡터 건축 다이어그램, 깨끗한 흰 바탕, 가는 검은 선, 글자 표기 없음."
+       }
       },
       {
        "n": 29,
        "en": "Context Map",
        "ko": "맥락 지도",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k29.webp",
+        "thumb": "img/topic_keywords/tk29.webp",
+        "prompt": "Context map: a black and white figure-ground map of city blocks seen from directly above, with one building site highlighted in red, no labels.",
+        "promptKo": "맥락 지도: 바로 위에서 본 도시 블록의 흑백 도 · 지(figure-ground) 지도, 대지 한 곳만 빨갛게 강조, 글자 표기 없음."
+       }
       },
       {
        "n": 30,
@@ -1171,70 +1345,130 @@ window.JARC_DATA = {
        "en": "2D Plan to 3D",
        "ko": "2D 평면→3D 변환",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k31.webp",
+        "thumb": "img/topic_keywords/tk31.webp",
+        "prompt": "A black and white 2D floor plan drawing lying flat, with the walls of the same plan rising up from it into a 3D cutaway model with furniture, isometric view, white background.",
+        "promptKo": "바닥에 놓인 흑백 2D 평면도, 같은 평면의 벽이 그 위로 솟아올라 가구가 놓인 3D 절개 모형이 된다, 아이소메트릭 뷰, 흰 바탕."
+       }
       },
       {
        "n": 32,
        "en": "Section Perspective",
        "ko": "단면 투시도",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k32.webp",
+        "thumb": "img/topic_keywords/tk32.webp",
+        "prompt": "Section perspective drawing of a three-storey house cut through the middle, showing rooms, stairs, furniture and people inside, fine linework with soft shading.",
+        "promptKo": "가운데를 자른 3층 주택의 단면 투시도, 안쪽의 방 · 계단 · 가구 · 사람이 보인다, 가는 선과 부드러운 음영."
+       }
       },
       {
        "n": 33,
        "en": "Elevation Coloring",
        "ko": "입면 컬러링",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k33.webp",
+        "thumb": "img/topic_keywords/tk33.webp",
+        "prompt": "Front elevation drawing of a three-storey building, colored with flat soft colors, cast shadows, a few trees and silhouettes of people, white background.",
+        "promptKo": "3층 건물의 정면 입면도, 부드러운 단색으로 칠하고 그림자를 넣었다, 나무 몇 그루와 사람 실루엣, 흰 바탕."
+       }
       },
       {
        "n": 34,
        "en": "Wireframe Art",
        "ko": "와이어프레임 아트",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k34.webp",
+        "thumb": "img/topic_keywords/tk34.webp",
+        "prompt": "Wireframe drawing of a modern building as thin glowing white lines on a black background, all hidden edges visible.",
+        "promptKo": "현대식 건물의 와이어프레임, 검은 바탕에 가늘게 빛나는 흰 선, 가려진 모서리까지 모두 보인다."
+       }
       },
       {
        "n": 35,
        "en": "Blueprint Style",
        "ko": "청사진 스타일",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k35.webp",
+        "thumb": "img/topic_keywords/tk35.webp",
+        "prompt": "Blueprint-style drawing of a house plan and elevation, white lines on deep blue paper, no dimensions or writing.",
+        "promptKo": "주택 평면과 입면의 청사진풍 도면, 짙은 파란 종이에 흰 선, 치수나 글씨 없음."
+       }
       },
       {
        "n": 36,
        "en": "Sketch Style",
        "ko": "스케치 스타일",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k36.webp",
+        "thumb": "img/topic_keywords/tk36.webp",
+        "prompt": "Loose hand-drawn pencil sketch of a modern house with trees, quick confident lines, sketchbook paper.",
+        "promptKo": "나무가 있는 현대식 주택의 느슨한 연필 손 스케치, 빠르고 자신 있는 선, 스케치북 종이."
+       }
       },
       {
        "n": 37,
        "en": "Cartoon/Webtoon",
        "ko": "만화/웹툰 스타일",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k37.webp",
+        "thumb": "img/topic_keywords/tk37.webp",
+        "prompt": "A modern house on a sunny street drawn in webtoon cartoon style, clean black outlines, flat cel-shaded colors.",
+        "promptKo": "햇살 좋은 거리의 현대식 주택을 웹툰 · 만화풍으로 그렸다, 깔끔한 검은 외곽선, 납작한 셀 채색."
+       }
       },
       {
        "n": 38,
        "en": "X-ray Vision",
        "ko": "엑스레이 투시",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k38.webp",
+        "thumb": "img/topic_keywords/tk38.webp",
+        "prompt": "X-ray view of a three-storey building, the outer walls transparent like glass so the floors, stairs, structure and pipes inside are all visible, blue tone.",
+        "promptKo": "3층 건물의 엑스레이 투시, 바깥벽이 유리처럼 비쳐 안쪽의 바닥 · 계단 · 구조 · 배관이 모두 보인다, 푸른 색조."
+       }
       },
       {
        "n": 39,
        "en": "Masterplan Art",
        "ko": "마스터플랜 아트",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k39.webp",
+        "thumb": "img/topic_keywords/tk39.webp",
+        "prompt": "Colored masterplan drawing of a campus seen from directly above, building roofs, tree canopies, paths, lawns and a pond, watercolor-like colors.",
+        "promptKo": "바로 위에서 본 캠퍼스의 채색 마스터플랜, 건물 지붕 · 나무 수관 · 길 · 잔디 · 연못, 수채화 같은 색."
+       }
       },
       {
        "n": 40,
        "en": "Detail Line",
        "ko": "디테일 선도",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k40.webp",
+        "thumb": "img/topic_keywords/tk40.webp",
+        "prompt": "Fine black line detail drawing of a wall section through a window: layers of wall, insulation, frame and sill drawn with precise thin lines and hatching, white paper, no dimensions or writing.",
+        "promptKo": "창을 지나는 벽 단면의 가는 검은 선 디테일 도면: 벽체 층 · 단열재 · 창틀 · 창대를 정밀한 가는 선과 해칭으로 그렸다, 흰 종이, 치수나 글씨 없음."
+       }
       }
      ],
      "note": "",
@@ -1259,56 +1493,104 @@ window.JARC_DATA = {
        "en": "Rainy Mood",
        "ko": "비 오는 무드",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k41.webp",
+        "thumb": "img/topic_keywords/tk41.webp",
+        "prompt": "A small modern concrete and glass house with a front garden and one tree, seen from the street on a rainy day, wet road with reflections, raindrops, grey sky, warm light inside.",
+        "promptKo": "앞마당과 나무 한 그루가 있는 작은 현대식 콘크리트 · 유리 주택, 길에서 본 모습, 비 오는 날, 반사가 어린 젖은 길, 빗방울, 회색 하늘, 실내의 따뜻한 빛."
+       }
       },
       {
        "n": 42,
        "en": "Snowy Winter",
        "ko": "설경",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k42.webp",
+        "thumb": "img/topic_keywords/tk42.webp",
+        "prompt": "A small modern concrete and glass house with a front garden and one tree, seen from the street in winter, thick snow on the roof, garden and tree, soft white light.",
+        "promptKo": "앞마당과 나무 한 그루가 있는 작은 현대식 콘크리트 · 유리 주택, 길에서 본 모습, 겨울, 지붕 · 마당 · 나무에 두껍게 쌓인 눈, 부드러운 흰 빛."
+       }
       },
       {
        "n": 43,
        "en": "Foggy Morning",
        "ko": "안개 낀 아침",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k43.webp",
+        "thumb": "img/topic_keywords/tk43.webp",
+        "prompt": "A small modern concrete and glass house with a front garden and one tree, seen from the street on a foggy morning, the house half hidden in soft mist, muted colors.",
+        "promptKo": "앞마당과 나무 한 그루가 있는 작은 현대식 콘크리트 · 유리 주택, 길에서 본 모습, 안개 낀 아침, 옅은 안개에 집이 반쯤 가려졌다, 가라앉은 색."
+       }
       },
       {
        "n": 44,
        "en": "Golden Hour",
        "ko": "황금빛 노을",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k44.webp",
+        "thumb": "img/topic_keywords/tk44.webp",
+        "prompt": "A small modern concrete and glass house with a front garden and one tree, seen from the street at golden hour, warm low orange sunlight, long shadows.",
+        "promptKo": "앞마당과 나무 한 그루가 있는 작은 현대식 콘크리트 · 유리 주택, 길에서 본 모습, 골든 아워, 낮고 따뜻한 주황빛 햇살, 긴 그림자."
+       }
       },
       {
        "n": 45,
        "en": "Blue Hour",
        "ko": "블루 아워",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k45.webp",
+        "thumb": "img/topic_keywords/tk45.webp",
+        "prompt": "A small modern concrete and glass house with a front garden and one tree, seen from the street at blue hour just after sunset, deep blue sky, warm interior lights glowing.",
+        "promptKo": "앞마당과 나무 한 그루가 있는 작은 현대식 콘크리트 · 유리 주택, 길에서 본 모습, 해가 막 진 블루 아워, 짙푸른 하늘, 따뜻하게 빛나는 실내등."
+       }
       },
       {
        "n": 46,
        "en": "Stormy Drama",
        "ko": "폭풍우 드라마틱",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k46.webp",
+        "thumb": "img/topic_keywords/tk46.webp",
+        "prompt": "A small modern concrete and glass house with a front garden and one tree, seen from the street under a dramatic storm, dark towering clouds, lightning in the distance, wind-blown rain.",
+        "promptKo": "앞마당과 나무 한 그루가 있는 작은 현대식 콘크리트 · 유리 주택, 길에서 본 모습, 극적인 폭풍우, 어둡게 솟은 구름, 먼 곳의 번개, 바람에 날리는 비."
+       }
       },
       {
        "n": 47,
        "en": "Spring Blossom",
        "ko": "봄꽃 블로썸",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k47.webp",
+        "thumb": "img/topic_keywords/tk47.webp",
+        "prompt": "A small modern concrete and glass house with a front garden and one tree, seen from the street in spring, the tree covered in pink cherry blossoms, petals on the ground.",
+        "promptKo": "앞마당과 나무 한 그루가 있는 작은 현대식 콘크리트 · 유리 주택, 길에서 본 모습, 봄, 분홍 벚꽃이 가득 핀 나무, 땅에 떨어진 꽃잎."
+       }
       },
       {
        "n": 48,
        "en": "Autumn Leaves",
        "ko": "단풍 시즌",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k48.webp",
+        "thumb": "img/topic_keywords/tk48.webp",
+        "prompt": "A small modern concrete and glass house with a front garden and one tree, seen from the street in autumn, the tree in red and orange leaves, fallen leaves across the garden.",
+        "promptKo": "앞마당과 나무 한 그루가 있는 작은 현대식 콘크리트 · 유리 주택, 길에서 본 모습, 가을, 붉고 주황빛으로 물든 나무, 마당에 흩어진 낙엽."
+       }
       },
       {
        "n": 49,
@@ -1347,70 +1629,130 @@ window.JARC_DATA = {
        "en": "Tilt-Shift",
        "ko": "틸트 시프트 미니어처",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k51.webp",
+        "thumb": "img/topic_keywords/tk51.webp",
+        "prompt": "Tilt-shift photograph of a city block seen from above, only a narrow band in focus so the buildings, cars and people look like a miniature model.",
+        "promptKo": "위에서 본 도시 블록의 틸트 시프트 사진, 좁은 띠만 초점이 맞아 건물 · 차 · 사람이 미니어처 모형처럼 보인다."
+       }
       },
       {
        "n": 52,
        "en": "Film Grain",
        "ko": "필름 그레인",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k52.webp",
+        "thumb": "img/topic_keywords/tk52.webp",
+        "prompt": "Analog 35mm film photograph of a modern concrete and glass building on a city street corner, visible film grain, slightly faded colors.",
+        "promptKo": "도시 길모퉁이의 현대식 콘크리트 · 유리 건물의 아날로그 35mm 필름 사진, 눈에 보이는 필름 그레인, 살짝 바랜 색."
+       }
       },
       {
        "n": 53,
        "en": "Cinematic Wide",
        "ko": "시네마틱 와이드",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k53.webp",
+        "thumb": "img/topic_keywords/tk53.webp",
+        "prompt": "Cinematic wide-angle shot of a modern concrete and glass building on a city street corner, dramatic perspective, teal and orange color grading, anamorphic lens flare.",
+        "promptKo": "도시 길모퉁이의 현대식 콘크리트 · 유리 건물의 시네마틱 광각 샷, 극적인 원근, 청록 · 주황 색 보정, 아나모픽 렌즈 플레어."
+       }
       },
       {
        "n": 54,
        "en": "Black & White",
        "ko": "흑백",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k54.webp",
+        "thumb": "img/topic_keywords/tk54.webp",
+        "prompt": "Black and white photograph of a modern concrete and glass building on a city street corner, strong contrast, deep shadows.",
+        "promptKo": "도시 길모퉁이의 현대식 콘크리트 · 유리 건물의 흑백 사진, 강한 대비, 짙은 그림자."
+       }
       },
       {
        "n": 55,
        "en": "Vintage Photo",
        "ko": "빈티지 사진",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k55.webp",
+        "thumb": "img/topic_keywords/tk55.webp",
+        "prompt": "Vintage 1960s photograph of a modern concrete and glass building on a city street corner, sepia tone, faded edges, light scratches.",
+        "promptKo": "도시 길모퉁이의 현대식 콘크리트 · 유리 건물의 1960년대 빈티지 사진, 세피아 톤, 바랜 가장자리, 옅은 긁힘."
+       }
       },
       {
        "n": 56,
        "en": "Impressionism",
        "ko": "인상주의",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k56.webp",
+        "thumb": "img/topic_keywords/tk56.webp",
+        "prompt": "Impressionist oil painting of a modern concrete and glass building on a city street corner, loose visible brushstrokes, shimmering light.",
+        "promptKo": "도시 길모퉁이의 현대식 콘크리트 · 유리 건물의 인상주의 유화, 성글게 드러난 붓질, 아른거리는 빛."
+       }
       },
       {
        "n": 57,
        "en": "Minimalist Photo",
        "ko": "미니멀리스트 사진",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k57.webp",
+        "thumb": "img/topic_keywords/tk57.webp",
+        "prompt": "Minimalist photograph of one corner of a white building against a clear blue sky, mostly empty space, one small window.",
+        "promptKo": "맑은 파란 하늘을 배경으로 한 흰 건물 모서리 하나의 미니멀리스트 사진, 대부분 빈 여백, 작은 창 하나."
+       }
       },
       {
        "n": 58,
        "en": "Neon Cyberpunk",
        "ko": "네온 사이버펑크",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k58.webp",
+        "thumb": "img/topic_keywords/tk58.webp",
+        "prompt": "Neon cyberpunk night view of a modern concrete and glass building on a city street corner, glowing pink and blue neon tubes without writing, wet reflective street, haze.",
+        "promptKo": "도시 길모퉁이의 현대식 콘크리트 · 유리 건물의 네온 사이버펑크 야경, 글자 없는 분홍 · 파랑 네온관, 젖어 반사되는 길, 옅은 연무."
+       }
       },
       {
        "n": 59,
        "en": "Drone Shot",
        "ko": "드론 샷",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k59.webp",
+        "thumb": "img/topic_keywords/tk59.webp",
+        "prompt": "Top-down drone shot looking straight down on a modern concrete and glass building on a city street corner, its roof, the crossing streets, cars and tiny people.",
+        "promptKo": "도시 길모퉁이의 현대식 콘크리트 · 유리 건물을 바로 위에서 내려다본 드론 샷, 지붕 · 교차하는 길 · 차 · 아주 작은 사람들."
+       }
       },
       {
        "n": 60,
        "en": "Long Exposure",
        "ko": "장노출",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k60.webp",
+        "thumb": "img/topic_keywords/tk60.webp",
+        "prompt": "Long exposure photograph of a modern concrete and glass building on a city street corner at dusk, streaks of car light trails on the street, smooth blurred clouds.",
+        "promptKo": "해 질 녘 도시 길모퉁이의 현대식 콘크리트 · 유리 건물의 장노출 사진, 길 위에 줄지은 자동차 불빛 궤적, 부드럽게 흐려진 구름."
+       }
       }
      ],
      "note": "",
@@ -1435,70 +1777,130 @@ window.JARC_DATA = {
        "en": "Virtual Staging",
        "ko": "가상 스테이징",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k61.webp",
+        "thumb": "img/topic_keywords/tk61.webp",
+        "prompt": "A bright apartment living room virtually staged with a sofa, rug, coffee table, floor lamp and plants, clean real-estate style photo.",
+        "promptKo": "소파 · 러그 · 커피 테이블 · 플로어 램프 · 식물로 가상 스테이징한 밝은 아파트 거실, 깔끔한 부동산 사진 느낌."
+       }
       },
       {
        "n": 62,
        "en": "Minimalist Style",
        "ko": "미니멀 스타일",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k62.webp",
+        "thumb": "img/topic_keywords/tk62.webp",
+        "prompt": "A minimalist living room, white walls, one low sofa, one table, almost no objects, soft daylight.",
+        "promptKo": "미니멀한 거실, 흰 벽, 낮은 소파 하나, 탁자 하나, 물건이 거의 없다, 부드러운 낮빛."
+       }
       },
       {
        "n": 63,
        "en": "Industrial Loft",
        "ko": "인더스트리얼 로프트",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k63.webp",
+        "thumb": "img/topic_keywords/tk63.webp",
+        "prompt": "An industrial loft apartment with exposed brick walls, steel beams, large factory windows, concrete floor and a leather sofa.",
+        "promptKo": "노출 벽돌 벽 · 철골 보 · 큰 공장 창 · 콘크리트 바닥 · 가죽 소파가 있는 인더스트리얼 로프트 아파트."
+       }
       },
       {
        "n": 64,
        "en": "Luxury Hotel",
        "ko": "럭셔리 호텔",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k64.webp",
+        "thumb": "img/topic_keywords/tk64.webp",
+        "prompt": "A luxury hotel suite with a king bed, marble surfaces, brass details, a velvet armchair and soft warm lighting.",
+        "promptKo": "킹 침대 · 대리석 면 · 황동 디테일 · 벨벳 안락의자 · 부드럽고 따뜻한 조명이 있는 럭셔리 호텔 스위트."
+       }
       },
       {
        "n": 65,
        "en": "Planterrior",
        "ko": "플랜테리어",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k65.webp",
+        "thumb": "img/topic_keywords/tk65.webp",
+        "prompt": "A living room filled with houseplants of many sizes, hanging planters, shelves of pots, sunlight through the leaves.",
+        "promptKo": "크고 작은 실내 식물로 가득한 거실, 매단 화분, 화분이 놓인 선반, 잎 사이로 드는 햇빛."
+       }
       },
       {
        "n": 66,
        "en": "Kitchen Detail",
        "ko": "주방 디테일",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k66.webp",
+        "thumb": "img/topic_keywords/tk66.webp",
+        "prompt": "Close view of a kitchen: stone countertop, matte cabinet fronts, brass tap, an open shelf with ceramics, under-cabinet light.",
+        "promptKo": "주방의 가까운 뷰: 석재 상판, 무광 수납장 문, 황동 수전, 도자기가 놓인 열린 선반, 상부장 아래 조명."
+       }
       },
       {
        "n": 67,
        "en": "Bathroom Spa",
        "ko": "욕실 스파",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k67.webp",
+        "thumb": "img/topic_keywords/tk67.webp",
+        "prompt": "A spa-like bathroom with a freestanding stone bathtub, timber slats, soft indirect lighting, steam and a window to a garden.",
+        "promptKo": "단독형 석재 욕조 · 목재 살 · 부드러운 간접 조명 · 김 · 정원으로 난 창이 있는 스파 같은 욕실."
+       }
       },
       {
        "n": 68,
        "en": "Home Office",
        "ko": "홈 오피스",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k68.webp",
+        "thumb": "img/topic_keywords/tk68.webp",
+        "prompt": "A home office corner with a timber desk by a window, an ergonomic chair, shelves, a desk lamp and a laptop with a blank screen.",
+        "promptKo": "창가의 목재 책상 · 인체공학 의자 · 선반 · 책상 스탠드 · 화면이 빈 노트북이 있는 홈 오피스 한쪽."
+       }
       },
       {
        "n": 69,
        "en": "Kids Room",
        "ko": "어린이 방",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k69.webp",
+        "thumb": "img/topic_keywords/tk69.webp",
+        "prompt": "A cheerful kids room with a low house-shaped bed, soft rug, toy storage, a small tent and pastel colors.",
+        "promptKo": "집 모양의 낮은 침대 · 폭신한 러그 · 장난감 수납 · 작은 텐트 · 파스텔 색이 있는 밝은 어린이 방."
+       }
       },
       {
        "n": 70,
        "en": "Window View",
        "ko": "창밖 뷰",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k70.webp",
+        "thumb": "img/topic_keywords/tk70.webp",
+        "prompt": "An interior with a large picture window framing a wide view of a lake and mountains, an armchair facing the view.",
+        "promptKo": "호수와 산의 넓은 풍경을 담은 큰 통창이 있는 실내, 풍경을 향해 놓인 안락의자."
+       }
       }
      ],
      "note": "",
@@ -1523,70 +1925,130 @@ window.JARC_DATA = {
        "en": "Crowded Cafe",
        "ko": "활기찬 카페",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k71.webp",
+        "thumb": "img/topic_keywords/tk71.webp",
+        "prompt": "A lively crowded cafe interior, people talking at small tables, baristas at the counter, warm pendant lights, a blank menu board.",
+        "promptKo": "활기차고 붐비는 카페 실내, 작은 테이블에서 이야기하는 사람들, 카운터의 바리스타, 따뜻한 펜던트 조명, 글자 없는 메뉴판."
+       }
       },
       {
        "n": 72,
        "en": "Fashion Store",
        "ko": "패션 스토어",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k72.webp",
+        "thumb": "img/topic_keywords/tk72.webp",
+        "prompt": "A fashion store interior with clothes on minimal rails, a display table, mannequins, mirrors and spot lighting, no brand names.",
+        "promptKo": "간결한 행거의 옷 · 진열 테이블 · 마네킹 · 거울 · 스폿 조명이 있는 패션 매장 실내, 상표 없음."
+       }
       },
       {
        "n": 73,
        "en": "Gallery Light",
        "ko": "갤러리 조명",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k73.webp",
+        "thumb": "img/topic_keywords/tk73.webp",
+        "prompt": "A white gallery room where track spotlights cast pools of light on abstract paintings and a sculpture, visitors in silhouette.",
+        "promptKo": "레일 스폿 조명이 추상화와 조각 위에 빛의 웅덩이를 드리운 흰 갤러리, 실루엣으로 보이는 관람객."
+       }
       },
       {
        "n": 74,
        "en": "Library Mood",
        "ko": "도서관 분위기",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k74.webp",
+        "thumb": "img/topic_keywords/tk74.webp",
+        "prompt": "A quiet library reading room with tall timber bookshelves, long tables, green reading lamps, book spines without readable titles.",
+        "promptKo": "높은 목재 서가 · 긴 탁자 · 초록 독서등이 있는 조용한 도서관 열람실, 책등에 읽히는 제목 없음."
+       }
       },
       {
        "n": 75,
        "en": "Texture Zoom",
        "ko": "텍스처 줌인",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k75.webp",
+        "thumb": "img/topic_keywords/tk75.webp",
+        "prompt": "Extreme close-up of a wall where rough concrete, brushed brass and oak wood meet, every pore and grain visible.",
+        "promptKo": "거친 콘크리트 · 브러시드 황동 · 참나무가 만나는 벽의 극단적 클로즈업, 기공과 결 하나하나가 보인다."
+       }
       },
       {
        "n": 76,
        "en": "Fabric Softness",
        "ko": "패브릭 부드러움",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k76.webp",
+        "thumb": "img/topic_keywords/tk76.webp",
+        "prompt": "Close view of a sofa corner with soft linen cushions, a chunky wool throw and a boucle armchair, side light showing the softness of the fabric.",
+        "promptKo": "부드러운 리넨 쿠션 · 굵은 울 담요 · 부클레 안락의자가 있는 소파 한쪽의 가까운 뷰, 옆에서 드는 빛이 패브릭의 부드러움을 드러낸다."
+       }
       },
       {
        "n": 77,
        "en": "Ceiling Detail",
        "ko": "천장 디테일",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k77.webp",
+        "thumb": "img/topic_keywords/tk77.webp",
+        "prompt": "View looking up at a ceiling with timber coffers, recessed linear lights and a round skylight.",
+        "promptKo": "목재 격자 우물천장 · 매입 라인 조명 · 둥근 천창이 있는 천장을 올려다본 모습."
+       }
       },
       {
        "n": 78,
        "en": "Product Display",
        "ko": "제품 디스플레이",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k78.webp",
+        "thumb": "img/topic_keywords/tk78.webp",
+        "prompt": "A minimal product display: ceramic vases and bowls on stone plinths and thin shelves, each lit by a small spotlight.",
+        "promptKo": "미니멀한 제품 디스플레이: 석재 받침대와 얇은 선반 위의 도자 화병과 그릇, 저마다 작은 스폿 조명을 받는다."
+       }
       },
       {
        "n": 79,
        "en": "Reflection & Glass",
        "ko": "반사 & 유리",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k79.webp",
+        "thumb": "img/topic_keywords/tk79.webp",
+        "prompt": "A glass shopfront at dusk, the glass showing both the lit interior and the reflection of the street and sky layered together.",
+        "promptKo": "해 질 녘의 유리 쇼윈도, 유리에 불 켜진 실내와 거리 · 하늘의 반사가 겹쳐 보인다."
+       }
       },
       {
        "n": 80,
        "en": "Messy Realism",
        "ko": "리얼한 생활감",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k80.webp",
+        "thumb": "img/topic_keywords/tk80.webp",
+        "prompt": "A lived-in living room with a crumpled blanket on the sofa, cups on the table, open books face down, shoes by the door, toys on the floor, natural everyday mess.",
+        "promptKo": "사람 사는 느낌의 거실, 소파 위의 구겨진 담요, 탁자 위의 컵, 엎어 둔 책, 문가의 신발, 바닥의 장난감, 자연스러운 일상의 어질러짐."
+       }
       }
      ],
      "note": "",
@@ -1611,70 +2073,130 @@ window.JARC_DATA = {
        "en": "Zaha Hadid Style",
        "ko": "자하 하디드 유동 형태",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k81.webp",
+        "thumb": "img/topic_keywords/tk81.webp",
+        "prompt": "A small museum on an open plaza with a fluid white form of sweeping continuous curves and no straight lines.",
+        "promptKo": "열린 광장에 선 작은 미술관, 직선 없이 크게 휘도는 연속 곡선의 유동적인 흰 형태."
+       }
       },
       {
        "n": 82,
        "en": "Tadao Ando Style",
        "ko": "타다오 안도 노출 콘크리트",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k82.webp",
+        "thumb": "img/topic_keywords/tk82.webp",
+        "prompt": "A small museum on an open plaza built of smooth exposed concrete walls with regular formwork holes, a thin slit of light, calm geometric volumes and a shallow reflecting pool.",
+        "promptKo": "열린 광장에 선 작은 미술관, 거푸집 구멍이 규칙적인 매끈한 노출 콘크리트 벽, 가는 빛의 틈, 차분한 기하학적 볼륨, 얕은 반사 연못."
+       }
       },
       {
        "n": 83,
        "en": "Frank Gehry Style",
        "ko": "프랭크 게리 해체주의",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k83.webp",
+        "thumb": "img/topic_keywords/tk83.webp",
+        "prompt": "A small museum on an open plaza made of crumpled, tilted, colliding volumes clad in shimmering curved metal sheets, deconstructivist.",
+        "promptKo": "열린 광장에 선 작은 미술관, 구겨지고 기울고 서로 부딪치는 볼륨을 반짝이는 곡면 금속판으로 감쌌다, 해체주의."
+       }
       },
       {
        "n": 84,
        "en": "K-Architecture",
        "ko": "한국 현대 건축",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k84.webp",
+        "thumb": "img/topic_keywords/tk84.webp",
+        "prompt": "A small museum on an open plaza in contemporary Korean style reinterpreting a hanok: gently curved tiled eaves, exposed timber frame, a courtyard, combined with glass and concrete.",
+        "promptKo": "열린 광장에 선 작은 미술관, 한옥을 재해석한 한국 현대 건축: 완만하게 휜 기와 처마, 드러난 목구조, 마당, 유리와 콘크리트의 결합."
+       }
       },
       {
        "n": 85,
        "en": "Gothic Revival",
        "ko": "고딕 리바이벌",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k85.webp",
+        "thumb": "img/topic_keywords/tk85.webp",
+        "prompt": "A small museum on an open plaza in Gothic Revival style, pointed arches, tall spires, tracery windows, stone buttresses.",
+        "promptKo": "열린 광장에 선 작은 미술관, 고딕 리바이벌 양식, 뾰족 아치, 높은 첨탑, 트레이서리 창, 석조 버트레스."
+       }
       },
       {
        "n": 86,
        "en": "Bauhaus Modern",
        "ko": "바우하우스 모던",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k86.webp",
+        "thumb": "img/topic_keywords/tk86.webp",
+        "prompt": "A small museum on an open plaza in Bauhaus modern style, white cubic volumes, flat roofs, horizontal strip windows, a curved glazed stair tower, primary color accents.",
+        "promptKo": "열린 광장에 선 작은 미술관, 바우하우스 모던 양식, 흰 입방체 볼륨, 평지붕, 수평 띠창, 곡면 유리 계단탑, 원색 포인트."
+       }
       },
       {
        "n": 87,
        "en": "Futuristic Sci-Fi",
        "ko": "미래형 SF",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k87.webp",
+        "thumb": "img/topic_keywords/tk87.webp",
+        "prompt": "A small museum on an open plaza in futuristic science-fiction style, a smooth metallic shell, glowing light lines, hovering elements.",
+        "promptKo": "열린 광장에 선 작은 미술관, 미래형 SF 양식, 매끈한 금속 껍질, 빛나는 라인 조명, 떠 있는 요소들."
+       }
       },
       {
        "n": 88,
        "en": "Nature Fusion",
        "ko": "자연 융합",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k88.webp",
+        "thumb": "img/topic_keywords/tk88.webp",
+        "prompt": "A small museum on an open plaza fused with nature, half buried in a green hill, trees growing through the roof, walls covered in plants.",
+        "promptKo": "열린 광장에 선 작은 미술관, 자연과 융합, 초록 언덕에 반쯤 묻혔다, 지붕을 뚫고 자라는 나무, 식물로 덮인 벽."
+       }
       },
       {
        "n": 89,
        "en": "Timber Structure",
        "ko": "목구조",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k89.webp",
+        "thumb": "img/topic_keywords/tk89.webp",
+        "prompt": "A small museum on an open plaza with an exposed timber structure, large glulam beams and columns, a timber grid shell roof, warm wood throughout.",
+        "promptKo": "열린 광장에 선 작은 미술관, 드러난 목구조, 큰 집성목 보와 기둥, 목재 그리드 셸 지붕, 전체가 따뜻한 나무."
+       }
       },
       {
        "n": 90,
        "en": "Parametric Facade",
        "ko": "파라메트릭 파사드",
        "desc": "",
-       "src": "guidebook"
+       "src": "guidebook",
+       "ex": {
+        "img": "img/topic_keywords/k90.webp",
+        "thumb": "img/topic_keywords/tk90.webp",
+        "prompt": "A small museum on an open plaza with a parametric facade of hundreds of panels that gradually change size and angle across the surface like a wave.",
+        "promptKo": "열린 광장에 선 작은 미술관, 수백 개의 패널이 표면을 따라 크기와 각도를 조금씩 바꾸며 물결을 이루는 파라메트릭 파사드."
+       }
       }
      ],
      "note": "",
@@ -1699,70 +2221,130 @@ window.JARC_DATA = {
        "en": "Photomontage",
        "ko": "포토몽타주",
        "desc": "",
-       "src": "ceo"
+       "src": "ceo",
+       "ex": {
+        "img": "img/topic_keywords/k91.webp",
+        "thumb": "img/topic_keywords/tk91.webp",
+        "prompt": "Architectural photomontage: a rendered white pavilion composited into a real riverside landscape photograph with cut-out people and trees.",
+        "promptKo": "건축 포토몽타주: 렌더링한 흰 파빌리온을 실제 강변 풍경 사진에 합성하고 오려 낸 사람과 나무를 얹었다."
+       }
       },
       {
        "n": 92,
        "en": "Collage Art",
        "ko": "콜라주 아트",
        "desc": "",
-       "src": "ceo"
+       "src": "ceo",
+       "ex": {
+        "img": "img/topic_keywords/k92.webp",
+        "thumb": "img/topic_keywords/tk92.webp",
+        "prompt": "Architectural collage made of cut paper, textured paper pieces, cut-out photographs of people and trees, a simple building in flat colors.",
+        "promptKo": "오린 종이 · 질감 있는 종이 조각 · 오려 낸 사람과 나무 사진으로 만든 건축 콜라주, 납작한 색의 단순한 건물."
+       }
       },
       {
        "n": 93,
        "en": "Model Photo",
        "ko": "모형 사진",
        "desc": "",
-       "src": "ceo"
+       "src": "ceo",
+       "ex": {
+        "img": "img/topic_keywords/k93.webp",
+        "thumb": "img/topic_keywords/tk93.webp",
+        "prompt": "Photograph of a physical architectural model of a pavilion made of white card and balsa wood on a work table, shallow depth of field.",
+        "promptKo": "작업대 위에 놓인, 흰 보드지와 발사 나무로 만든 파빌리온 실물 건축 모형 사진, 얕은 피사계 심도."
+       }
       },
       {
        "n": 94,
        "en": "Diagrammatic View",
        "ko": "다이어그램식 뷰",
        "desc": "",
-       "src": "ceo"
+       "src": "ceo",
+       "ex": {
+        "img": "img/topic_keywords/k94.webp",
+        "thumb": "img/topic_keywords/tk94.webp",
+        "prompt": "A view of a building simplified into a diagram: flat pastel colors, bold outlines, and colored arrows showing sun, wind and movement drawn over it, no labels.",
+        "promptKo": "건물의 뷰를 다이어그램처럼 단순화했다: 납작한 파스텔 색, 굵은 외곽선, 해 · 바람 · 움직임을 나타내는 색 화살표를 위에 그렸다, 글자 표기 없음."
+       }
       },
       {
        "n": 95,
        "en": "Exploded Material",
        "ko": "재료 분해도",
        "desc": "",
-       "src": "ceo"
+       "src": "ceo",
+       "ex": {
+        "img": "img/topic_keywords/k95.webp",
+        "thumb": "img/topic_keywords/tk95.webp",
+        "prompt": "Exploded material diagram of a facade corner: brick cladding, insulation, concrete structure, timber lining and glass pulled apart in layers, each material clearly shown, white background, no labels.",
+        "promptKo": "파사드 모서리의 재료 분해도: 벽돌 마감 · 단열재 · 콘크리트 구조 · 목재 내장 · 유리를 층층이 떼어 놓았다, 재료마다 또렷이 보인다, 흰 바탕, 글자 표기 없음."
+       }
       },
       {
        "n": 96,
        "en": "Renovation",
        "ko": "리노베이션",
        "desc": "",
-       "src": "ceo"
+       "src": "ceo",
+       "ex": {
+        "img": "img/topic_keywords/k96.webp",
+        "thumb": "img/topic_keywords/tk96.webp",
+        "prompt": "An old brick warehouse renovated with a new glass and steel extension on its roof, old and new clearly contrasted.",
+        "promptKo": "지붕 위에 유리와 강철의 새 증축부를 얹어 리노베이션한 오래된 벽돌 창고, 옛것과 새것이 뚜렷이 대비된다."
+       }
       },
       {
        "n": 97,
        "en": "Sustainability",
        "ko": "지속 가능성",
        "desc": "",
-       "src": "ceo"
+       "src": "ceo",
+       "ex": {
+        "img": "img/topic_keywords/k97.webp",
+        "thumb": "img/topic_keywords/tk97.webp",
+        "prompt": "A sustainable building with solar panels, a green roof, a small wind turbine, a timber facade, a rain garden and people cycling past.",
+        "promptKo": "태양광 패널 · 옥상 녹화 · 작은 풍력 터빈 · 목재 파사드 · 빗물 정원이 있는 지속 가능한 건물, 자전거를 타고 지나가는 사람들."
+       }
       },
       {
        "n": 98,
        "en": "Abstract Art",
        "ko": "추상 미술",
        "desc": "",
-       "src": "ceo"
+       "src": "ceo",
+       "ex": {
+        "img": "img/topic_keywords/k98.webp",
+        "thumb": "img/topic_keywords/tk98.webp",
+        "prompt": "An abstract painting inspired by architecture, overlapping geometric color fields, lines and planes, no recognizable building.",
+        "promptKo": "건축에서 영감을 받은 추상화, 겹친 기하학적 색면 · 선 · 면, 알아볼 수 있는 건물은 없다."
+       }
       },
       {
        "n": 99,
        "en": "Portfolio Layout",
        "ko": "포트폴리오 레이아웃",
        "desc": "",
-       "src": "ceo"
+       "src": "ceo",
+       "ex": {
+        "img": "img/topic_keywords/k99.webp",
+        "thumb": "img/topic_keywords/tk99.webp",
+        "prompt": "An architecture portfolio page layout on a white sheet: a neat grid of renderings, plans, sections and model photographs, with thin grey bars in place of any writing.",
+        "promptKo": "흰 지면 위의 건축 포트폴리오 페이지 레이아웃: 렌더링 · 평면 · 단면 · 모형 사진을 반듯한 격자로 배치했다, 글씨 자리에는 가는 회색 막대."
+       }
       },
       {
        "n": 100,
        "en": "Cover Design",
        "ko": "표지 디자인",
        "desc": "",
-       "src": "ceo"
+       "src": "ceo",
+       "ex": {
+        "img": "img/topic_keywords/k100.webp",
+        "thumb": "img/topic_keywords/tk100.webp",
+        "prompt": "A portfolio cover design: one bold photograph of a concrete building corner against the sky, a large empty margin and a single thin colored line, no writing.",
+        "promptKo": "포트폴리오 표지 디자인: 하늘을 배경으로 한 콘크리트 건물 모서리의 강렬한 사진 한 장, 넓은 빈 여백, 가는 색 선 하나, 글씨 없음."
+       }
       }
      ],
      "note": "",
@@ -1772,7 +2354,7 @@ window.JARC_DATA = {
     }
    ],
    "cardPreview": true,
-   "examples": 0
+   "examples": 97
   },
   "thoughts_90": {
    "slug": "thoughts_90",
@@ -3207,35 +3789,65 @@ window.JARC_DATA = {
        "en": "Interpenetration",
        "ko": "관입",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k01.webp",
+        "thumb": "img/concept_encyclopedia/tk01.webp",
+        "prompt": "A clean white architectural massing model on a plain light grey studio background, soft shadows: two box volumes passing straight through each other at an angle, the shared overlapping part clearly visible.",
+        "promptKo": "꾸밈없는 밝은 회색 스튜디오 바탕의 깨끗한 흰 건축 매스 모형, 부드러운 그림자: 상자 볼륨 두 개가 비스듬히 서로를 꿰뚫고 지나간다, 겹쳐 함께 쓰는 부분이 또렷이 보인다."
+       }
       },
       {
        "n": 2,
        "en": "Articulation",
        "ko": "분절",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k02.webp",
+        "thumb": "img/concept_encyclopedia/tk02.webp",
+        "prompt": "A clean white architectural massing model on a plain light grey studio background, soft shadows: one long volume divided into distinct segments by narrow recessed joints.",
+        "promptKo": "꾸밈없는 밝은 회색 스튜디오 바탕의 깨끗한 흰 건축 매스 모형, 부드러운 그림자: 긴 볼륨 하나가 좁게 파인 이음매로 마디마디 뚜렷이 나뉘었다."
+       }
       },
       {
        "n": 3,
        "en": "Superposition",
        "ko": "중첩",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k03.webp",
+        "thumb": "img/concept_encyclopedia/tk03.webp",
+        "prompt": "A clean white architectural massing model on a plain light grey studio background, soft shadows: two flat slabs of different shapes laid directly over each other, slightly offset, the upper one translucent so both outlines read at once.",
+        "promptKo": "꾸밈없는 밝은 회색 스튜디오 바탕의 깨끗한 흰 건축 매스 모형, 부드러운 그림자: 모양이 다른 납작한 판 두 장을 살짝 어긋나게 포갰다, 위 판이 반투명이라 두 윤곽이 한꺼번에 읽힌다."
+       }
       },
       {
        "n": 4,
        "en": "Addition",
        "ko": "가산",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k04.webp",
+        "thumb": "img/concept_encyclopedia/tk04.webp",
+        "prompt": "A clean white architectural massing model on a plain light grey studio background, soft shadows: one main box with several smaller boxes attached onto its sides and top one by one.",
+        "promptKo": "꾸밈없는 밝은 회색 스튜디오 바탕의 깨끗한 흰 건축 매스 모형, 부드러운 그림자: 주된 상자 하나의 옆과 위에 작은 상자 여러 개를 하나씩 덧붙였다."
+       }
       },
       {
        "n": 5,
        "en": "Subtraction",
        "ko": "감산",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k05.webp",
+        "thumb": "img/concept_encyclopedia/tk05.webp",
+        "prompt": "A clean white architectural massing model on a plain light grey studio background, soft shadows: one solid cube with several rectangular chunks carved out of it, the removed pieces lying beside it.",
+        "promptKo": "꾸밈없는 밝은 회색 스튜디오 바탕의 깨끗한 흰 건축 매스 모형, 부드러운 그림자: 속이 찬 정육면체 하나에서 네모난 덩어리 여러 개를 파냈다, 떼어 낸 조각이 옆에 놓여 있다."
+       }
       },
       {
        "n": 6,
@@ -3249,28 +3861,52 @@ window.JARC_DATA = {
        "en": "Twisting",
        "ko": "비틀림",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k07.webp",
+        "thumb": "img/concept_encyclopedia/tk07.webp",
+        "prompt": "A clean white architectural massing model on a plain light grey studio background, soft shadows: a tall square tower that twists smoothly a quarter turn from bottom to top.",
+        "promptKo": "꾸밈없는 밝은 회색 스튜디오 바탕의 깨끗한 흰 건축 매스 모형, 부드러운 그림자: 아래에서 위로 올라가며 4분의 1바퀴 매끄럽게 비틀리는 높은 사각 탑."
+       }
       },
       {
        "n": 8,
        "en": "Shearing",
        "ko": "전단",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k08.webp",
+        "thumb": "img/concept_encyclopedia/tk08.webp",
+        "prompt": "A clean white architectural massing model on a plain light grey studio background, soft shadows: a stack of identical floor plates each slid sideways a little further in the same direction, making a slanted sheared profile.",
+        "promptKo": "꾸밈없는 밝은 회색 스튜디오 바탕의 깨끗한 흰 건축 매스 모형, 부드러운 그림자: 똑같은 바닥판을 쌓되 한 층씩 같은 방향으로 조금 더 밀어, 비스듬히 전단된 옆모습이 된다."
+       }
       },
       {
        "n": 9,
        "en": "Deformation",
        "ko": "변형",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k09.webp",
+        "thumb": "img/concept_encyclopedia/tk09.webp",
+        "prompt": "A clean white architectural massing model on a plain light grey studio background, soft shadows: a regular box whose one side is bulged, stretched and pulled out of shape like soft clay.",
+        "promptKo": "꾸밈없는 밝은 회색 스튜디오 바탕의 깨끗한 흰 건축 매스 모형, 부드러운 그림자: 반듯한 상자의 한쪽 면이 무른 점토처럼 부풀고 늘어나 모양이 일그러졌다."
+       }
       },
       {
        "n": 10,
        "en": "Alignment",
        "ko": "정렬",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k10.webp",
+        "thumb": "img/concept_encyclopedia/tk10.webp",
+        "prompt": "A clean white architectural massing model on a plain light grey studio background, soft shadows: five box volumes of different sizes lined up precisely along one straight edge line, seen from above at an angle.",
+        "promptKo": "꾸밈없는 밝은 회색 스튜디오 바탕의 깨끗한 흰 건축 매스 모형, 부드러운 그림자: 크기가 다른 상자 볼륨 다섯 개를 곧은 기준선 하나에 정확히 맞춰 늘어놓았다, 비스듬히 위에서 본 모습."
+       }
       }
      ],
      "note": "기하학적 매스가 깎이고 비틀리며 얻는 생명력 탐구 · 관입, 중첩 등 건축 언어의 가장 기초적인 조형 원리 · 단순한 유희를 넘어 기능과 맥락을 담는 형태의 논리",
@@ -3295,70 +3931,130 @@ window.JARC_DATA = {
        "en": "Void",
        "ko": "비움",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k11.webp",
+        "thumb": "img/concept_encyclopedia/tk11.webp",
+        "prompt": "A massive stone building with a large empty atrium carved out of its center and open to the sky, seen from inside the void looking up, architectural photography.",
+        "promptKo": "가운데를 크게 파내 하늘로 열린 빈 아트리움이 있는 육중한 석조 건물, 그 비움 안에서 올려다본 모습, 건축 사진."
+       }
       },
       {
        "n": 12,
        "en": "Floating",
        "ko": "부유",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k12.webp",
+        "thumb": "img/concept_encyclopedia/tk12.webp",
+        "prompt": "A heavy concrete volume that appears to float above the ground on a recessed dark glass base, a band of shadow beneath it, architectural photography.",
+        "promptKo": "안으로 들인 어두운 유리 기단 위에서 땅 위로 떠 있는 듯한 무거운 콘크리트 볼륨, 그 아래의 그림자 띠, 건축 사진."
+       }
       },
       {
        "n": 13,
        "en": "Erosion",
        "ko": "침식",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k13.webp",
+        "thumb": "img/concept_encyclopedia/tk13.webp",
+        "prompt": "A monolithic stone block building whose corners and edges look worn away and hollowed out like eroded rock, architectural photography.",
+        "promptKo": "모서리와 가장자리가 침식된 바위처럼 닳고 패인 한 덩어리 석조 건물, 건축 사진."
+       }
       },
       {
        "n": 14,
        "en": "Penetration",
        "ko": "투과",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k14.webp",
+        "thumb": "img/concept_encyclopedia/tk14.webp",
+        "prompt": "A passage cutting straight through the middle of a building so that daylight and a tree on the far side are visible through it, architectural photography.",
+        "promptKo": "건물 한가운데를 곧게 꿰뚫는 통로, 그 너머로 건너편의 햇빛과 나무가 보인다, 건축 사진."
+       }
       },
       {
        "n": 15,
        "en": "Density",
        "ko": "밀도",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k15.webp",
+        "thumb": "img/concept_encyclopedia/tk15.webp",
+        "prompt": "A compact cluster of tightly packed small building volumes with only narrow gaps between them, seen from above at an angle, architectural photography.",
+        "promptKo": "좁은 틈만 남기고 촘촘히 들어찬 작은 건물 볼륨들의 무리, 비스듬히 위에서 본 모습, 건축 사진."
+       }
       },
       {
        "n": 16,
        "en": "Solid & Void",
        "ko": "보이드",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k16.webp",
+        "thumb": "img/concept_encyclopedia/tk16.webp",
+        "prompt": "A building facade composed as a checkerboard of solid stone blocks and equally sized deep open voids, architectural photography.",
+        "promptKo": "속이 찬 돌 덩어리와 같은 크기의 깊게 뚫린 빈 칸이 바둑판처럼 번갈아 놓인 건물 파사드, 건축 사진."
+       }
       },
       {
        "n": 17,
        "en": "Courtyard",
        "ko": "중정",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k17.webp",
+        "thumb": "img/concept_encyclopedia/tk17.webp",
+        "prompt": "Aerial view of a square house wrapped around an open central courtyard with one tree, architectural photography.",
+        "promptKo": "나무 한 그루가 선 열린 가운데 마당을 네모나게 둘러싼 집의 조감, 건축 사진."
+       }
       },
       {
        "n": 18,
        "en": "Slit / Gap",
        "ko": "틈",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k18.webp",
+        "thumb": "img/concept_encyclopedia/tk18.webp",
+        "prompt": "Two massive concrete walls standing close together with a narrow gap between them, a thin strip of sky and light falling through, architectural photography.",
+        "promptKo": "바짝 붙어 선 두 육중한 콘크리트 벽 사이의 좁은 틈, 가는 하늘 띠와 그리로 떨어지는 빛, 건축 사진."
+       }
       },
       {
        "n": 19,
        "en": "Overlapped Void",
        "ko": "중첩된 보이드",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k19.webp",
+        "thumb": "img/concept_encyclopedia/tk19.webp",
+        "prompt": "Interior view looking up through several floors whose openings of different shapes are offset over one another, architectural photography.",
+        "promptKo": "모양이 다른 개구부가 층마다 어긋나게 겹친 여러 층을 올려다본 실내 모습, 건축 사진."
+       }
       },
       {
        "n": 20,
        "en": "Engraving",
        "ko": "음각",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k20.webp",
+        "thumb": "img/concept_encyclopedia/tk20.webp",
+        "prompt": "A smooth stone wall with geometric shapes cut shallowly into its surface as recessed niches, low raking light revealing the depth, architectural photography.",
+        "promptKo": "기하학적 도형을 얕게 파 넣어 오목한 벽감을 만든 매끈한 돌벽, 낮게 비껴 드는 빛이 깊이를 드러낸다, 건축 사진."
+       }
       }
      ],
      "note": "채워진 덩어리(Mass)와 비워진 공기(Void)의 역학 관계 · 중정과 틈을 통해 외부를 내부로 초대하는 비움의 미학 · 보이지 않는 공간의 깊이를 조각하는 건축가의 시선",
@@ -3383,70 +4079,130 @@ window.JARC_DATA = {
        "en": "Transition",
        "ko": "전이",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k21.webp",
+        "thumb": "img/concept_encyclopedia/tk21.webp",
+        "prompt": "A deep covered veranda between a room and a garden, half inside and half outside, light fading gradually from bright to dim, architectural photography.",
+        "promptKo": "방과 정원 사이의 깊은 지붕 덮인 툇마루, 반은 안이고 반은 밖이다, 밝음에서 어둠으로 서서히 옅어지는 빛, 건축 사진."
+       }
       },
       {
        "n": 22,
        "en": "Mediation",
        "ko": "매개",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k22.webp",
+        "thumb": "img/concept_encyclopedia/tk22.webp",
+        "prompt": "A light glass bridge corridor linking an old stone building and a new concrete building, architectural photography.",
+        "promptKo": "오래된 석조 건물과 새 콘크리트 건물을 잇는 가벼운 유리 다리 복도, 건축 사진."
+       }
       },
       {
        "n": 23,
        "en": "Boundary",
        "ko": "경계",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k23.webp",
+        "thumb": "img/concept_encyclopedia/tk23.webp",
+        "prompt": "One long plain wall dividing a quiet garden on one side from a busy street on the other, seen from above at an angle, architectural photography.",
+        "promptKo": "긴 민벽 하나가 한쪽의 고요한 정원과 다른 쪽의 붐비는 거리를 가른다, 비스듬히 위에서 본 모습, 건축 사진."
+       }
       },
       {
        "n": 24,
        "en": "Ambiguity",
        "ko": "모호성",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k24.webp",
+        "thumb": "img/concept_encyclopedia/tk24.webp",
+        "prompt": "A space wrapped in layers of sheer white curtains where it is unclear what is inside and what is outside, soft blurred silhouettes, architectural photography.",
+        "promptKo": "얇고 흰 커튼 여러 겹으로 감싸여 어디가 안이고 어디가 밖인지 모호한 공간, 부드럽게 흐려진 실루엣, 건축 사진."
+       }
       },
       {
        "n": 25,
        "en": "Layering",
        "ko": "층위",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k25.webp",
+        "thumb": "img/concept_encyclopedia/tk25.webp",
+        "prompt": "A view through successive layers: a timber screen, then glass, then a thin curtain, then a garden beyond, architectural photography.",
+        "promptKo": "겹겹의 층을 통과해 본 모습: 목재 살창, 그다음 유리, 그다음 얇은 커튼, 그 너머의 정원, 건축 사진."
+       }
       },
       {
        "n": 26,
        "en": "Insertion",
        "ko": "삽입",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k26.webp",
+        "thumb": "img/concept_encyclopedia/tk26.webp",
+        "prompt": "A small bright timber box inserted inside a large old industrial hall, clearly a new piece placed within the old, architectural photography.",
+        "promptKo": "크고 낡은 공장 홀 안에 끼워 넣은 작고 밝은 목재 상자, 옛것 속에 새로 들인 조각임이 분명하다, 건축 사진."
+       }
       },
       {
        "n": 27,
        "en": "Juxtaposition",
        "ko": "병치",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k27.webp",
+        "thumb": "img/concept_encyclopedia/tk27.webp",
+        "prompt": "An old brick house and a sleek glass box standing side by side and touching, sharply different yet together, architectural photography.",
+        "promptKo": "오래된 벽돌집과 매끈한 유리 상자가 나란히 맞닿아 서 있다, 뚜렷이 다르지만 함께 있다, 건축 사진."
+       }
       },
       {
        "n": 28,
        "en": "Confrontation",
        "ko": "대치",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k28.webp",
+        "thumb": "img/concept_encyclopedia/tk28.webp",
+        "prompt": "Two buildings of opposite character facing each other directly across a narrow plaza, one dark heavy stone, one light and white, architectural photography.",
+        "promptKo": "성격이 정반대인 두 건물이 좁은 광장을 사이에 두고 정면으로 마주 본다, 하나는 어둡고 무거운 돌, 하나는 밝고 흰색, 건축 사진."
+       }
       },
       {
        "n": 29,
        "en": "Buffer",
        "ko": "완충",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k29.webp",
+        "thumb": "img/concept_encyclopedia/tk29.webp",
+        "prompt": "A planted green strip and a shaded colonnade forming a soft buffer between a street and a building entrance, architectural photography.",
+        "promptKo": "거리와 건물 입구 사이에서 부드러운 완충이 되는 식재 녹지 띠와 그늘진 열주랑, 건축 사진."
+       }
       },
       {
        "n": 30,
        "en": "Infiltration",
        "ko": "침투",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k30.webp",
+        "thumb": "img/concept_encyclopedia/tk30.webp",
+        "prompt": "Garden plants, moss and daylight creeping into an interior through low floor-level openings, ferns spreading across the indoor floor, architectural photography.",
+        "promptKo": "바닥 높이의 낮은 개구부로 정원의 식물 · 이끼 · 햇빛이 실내로 스며든다, 실내 바닥으로 번져 가는 고사리, 건축 사진."
+       }
       }
      ],
      "note": "대지와 도시, 사람 사이의 끊임없는 대화와 관계 맺기 · 경계를 허물고 층위를 쌓아 만드는 공간의 심리적 완충 · 안팎이 뒤섞이며 발생하는 유기적인 소통의 메커니즘",
@@ -3471,70 +4227,130 @@ window.JARC_DATA = {
        "en": "Sequence",
        "ko": "시퀀스",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k31.webp",
+        "thumb": "img/concept_encyclopedia/tk31.webp",
+        "prompt": "One long view along a path that passes through a low dark gate, then a small bright court, then a tall hall, architectural photography.",
+        "promptKo": "낮고 어두운 문, 그다음 작고 밝은 마당, 그다음 높은 홀을 차례로 지나는 길을 길게 한눈에 본 모습, 건축 사진."
+       }
       },
       {
        "n": 32,
        "en": "Promenade",
        "ko": "산책로",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k32.webp",
+        "thumb": "img/concept_encyclopedia/tk32.webp",
+        "prompt": "A gently rising ramp winding through a white interior with a different view opening at each turn, people strolling, architectural photography.",
+        "promptKo": "흰 실내를 굽이도는 완만한 오름 경사로, 꺾일 때마다 다른 풍경이 열린다, 거니는 사람들, 건축 사진."
+       }
       },
       {
        "n": 33,
        "en": "Flow",
        "ko": "흐름",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k33.webp",
+        "thumb": "img/concept_encyclopedia/tk33.webp",
+        "prompt": "A lobby with curving walls and flowing floor lines that guide people smoothly like a river, motion-blurred figures, architectural photography.",
+        "promptKo": "휘어진 벽과 흐르는 바닥 선이 사람들을 강물처럼 매끄럽게 이끄는 로비, 움직임으로 흐려진 사람들, 건축 사진."
+       }
       },
       {
        "n": 34,
        "en": "Velocity",
        "ko": "속도",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k34.webp",
+        "thumb": "img/concept_encyclopedia/tk34.webp",
+        "prompt": "A long station concourse with motion-blurred people rushing through, strong linear ceiling lines, a sense of speed, architectural photography.",
+        "promptKo": "사람들이 흐릿하게 바삐 지나가는 긴 역 콘코스, 강한 직선의 천장 선, 속도감, 건축 사진."
+       }
       },
       {
        "n": 35,
        "en": "Directionality",
        "ko": "방향성",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k35.webp",
+        "thumb": "img/concept_encyclopedia/tk35.webp",
+        "prompt": "A wedge-shaped hall whose converging walls and ceiling beams all point toward one bright opening, architectural photography.",
+        "promptKo": "모여드는 벽과 천장 보가 모두 밝은 개구부 하나를 가리키는 쐐기꼴 홀, 건축 사진."
+       }
       },
       {
        "n": 36,
        "en": "Node",
        "ko": "결절점",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k36.webp",
+        "thumb": "img/concept_encyclopedia/tk36.webp",
+        "prompt": "An interior crossroads where four corridors meet under a skylight, people pausing and a bench in the middle, architectural photography.",
+        "promptKo": "천창 아래 네 복도가 만나는 실내 교차점, 멈춰 선 사람들과 가운데의 벤치, 건축 사진."
+       }
       },
       {
        "n": 37,
        "en": "Verticality",
        "ko": "수직성",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k37.webp",
+        "thumb": "img/concept_encyclopedia/tk37.webp",
+        "prompt": "A very tall narrow shaft of space with slender vertical columns and slits, seen looking straight up, architectural photography.",
+        "promptKo": "가느다란 수직 기둥과 틈이 있는 아주 높고 좁은 수직 공간, 바로 위로 올려다본 모습, 건축 사진."
+       }
       },
       {
        "n": 38,
        "en": "Horizontality",
        "ko": "수평성",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k38.webp",
+        "thumb": "img/concept_encyclopedia/tk38.webp",
+        "prompt": "A long low building with a deep overhanging flat roof stretching across a flat open landscape, architectural photography.",
+        "promptKo": "깊게 내민 평지붕의 길고 낮은 건물이 평평하고 탁 트인 풍경을 가로질러 뻗어 있다, 건축 사진."
+       }
       },
       {
        "n": 39,
        "en": "Spiral",
        "ko": "나선",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k39.webp",
+        "thumb": "img/concept_encyclopedia/tk39.webp",
+        "prompt": "A spiral ramp winding up around a circular atrium, seen from above, architectural photography.",
+        "promptKo": "둥근 아트리움을 감아 오르는 나선 경사로, 위에서 본 모습, 건축 사진."
+       }
       },
       {
        "n": 40,
        "en": "Continuity",
        "ko": "연속성",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k40.webp",
+        "thumb": "img/concept_encyclopedia/tk40.webp",
+        "prompt": "A single continuous ribbon surface that folds from floor to wall to ceiling without a break, architectural photography.",
+        "promptKo": "바닥에서 벽으로, 벽에서 천장으로 끊김 없이 접혀 이어지는 한 장의 연속된 띠 면, 건축 사진."
+       }
       }
      ],
      "note": "보행자의 발걸음에 따라 영화처럼 펼쳐지는 공간 서사 · 속도와 방향을 조절하여 정적인 매스에 부여하는 리듬 · 시간의 흐름 속에서 완성되는 건축적 산책로의 매력",
@@ -3559,70 +4375,130 @@ window.JARC_DATA = {
        "en": "Tectonics",
        "ko": "구축성",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k41.webp",
+        "thumb": "img/concept_encyclopedia/tk41.webp",
+        "prompt": "Close view of an exposed timber joint where a beam meets a column with steel connectors, how it is put together clearly visible, architectural photography.",
+        "promptKo": "보와 기둥이 철물로 만나는 드러난 목재 접합부의 가까운 뷰, 어떻게 짜 맞췄는지 또렷이 보인다, 건축 사진."
+       }
       },
       {
        "n": 42,
        "en": "Cantilever",
        "ko": "돌출",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k42.webp",
+        "thumb": "img/concept_encyclopedia/tk42.webp",
+        "prompt": "A long box volume projecting far out over a hillside with no support beneath it, architectural photography.",
+        "promptKo": "아래에 받침 없이 언덕 비탈 위로 멀리 내민 긴 상자 볼륨, 건축 사진."
+       }
       },
       {
        "n": 43,
        "en": "Hierarchy",
        "ko": "위계",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k43.webp",
+        "thumb": "img/concept_encyclopedia/tk43.webp",
+        "prompt": "A roof structure seen from below with a clear order: large primary beams, smaller secondary beams, thin rafters, architectural photography.",
+        "promptKo": "아래에서 본 지붕 구조, 순서가 분명하다: 큰 주보, 더 작은 작은보, 가는 서까래, 건축 사진."
+       }
       },
       {
        "n": 44,
        "en": "Module",
        "ko": "모듈",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k44.webp",
+        "thumb": "img/concept_encyclopedia/tk44.webp",
+        "prompt": "A building facade made of clearly visible identical modular units fitted together like a honeycomb, architectural photography.",
+        "promptKo": "똑같은 모듈 단위가 벌집처럼 맞물린 것이 또렷이 보이는 건물 파사드, 건축 사진."
+       }
       },
       {
        "n": 45,
        "en": "Grid",
        "ko": "그리드",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k45.webp",
+        "thumb": "img/concept_encyclopedia/tk45.webp",
+        "prompt": "A regular open concrete column-and-beam grid frame of a building, seen frontally, architectural photography.",
+        "promptKo": "정면에서 본, 건물의 규칙적이고 열린 콘크리트 기둥 · 보 그리드 뼈대, 건축 사진."
+       }
       },
       {
        "n": 46,
        "en": "Tension",
        "ko": "인장",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k46.webp",
+        "thumb": "img/concept_encyclopedia/tk46.webp",
+        "prompt": "A lightweight white tensile fabric roof held taut by steel cables and masts, architectural photography.",
+        "promptKo": "강철 케이블과 마스트로 팽팽히 당겨 세운 가볍고 흰 인장 막 지붕, 건축 사진."
+       }
       },
       {
        "n": 47,
        "en": "Compression",
        "ko": "압축",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k47.webp",
+        "thumb": "img/concept_encyclopedia/tk47.webp",
+        "prompt": "Massive stone arches and thick piers carrying a heavy vault, the weight pressing down visibly, architectural photography.",
+        "promptKo": "무거운 볼트를 떠받치는 육중한 석조 아치와 두꺼운 교각, 내리누르는 무게가 눈에 보인다, 건축 사진."
+       }
       },
       {
        "n": 48,
        "en": "Lightness",
        "ko": "경량",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k48.webp",
+        "thumb": "img/concept_encyclopedia/tk48.webp",
+        "prompt": "A thin white roof resting on very slender columns, almost weightless, with clear glass walls, architectural photography.",
+        "promptKo": "아주 가는 기둥 위에 얹힌 얇고 흰 지붕, 거의 무게가 없는 듯하다, 맑은 유리벽, 건축 사진."
+       }
       },
       {
        "n": 49,
        "en": "Heaviness",
        "ko": "중량",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k49.webp",
+        "thumb": "img/concept_encyclopedia/tk49.webp",
+        "prompt": "A massive thick-walled concrete building pressing heavily into the ground, with only a few small deep openings, architectural photography.",
+        "promptKo": "땅을 무겁게 내리누르는 육중하고 벽이 두꺼운 콘크리트 건물, 작고 깊은 개구부 몇 개뿐, 건축 사진."
+       }
       },
       {
        "n": 50,
        "en": "Repetition",
        "ko": "반복",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k50.webp",
+        "thumb": "img/concept_encyclopedia/tk50.webp",
+        "prompt": "A long colonnade of identical columns receding in perspective, architectural photography.",
+        "promptKo": "똑같은 기둥이 원근을 따라 멀어지는 긴 열주랑, 건축 사진."
+       }
       }
      ],
      "note": "중력을 거스르거나 순응하며 실현되는 구조적 지혜 · 그리드와 모듈을 통해 구축한 질서와 물리적 안정감 · 부재의 결합 방식이 곧 디자인이 되는 구축성의 미학",
@@ -3647,70 +4523,130 @@ window.JARC_DATA = {
        "en": "Context",
        "ko": "맥락",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k51.webp",
+        "thumb": "img/concept_encyclopedia/tk51.webp",
+        "prompt": "A new brick building filling a gap in an old street, matching the height, window rhythm and material of its neighbors, architectural photography.",
+        "promptKo": "오래된 거리의 빈자리를 채운 새 벽돌 건물, 이웃 건물의 높이 · 창의 리듬 · 재료를 따랐다, 건축 사진."
+       }
       },
       {
        "n": 52,
        "en": "Topography",
        "ko": "지형",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k52.webp",
+        "thumb": "img/concept_encyclopedia/tk52.webp",
+        "prompt": "Aerial view of a terraced building stepping down a steep slope along the contour lines, architectural photography.",
+        "promptKo": "등고선을 따라 가파른 비탈을 계단처럼 내려가는 테라스형 건물의 조감, 건축 사진."
+       }
       },
       {
        "n": 53,
        "en": "Genius Loci",
        "ko": "장소성",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k53.webp",
+        "thumb": "img/concept_encyclopedia/tk53.webp",
+        "prompt": "A small stone chapel on a windswept coastal cliff, built from the same rock as the cliff, belonging entirely to its place, architectural photography.",
+        "promptKo": "바람 센 해안 절벽 위의 작은 돌 예배당, 절벽과 같은 바위로 지어 그 장소에 온전히 속해 있다, 건축 사진."
+       }
       },
       {
        "n": 54,
        "en": "Orientation",
        "ko": "향",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k54.webp",
+        "thumb": "img/concept_encyclopedia/tk54.webp",
+        "prompt": "A house with large south-facing glazing catching the low sun and a closed north wall, long shadows showing the direction of the sun, architectural photography.",
+        "promptKo": "낮은 해를 받는 큰 남쪽 유리창과 닫힌 북쪽 벽의 집, 긴 그림자가 해의 방향을 알려 준다, 건축 사진."
+       }
       },
       {
        "n": 55,
        "en": "Response to Site",
        "ko": "대지와의 조응",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k55.webp",
+        "thumb": "img/concept_encyclopedia/tk55.webp",
+        "prompt": "A house whose plan bends around a large old tree and boulders, leaving them untouched, architectural photography.",
+        "promptKo": "크고 오래된 나무와 바위를 건드리지 않고 그 둘레로 평면이 꺾여 돌아가는 집, 건축 사진."
+       }
       },
       {
        "n": 56,
        "en": "Urban Trace",
        "ko": "도시의 흔적",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k56.webp",
+        "thumb": "img/concept_encyclopedia/tk56.webp",
+        "prompt": "A new plaza where old foundation walls and the lines of former streets are kept in the paving, ruins visible under glass, architectural photography.",
+        "promptKo": "옛 기초벽과 사라진 옛길의 선을 포장에 남겨 둔 새 광장, 유리 아래로 보이는 유적, 건축 사진."
+       }
       },
       {
        "n": 57,
        "en": "View",
        "ko": "조망",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k57.webp",
+        "thumb": "img/concept_encyclopedia/tk57.webp",
+        "prompt": "A hilltop house with a long panoramic window and terrace overlooking the sea, architectural photography.",
+        "promptKo": "바다를 내려다보는 긴 파노라마 창과 테라스가 있는 언덕 위의 집, 건축 사진."
+       }
       },
       {
        "n": 58,
        "en": "Borrowing Scenery",
        "ko": "차경",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k58.webp",
+        "thumb": "img/concept_encyclopedia/tk58.webp",
+        "prompt": "A traditional room with sliding doors wide open, the garden and a distant mountain composed as part of the room, architectural photography.",
+        "promptKo": "미닫이문을 활짝 연 전통 방, 정원과 먼 산이 방의 일부처럼 구성되어 들어온다, 건축 사진."
+       }
       },
       {
        "n": 59,
        "en": "Framing",
        "ko": "프레임",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k59.webp",
+        "thumb": "img/concept_encyclopedia/tk59.webp",
+        "prompt": "A concrete frame portal standing outdoors, precisely framing a single tree and the horizon, architectural photography.",
+        "promptKo": "야외에 선 콘크리트 틀 문, 나무 한 그루와 지평선을 정확히 액자처럼 담는다, 건축 사진."
+       }
       },
       {
        "n": 60,
        "en": "Ground Level",
        "ko": "접지층",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k60.webp",
+        "thumb": "img/concept_encyclopedia/tk60.webp",
+        "prompt": "Street-level view of the open ground floor of a building: transparent shopfronts with blank signs, an arcade, people moving in and out, architectural photography.",
+        "promptKo": "건물의 열린 1층을 거리 높이에서 본 모습: 글자 없는 간판의 투명한 가게 앞, 아케이드, 드나드는 사람들, 건축 사진."
+       }
       }
      ],
      "note": "땅의 굴곡을 존중하고 장소성을 건축적 언어로 번역 · 프레임과 차경을 통해 대지 환경과 유기적으로 조응 · 건축물이 그 장소에 존재해야만 하는 필연성의 부여",
@@ -3735,63 +4671,117 @@ window.JARC_DATA = {
        "en": "Phenomenology",
        "ko": "현상학",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k61.webp",
+        "thumb": "img/concept_encyclopedia/tk61.webp",
+        "prompt": "A bare room where a beam of sunlight shows drifting dust, a hand touching a rough plaster wall, the grain of the wooden floor almost felt, architectural photography.",
+        "promptKo": "햇살 한 줄기 속에 떠다니는 먼지가 보이는 빈방, 거친 회벽을 만지는 손, 손끝에 느껴질 듯한 나무 바닥의 결, 건축 사진."
+       }
       },
       {
        "n": 62,
        "en": "Transparency",
        "ko": "투명성",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k62.webp",
+        "thumb": "img/concept_encyclopedia/tk62.webp",
+        "prompt": "A fully clear glass house in a forest, the trees visible straight through it, architectural photography.",
+        "promptKo": "숲속의 완전히 투명한 유리 집, 집을 통과해 나무가 그대로 보인다, 건축 사진."
+       }
       },
       {
        "n": 63,
        "en": "Translucency",
        "ko": "반투명",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k63.webp",
+        "thumb": "img/concept_encyclopedia/tk63.webp",
+        "prompt": "A building wrapped in milky translucent glass at dusk, the soft silhouettes of people glowing behind it, architectural photography.",
+        "promptKo": "해 질 녘, 젖빛 반투명 유리로 감싼 건물, 그 뒤에서 은은히 빛나는 사람들의 부드러운 실루엣, 건축 사진."
+       }
       },
       {
        "n": 64,
        "en": "Opacity",
        "ko": "불투명",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k64.webp",
+        "thumb": "img/concept_encyclopedia/tk64.webp",
+        "prompt": "A completely closed windowless dark brick volume that reveals nothing of its interior, architectural photography.",
+        "promptKo": "창 하나 없이 완전히 닫혀 안을 전혀 드러내지 않는 어두운 벽돌 볼륨, 건축 사진."
+       }
       },
       {
        "n": 65,
        "en": "Shadow",
        "ko": "그림자",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k65.webp",
+        "thumb": "img/concept_encyclopedia/tk65.webp",
+        "prompt": "A white wall covered with the sharp shadow pattern of a perforated screen and tree branches, architectural photography.",
+        "promptKo": "타공 스크린과 나뭇가지의 날카로운 그림자 무늬로 덮인 흰 벽, 건축 사진."
+       }
       },
       {
        "n": 66,
        "en": "Reflection",
        "ko": "반영",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k66.webp",
+        "thumb": "img/concept_encyclopedia/tk66.webp",
+        "prompt": "A pavilion with a mirrored facade reflecting the surrounding forest so that it almost disappears, architectural photography.",
+        "promptKo": "거울 파사드가 주변 숲을 비춰 거의 사라진 듯 보이는 파빌리온, 건축 사진."
+       }
       },
       {
        "n": 67,
        "en": "Refraction",
        "ko": "굴절",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k67.webp",
+        "thumb": "img/concept_encyclopedia/tk67.webp",
+        "prompt": "Sunlight passing through a wall of thick glass blocks, bending and splitting into bright caustic patterns and small rainbows on the floor, architectural photography.",
+        "promptKo": "두꺼운 유리 블록 벽을 지나는 햇빛, 굴절되고 갈라져 바닥에 밝은 물결 무늬와 작은 무지개를 만든다, 건축 사진."
+       }
       },
       {
        "n": 68,
        "en": "Silence",
        "ko": "침묵",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k68.webp",
+        "thumb": "img/concept_encyclopedia/tk68.webp",
+        "prompt": "An empty chapel with a single bench, bare walls and soft light from above, completely still, architectural photography.",
+        "promptKo": "벤치 하나 · 빈 벽 · 위에서 내리는 부드러운 빛뿐인 텅 빈 예배당, 완전히 고요하다, 건축 사진."
+       }
       },
       {
        "n": 69,
        "en": "Texture",
        "ko": "질감",
        "desc": "",
-       "src": ""
+       "src": "",
+       "ex": {
+        "img": "img/concept_encyclopedia/k69.webp",
+        "thumb": "img/concept_encyclopedia/tk69.webp",
+        "prompt": "Close view of a rough board-formed concrete wall beside hand-troweled plaster, raking light showing every ridge, architectural photography.",
+        "promptKo": "손으로 흙손질한 미장 옆의 거친 송판 무늬 콘크리트 벽의 가까운 뷰, 비껴 드는 빛이 요철 하나하나를 드러낸다, 건축 사진."
+       }
       },
       {
        "n": 70,
@@ -4072,7 +5062,7 @@ window.JARC_DATA = {
     }
    ],
    "cardPreview": true,
-   "examples": 0
+   "examples": 68
   },
   "interior_styles": {
    "slug": "interior_styles",
