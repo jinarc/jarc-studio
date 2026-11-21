@@ -145,6 +145,17 @@
     ]);
   }
 
+  /** 색과 스타일을 입힌 예시 그림 (승인된 것만 있다). 누르면 크게 보고 프롬프트를 복사한다. */
+  function paletteExample(item) {
+    if (!item.ex) return null;
+    const show = () => lightbox.open({ src: item.ex.img, alt: `${item.title} 색조합 예시 그림`, label: '색 · 스타일 예시', title: item.title, sub: item.sub, prompt: item.ex.prompt, promptKo: item.ex.promptKo, promptLabel: '이 그림을 만든 프롬프트' });
+    return el('button', { class: 'prow__ex', type: 'button', title: '예시 그림 크게 보기 · 프롬프트', onclick: show }, [
+      el('img', { src: item.ex.thumb, alt: `${item.title} 색조합 예시 그림`, loading: 'lazy', width: 600, height: 750 }),
+      el('span', { class: 'prow__strip' }, item.list.map((c) => el('i', { bg: c.hex }))),
+      el('span', { class: 'label', text: '색 · 스타일 예시 — 크게 보기' }),
+    ]);
+  }
+
   function palette(topic) {
     const blocks = []; let group = '';
     topic.items.forEach((item) => {
@@ -157,6 +168,7 @@
           el('h2', { class: 'prow__name', id: `arch-${item.no}`, text: item.title }),
           item.sub ? el('p', { class: 'prow__theme', text: item.sub }) : null,
           el('p', { class: 'label', text: item.tags.join('  ') }),
+          paletteExample(item),
         ]),
         el('div', { class: 'prow__colors' }, [
           el('div', { class: 'swatches' }, item.list.map(swatch)),

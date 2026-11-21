@@ -4,7 +4,7 @@ window.JARC_DATA = {
   "built": "2026-11-21",
   "cards": 211,
   "prompts": 61,
-  "newImages": 524
+  "newImages": 554
  },
  "groups": [
   {
@@ -11768,17 +11768,35 @@ window.JARC_DATA = {
       {
        "n": 1,
        "en": "",
-       "ko": "유기적 곡선"
+       "ko": "유기적 곡선",
+       "ex": {
+        "img": "img/facade_eras/k01.webp",
+        "thumb": "img/facade_eras/tk01.webp",
+        "prompt": "Street-level view of the facade of a five-storey city building, seen at a slight angle, soft overcast daylight, plain ground floor without shop signs, an Art Nouveau facade from around 1900: window frames, balconies and the roofline flowing in soft organic curves with no straight lines, architectural photography.",
+        "promptKo": "도시의 다섯 층 건물 파사드를 길에서 살짝 비스듬히 본 모습, 흐린 날의 부드러운 빛, 간판 없는 1층, 1900년 무렵의 아르누보 파사드: 창틀 · 발코니 · 지붕선이 직선 없이 부드러운 유기적 곡선으로 흐른다, 건축 사진."
+       }
       },
       {
        "n": 2,
        "en": "",
-       "ko": "자연 모티프"
+       "ko": "자연 모티프",
+       "ex": {
+        "img": "img/facade_eras/k02.webp",
+        "thumb": "img/facade_eras/tk02.webp",
+        "prompt": "Street-level view of the facade of a five-storey city building, seen at a slight angle, soft overcast daylight, plain ground floor without shop signs, an Art Nouveau facade from around 1900: carved stone flowers, leaves and vines growing around the windows and doors, architectural photography.",
+        "promptKo": "도시의 다섯 층 건물 파사드를 길에서 살짝 비스듬히 본 모습, 흐린 날의 부드러운 빛, 간판 없는 1층, 1900년 무렵의 아르누보 파사드: 창과 문 둘레를 따라 돌에 새긴 꽃 · 잎 · 덩굴 장식, 건축 사진."
+       }
       },
       {
        "n": 3,
        "en": "",
-       "ko": "수공예 타일"
+       "ko": "수공예 타일",
+       "ex": {
+        "img": "img/facade_eras/k03.webp",
+        "thumb": "img/facade_eras/tk03.webp",
+        "prompt": "Street-level view of the facade of a five-storey city building, seen at a slight angle, soft overcast daylight, plain ground floor without shop signs, an Art Nouveau facade from around 1900: walls covered in hand-made glazed ceramic tiles in blues and greens with floral patterns, architectural photography.",
+        "promptKo": "도시의 다섯 층 건물 파사드를 길에서 살짝 비스듬히 본 모습, 흐린 날의 부드러운 빛, 간판 없는 1층, 1900년 무렵의 아르누보 파사드: 파랑 · 초록의 꽃무늬 수공예 유약 타일이 벽을 덮는다, 건축 사진."
+       }
       }
      ],
      "note": "파사드가 꽃이 되던 시대. 직선을 거부하고 식물의 줄기와 꽃잎을 건물 외피에 새겨 넣었다. 장식 자체가 구조였고, 구조 자체가 예술이었다.",
@@ -11805,17 +11823,35 @@ window.JARC_DATA = {
       {
        "n": 4,
        "en": "",
-       "ko": "수직성 강조"
+       "ko": "수직성 강조",
+       "ex": {
+        "img": "img/facade_eras/k04.webp",
+        "thumb": "img/facade_eras/tk04.webp",
+        "prompt": "Street-level view of the facade of a five-storey city building, seen at a slight angle, soft overcast daylight, plain ground floor without shop signs, an Art Deco facade from the 1920s: tall continuous vertical piers rising from the street up to a stepped top, recessed windows between them, architectural photography.",
+        "promptKo": "도시의 다섯 층 건물 파사드를 길에서 살짝 비스듬히 본 모습, 흐린 날의 부드러운 빛, 간판 없는 1층, 1920년대의 아르데코 파사드: 길에서 계단형 꼭대기까지 끊김 없이 솟는 수직 기둥 띠, 그 사이에 쑥 들어간 창, 건축 사진."
+       }
       },
       {
        "n": 5,
        "en": "",
-       "ko": "기하학 패턴"
+       "ko": "기하학 패턴",
+       "ex": {
+        "img": "img/facade_eras/k05.webp",
+        "thumb": "img/facade_eras/tk05.webp",
+        "prompt": "Street-level view of the facade of a five-storey city building, seen at a slight angle, soft overcast daylight, plain ground floor without shop signs, an Art Deco facade from the 1920s: bold zigzag, chevron and sunburst geometric patterns in the stone panels above and between the windows, architectural photography.",
+        "promptKo": "도시의 다섯 층 건물 파사드를 길에서 살짝 비스듬히 본 모습, 흐린 날의 부드러운 빛, 간판 없는 1층, 1920년대의 아르데코 파사드: 창 위와 사이 석재 판에 새긴 지그재그 · 셰브론 · 햇살 모양의 굵은 기하학 무늬, 건축 사진."
+       }
       },
       {
        "n": 6,
        "en": "",
-       "ko": "금속 장식"
+       "ko": "금속 장식",
+       "ex": {
+        "img": "img/facade_eras/k06.webp",
+        "thumb": "img/facade_eras/tk06.webp",
+        "prompt": "Street-level view of the facade of a five-storey city building, seen at a slight angle, soft overcast daylight, plain ground floor without shop signs, an Art Deco facade from the 1920s: polished stainless steel and brass ornaments, metal panels between the windows and a gleaming metal-framed entrance, architectural photography.",
+        "promptKo": "도시의 다섯 층 건물 파사드를 길에서 살짝 비스듬히 본 모습, 흐린 날의 부드러운 빛, 간판 없는 1층, 1920년대의 아르데코 파사드: 광택 나는 스테인리스 · 황동 장식, 창 사이의 금속 판, 반짝이는 금속 틀 출입구, 건축 사진."
+       }
       }
      ],
      "note": "산업혁명 이후 기계의 정밀함을 건축에 담았다. 수직으로 솟구치는 선, 금속의 광택, 기하학적 패턴. 마천루의 시대가 열렸다.",
@@ -11842,17 +11878,35 @@ window.JARC_DATA = {
       {
        "n": 7,
        "en": "",
-       "ko": "수평창"
+       "ko": "수평창",
+       "ex": {
+        "img": "img/facade_eras/k07.webp",
+        "thumb": "img/facade_eras/tk07.webp",
+        "prompt": "Street-level view of the facade of a five-storey city building, seen at a slight angle, soft overcast daylight, plain ground floor without shop signs, a Modernist facade from the 1930s to 1950s: long continuous horizontal ribbon windows running the full width of each floor across smooth walls, architectural photography.",
+        "promptKo": "도시의 다섯 층 건물 파사드를 길에서 살짝 비스듬히 본 모습, 흐린 날의 부드러운 빛, 간판 없는 1층, 1930~50년대의 모더니즘 파사드: 매끈한 벽을 가로질러 층마다 끝에서 끝까지 이어지는 긴 띠창, 건축 사진."
+       }
       },
       {
        "n": 8,
        "en": "",
-       "ko": "필로티"
+       "ko": "필로티",
+       "ex": {
+        "img": "img/facade_eras/k08.webp",
+        "thumb": "img/facade_eras/tk08.webp",
+        "prompt": "Street-level view of the facade of a five-storey city building, seen at a slight angle, soft overcast daylight, plain ground floor without shop signs, a Modernist facade from the 1930s to 1950s: the whole building lifted off the ground on slender round columns, an open shaded space beneath it, architectural photography.",
+        "promptKo": "도시의 다섯 층 건물 파사드를 길에서 살짝 비스듬히 본 모습, 흐린 날의 부드러운 빛, 간판 없는 1층, 1930~50년대의 모더니즘 파사드: 건물 전체가 가는 원기둥 위에 들려 있고, 그 아래가 그늘진 빈 공간으로 열려 있다, 건축 사진."
+       }
       },
       {
        "n": 9,
        "en": "",
-       "ko": "백색 벽면"
+       "ko": "백색 벽면",
+       "ex": {
+        "img": "img/facade_eras/k09.webp",
+        "thumb": "img/facade_eras/tk09.webp",
+        "prompt": "Street-level view of the facade of a five-storey city building, seen at a slight angle, soft overcast daylight, plain ground floor without shop signs, a Modernist facade from the 1930s to 1950s: plain smooth white rendered walls with no ornament at all, crisp shadows, architectural photography.",
+        "promptKo": "도시의 다섯 층 건물 파사드를 길에서 살짝 비스듬히 본 모습, 흐린 날의 부드러운 빛, 간판 없는 1층, 1930~50년대의 모더니즘 파사드: 장식이 전혀 없는 매끈한 흰 회반죽 벽, 또렷한 그림자, 건축 사진."
+       }
       }
      ],
      "note": "\"장식은 죄악이다.\" 아돌프 로스의 선언 이후, 파사드에서 모든 장식이 사라졌다. 유리와 철골만 남았고, 그것이 오히려 새로운 아름다움이 됐다.",
@@ -11879,17 +11933,35 @@ window.JARC_DATA = {
       {
        "n": 10,
        "en": "",
-       "ko": "노출콘크리트"
+       "ko": "노출콘크리트",
+       "ex": {
+        "img": "img/facade_eras/k10.webp",
+        "thumb": "img/facade_eras/tk10.webp",
+        "prompt": "Street-level view of the facade of a five-storey city building, seen at a slight angle, soft overcast daylight, plain ground floor without shop signs, a Brutalist facade from the 1950s to 1960s: raw board-marked concrete left exposed everywhere, the wood grain of the formwork visible, architectural photography.",
+        "promptKo": "도시의 다섯 층 건물 파사드를 길에서 살짝 비스듬히 본 모습, 흐린 날의 부드러운 빛, 간판 없는 1층, 1950~60년대의 브루탈리즘 파사드: 어디에나 그대로 드러낸 송판 무늬 노출 콘크리트, 거푸집 나뭇결이 보인다, 건축 사진."
+       }
       },
       {
        "n": 11,
        "en": "",
-       "ko": "육중한 매스"
+       "ko": "육중한 매스",
+       "ex": {
+        "img": "img/facade_eras/k11.webp",
+        "thumb": "img/facade_eras/tk11.webp",
+        "prompt": "Street-level view of the facade of a five-storey city building, seen at a slight angle, soft overcast daylight, plain ground floor without shop signs, a Brutalist facade from the 1950s to 1960s: massive heavy concrete volumes stacked and cantilevered over the street, small deep-set windows, architectural photography.",
+        "promptKo": "도시의 다섯 층 건물 파사드를 길에서 살짝 비스듬히 본 모습, 흐린 날의 부드러운 빛, 간판 없는 1층, 1950~60년대의 브루탈리즘 파사드: 육중한 콘크리트 덩어리가 쌓이고 길 위로 캔틸레버로 튀어나온다, 깊이 박힌 작은 창, 건축 사진."
+       }
       },
       {
        "n": 12,
        "en": "",
-       "ko": "거친 표면"
+       "ko": "거친 표면",
+       "ex": {
+        "img": "img/facade_eras/k12.webp",
+        "thumb": "img/facade_eras/tk12.webp",
+        "prompt": "Street-level view of the facade of a five-storey city building, seen at a slight angle, soft overcast daylight, plain ground floor without shop signs, a Brutalist facade from the 1950s to 1960s: rough bush-hammered concrete surfaces with exposed aggregate and coarse vertical ribs, clearly visible, architectural photography.",
+        "promptKo": "도시의 다섯 층 건물 파사드를 길에서 살짝 비스듬히 본 모습, 흐린 날의 부드러운 빛, 간판 없는 1층, 1950~60년대의 브루탈리즘 파사드: 골재가 드러나고 굵은 세로 골이 진 거친 잔다듬 콘크리트 면이 또렷하게 보인다, 건축 사진."
+       }
       }
      ],
      "note": "전후 재건의 시대, 값비싼 재료를 살 여유가 없었다. 그래서 콘크리트를 그대로 드러냈다. 거칠고 묵직한 그 솔직함이 하나의 미학이 됐다.",
@@ -11916,17 +11988,35 @@ window.JARC_DATA = {
       {
        "n": 13,
        "en": "",
-       "ko": "캡슐 유닛"
+       "ko": "캡슐 유닛",
+       "ex": {
+        "img": "img/facade_eras/k13.webp",
+        "thumb": "img/facade_eras/tk13.webp",
+        "prompt": "Street-level view of the facade of a five-storey city building, seen at a slight angle, soft overcast daylight, plain ground floor without shop signs, a Metabolist facade from the 1960s to 1970s: prefabricated box-shaped capsule units with round windows plugged onto a central concrete core, architectural photography.",
+        "promptKo": "도시의 다섯 층 건물 파사드를 길에서 살짝 비스듬히 본 모습, 흐린 날의 부드러운 빛, 간판 없는 1층, 1960~70년대의 메타볼리즘 파사드: 둥근 창이 달린 공장 제작 상자형 캡슐 유닛이 가운데 콘크리트 코어에 꽂혀 있다, 건축 사진."
+       }
       },
       {
        "n": 14,
        "en": "",
-       "ko": "모듈 반복"
+       "ko": "모듈 반복",
+       "ex": {
+        "img": "img/facade_eras/k14.webp",
+        "thumb": "img/facade_eras/tk14.webp",
+        "prompt": "Street-level view of the facade of a five-storey city building, seen at a slight angle, soft overcast daylight, plain ground floor without shop signs, a Metabolist facade from the 1960s to 1970s: identical modular units repeated in a regular grid, some pushed out, like cells that could be added or replaced, architectural photography.",
+        "promptKo": "도시의 다섯 층 건물 파사드를 길에서 살짝 비스듬히 본 모습, 흐린 날의 부드러운 빛, 간판 없는 1층, 1960~70년대의 메타볼리즘 파사드: 똑같은 모듈 유닛이 규칙적인 격자로 되풀이되고, 일부는 밖으로 내밀어 덧붙이거나 갈아 끼울 수 있는 세포처럼 보인다, 건축 사진."
+       }
       },
       {
        "n": 15,
        "en": "",
-       "ko": "기계 미학"
+       "ko": "기계 미학",
+       "ex": {
+        "img": "img/facade_eras/k15.webp",
+        "thumb": "img/facade_eras/tk15.webp",
+        "prompt": "Street-level view of the facade of a five-storey city building, seen at a slight angle, soft overcast daylight, plain ground floor without shop signs, a Metabolist facade from the 1960s to 1970s: exposed steel frames, pipes, bolts and metal service ducts shown openly on the facade, architectural photography.",
+        "promptKo": "도시의 다섯 층 건물 파사드를 길에서 살짝 비스듬히 본 모습, 흐린 날의 부드러운 빛, 간판 없는 1층, 1960~70년대의 메타볼리즘 파사드: 드러낸 철골 · 배관 · 볼트 · 금속 설비 덕트가 파사드에 그대로 보인다, 건축 사진."
+       }
       }
      ],
      "note": "일본 건축가들이 꿈꾼 미래. 세포처럼 증식하고 교체되는 건축. 캡슐 형태의 유닛이 중앙 코어에 붙고 떼어지는 유기체 같은 파사드.",
@@ -11953,17 +12043,35 @@ window.JARC_DATA = {
       {
        "n": 16,
        "en": "",
-       "ko": "역사적 인용"
+       "ko": "역사적 인용",
+       "ex": {
+        "img": "img/facade_eras/k16.webp",
+        "thumb": "img/facade_eras/tk16.webp",
+        "prompt": "Street-level view of the facade of a five-storey city building, seen at a slight angle, soft overcast daylight, plain ground floor without shop signs, a Postmodern facade from the 1970s to 1980s: a giant classical pediment, columns and a big arched entrance applied to a modern office block, architectural photography.",
+        "promptKo": "도시의 다섯 층 건물 파사드를 길에서 살짝 비스듬히 본 모습, 흐린 날의 부드러운 빛, 간판 없는 1층, 1970~80년대의 포스트모더니즘 파사드: 현대 사무 건물에 붙인 거대한 고전 페디먼트 · 기둥 · 큰 아치 출입구, 건축 사진."
+       }
       },
       {
        "n": 17,
        "en": "",
-       "ko": "과장된 장식"
+       "ko": "과장된 장식",
+       "ex": {
+        "img": "img/facade_eras/k17.webp",
+        "thumb": "img/facade_eras/tk17.webp",
+        "prompt": "Street-level view of the facade of a five-storey city building, seen at a slight angle, soft overcast daylight, plain ground floor without shop signs, a Postmodern facade from the 1970s to 1980s: oversized playful ornaments: huge keystones, cartoon-like cornices and exaggerated mouldings, architectural photography.",
+        "promptKo": "도시의 다섯 층 건물 파사드를 길에서 살짝 비스듬히 본 모습, 흐린 날의 부드러운 빛, 간판 없는 1층, 1970~80년대의 포스트모더니즘 파사드: 지나치게 큰 장난스러운 장식 — 커다란 쐐기돌, 만화 같은 처마 돌림띠, 과장된 몰딩, 건축 사진."
+       }
       },
       {
        "n": 18,
        "en": "",
-       "ko": "색채 사용"
+       "ko": "색채 사용",
+       "ex": {
+        "img": "img/facade_eras/k18.webp",
+        "thumb": "img/facade_eras/tk18.webp",
+        "prompt": "Street-level view of the facade of a five-storey city building, seen at a slight angle, soft overcast daylight, plain ground floor without shop signs, a Postmodern facade from the 1970s to 1980s: bold flat blocks of pink, turquoise and yellow paint across the facade, architectural photography.",
+        "promptKo": "도시의 다섯 층 건물 파사드를 길에서 살짝 비스듬히 본 모습, 흐린 날의 부드러운 빛, 간판 없는 1층, 1970~80년대의 포스트모더니즘 파사드: 분홍 · 청록 · 노랑의 굵은 면 색이 파사드 곳곳에 칠해져 있다, 건축 사진."
+       }
       }
      ],
      "note": "모더니즘의 금욕에 지친 건축가들이 역사를 다시 꺼내들었다. 고전의 기둥과 페디먼트가 현대 마천루 위에 올라갔다. 아이러니와 유머가 파사드가 됐다.",
@@ -11990,17 +12098,35 @@ window.JARC_DATA = {
       {
        "n": 19,
        "en": "",
-       "ko": "비정형 형태"
+       "ko": "비정형 형태",
+       "ex": {
+        "img": "img/facade_eras/k19.webp",
+        "thumb": "img/facade_eras/tk19.webp",
+        "prompt": "Street-level view of the facade of a five-storey city building, seen at a slight angle, soft overcast daylight, plain ground floor without shop signs, a Deconstructivist facade from the 1980s to 1990s: irregular twisting and leaning volumes with no right angles, the building looking as if it is breaking apart, architectural photography.",
+        "promptKo": "도시의 다섯 층 건물 파사드를 길에서 살짝 비스듬히 본 모습, 흐린 날의 부드러운 빛, 간판 없는 1층, 1980~90년대의 해체주의 파사드: 비틀리고 기울어진 불규칙한 덩어리, 직각이 없고 건물이 부서지는 듯 보인다, 건축 사진."
+       }
       },
       {
        "n": 20,
        "en": "",
-       "ko": "각도의 충돌"
+       "ko": "각도의 충돌",
+       "ex": {
+        "img": "img/facade_eras/k20.webp",
+        "thumb": "img/facade_eras/tk20.webp",
+        "prompt": "Street-level view of the facade of a five-storey city building, seen at a slight angle, soft overcast daylight, plain ground floor without shop signs, a Deconstructivist facade from the 1980s to 1990s: sharp wedge-shaped volumes and slanted planes colliding at clashing angles, architectural photography.",
+        "promptKo": "도시의 다섯 층 건물 파사드를 길에서 살짝 비스듬히 본 모습, 흐린 날의 부드러운 빛, 간판 없는 1층, 1980~90년대의 해체주의 파사드: 날카로운 쐐기 모양 덩어리와 기울어진 면들이 어긋난 각도로 부딪친다, 건축 사진."
+       }
       },
       {
        "n": 21,
        "en": "",
-       "ko": "분절된 외피"
+       "ko": "분절된 외피",
+       "ex": {
+        "img": "img/facade_eras/k21.webp",
+        "thumb": "img/facade_eras/tk21.webp",
+        "prompt": "Street-level view of the facade of a five-storey city building, seen at a slight angle, soft overcast daylight, plain ground floor without shop signs, a Deconstructivist facade from the 1980s to 1990s: the skin split into fragmented metal panels and shards, cut through by slashes of glass, architectural photography.",
+        "promptKo": "도시의 다섯 층 건물 파사드를 길에서 살짝 비스듬히 본 모습, 흐린 날의 부드러운 빛, 간판 없는 1층, 1980~90년대의 해체주의 파사드: 외피가 금속 판 조각과 파편으로 쪼개지고, 유리 틈이 비스듬히 그어 지나간다, 건축 사진."
+       }
       }
      ],
      "note": "규칙과 질서를 의도적으로 부수는 건축. 기울어진 벽, 충돌하는 형태, 예측 불가능한 파사드. 불안정해 보이는 것이 미학이었다.",
@@ -12027,17 +12153,35 @@ window.JARC_DATA = {
       {
        "n": 22,
        "en": "",
-       "ko": "알고리즘 형태"
+       "ko": "알고리즘 형태",
+       "ex": {
+        "img": "img/facade_eras/k22.webp",
+        "thumb": "img/facade_eras/tk22.webp",
+        "prompt": "Street-level view of the facade of a five-storey city building, seen at a slight angle, soft overcast daylight, plain ground floor without shop signs, a parametric facade from the 2000s: a smoothly flowing computer-generated form, the whole building one continuous curved surface, architectural photography.",
+        "promptKo": "도시의 다섯 층 건물 파사드를 길에서 살짝 비스듬히 본 모습, 흐린 날의 부드러운 빛, 간판 없는 1층, 2000년대의 파라메트릭 파사드: 컴퓨터로 만든 매끄럽게 흐르는 형태, 건물 전체가 하나로 이어진 곡면, 건축 사진."
+       }
       },
       {
        "n": 23,
        "en": "",
-       "ko": "패턴의 점진적 변화"
+       "ko": "패턴의 점진적 변화",
+       "ex": {
+        "img": "img/facade_eras/k23.webp",
+        "thumb": "img/facade_eras/tk23.webp",
+        "prompt": "Street-level view of the facade of a five-storey city building, seen at a slight angle, soft overcast daylight, plain ground floor without shop signs, a parametric facade from the 2000s: a perforated screen whose openings grow gradually larger from one side of the facade to the other, architectural photography.",
+        "promptKo": "도시의 다섯 층 건물 파사드를 길에서 살짝 비스듬히 본 모습, 흐린 날의 부드러운 빛, 간판 없는 1층, 2000년대의 파라메트릭 파사드: 구멍이 파사드 한쪽에서 다른 쪽으로 점점 커지는 타공 스크린, 건축 사진."
+       }
       },
       {
        "n": 24,
        "en": "",
-       "ko": "곡면"
+       "ko": "곡면",
+       "ex": {
+        "img": "img/facade_eras/k24.webp",
+        "thumb": "img/facade_eras/tk24.webp",
+        "prompt": "Street-level view of the facade of a five-storey city building, seen at a slight angle, soft overcast daylight, plain ground floor without shop signs, a parametric facade from the 2000s: double-curved white panels wrapping around the corners, the facade flowing like fabric, architectural photography.",
+        "promptKo": "도시의 다섯 층 건물 파사드를 길에서 살짝 비스듬히 본 모습, 흐린 날의 부드러운 빛, 간판 없는 1층, 2000년대의 파라메트릭 파사드: 모서리를 감싸는 이중 곡면의 흰 판, 천처럼 흐르는 파사드, 건축 사진."
+       }
       }
      ],
      "note": "컴퓨터가 설계 도구가 되면서 인간의 손으로 그릴 수 없었던 형태가 가능해졌다. 수많은 패널이 각각 다른 각도로 배치되며 하나의 거대한 패턴을 만든다.",
@@ -12064,17 +12208,35 @@ window.JARC_DATA = {
       {
        "n": 25,
        "en": "",
-       "ko": "수직 정원"
+       "ko": "수직 정원",
+       "ex": {
+        "img": "img/facade_eras/k25.webp",
+        "thumb": "img/facade_eras/tk25.webp",
+        "prompt": "Street-level view of the facade of a five-storey city building, seen at a slight angle, soft overcast daylight, plain ground floor without shop signs, a biophilic facade from the 2010s: a living green wall of dense plants covering the facade from bottom to top, architectural photography.",
+        "promptKo": "도시의 다섯 층 건물 파사드를 길에서 살짝 비스듬히 본 모습, 흐린 날의 부드러운 빛, 간판 없는 1층, 2010년대의 바이오필릭 파사드: 빽빽한 식물이 아래부터 꼭대기까지 파사드를 덮는 살아 있는 녹색 벽, 건축 사진."
+       }
       },
       {
        "n": 26,
        "en": "",
-       "ko": "식생 통합"
+       "ko": "식생 통합",
+       "ex": {
+        "img": "img/facade_eras/k26.webp",
+        "thumb": "img/facade_eras/tk26.webp",
+        "prompt": "Street-level view of the facade of a five-storey city building, seen at a slight angle, soft overcast daylight, plain ground floor without shop signs, a biophilic facade from the 2010s: trees and shrubs growing on deep balconies on every floor, greenery woven into the building, architectural photography.",
+        "promptKo": "도시의 다섯 층 건물 파사드를 길에서 살짝 비스듬히 본 모습, 흐린 날의 부드러운 빛, 간판 없는 1층, 2010년대의 바이오필릭 파사드: 층마다 깊은 발코니에 나무와 관목이 자라 녹지가 건물에 엮여 있다, 건축 사진."
+       }
       },
       {
        "n": 27,
        "en": "",
-       "ko": "자연 재료"
+       "ko": "자연 재료",
+       "ex": {
+        "img": "img/facade_eras/k27.webp",
+        "thumb": "img/facade_eras/tk27.webp",
+        "prompt": "Street-level view of the facade of a five-storey city building, seen at a slight angle, soft overcast daylight, plain ground floor without shop signs, a biophilic facade from the 2010s: warm timber cladding and wooden louvers with natural stone at the base, architectural photography.",
+        "promptKo": "도시의 다섯 층 건물 파사드를 길에서 살짝 비스듬히 본 모습, 흐린 날의 부드러운 빛, 간판 없는 1층, 2010년대의 바이오필릭 파사드: 따뜻한 목재 외장과 나무 루버, 아래쪽은 자연석, 건축 사진."
+       }
       }
      ],
      "note": "기술이 정점에 달했을 때, 건축은 다시 자연으로 향했다. 파사드에 나무가 자라고, 벽면이 녹지가 됐다. 건물이 생태계의 일부가 되기 시작했다.",
@@ -12101,17 +12263,35 @@ window.JARC_DATA = {
       {
        "n": 28,
        "en": "",
-       "ko": "재생 재료"
+       "ko": "재생 재료",
+       "ex": {
+        "img": "img/facade_eras/k28.webp",
+        "thumb": "img/facade_eras/tk28.webp",
+        "prompt": "Street-level view of the facade of a five-storey city building, seen at a slight angle, soft overcast daylight, plain ground floor without shop signs, a circular-economy facade from the 2020s: a patchwork cladding of reclaimed materials: salvaged bricks, old window frames and reused metal sheets, architectural photography.",
+        "promptKo": "도시의 다섯 층 건물 파사드를 길에서 살짝 비스듬히 본 모습, 흐린 날의 부드러운 빛, 간판 없는 1층, 2020년대의 순환건축 파사드: 되살린 재료의 조각보 외장 — 헌 벽돌 · 옛 창틀 · 다시 쓴 금속판, 건축 사진."
+       }
       },
       {
        "n": 29,
        "en": "",
-       "ko": "탄소 저감 구법"
+       "ko": "탄소 저감 구법",
+       "ex": {
+        "img": "img/facade_eras/k29.webp",
+        "thumb": "img/facade_eras/tk29.webp",
+        "prompt": "Street-level view of the facade of a five-storey city building, seen at a slight angle, soft overcast daylight, plain ground floor without shop signs, a circular-economy facade from the 2020s: an exposed cross-laminated timber structure visible behind the glass, a low-carbon wooden building, architectural photography.",
+        "promptKo": "도시의 다섯 층 건물 파사드를 길에서 살짝 비스듬히 본 모습, 흐린 날의 부드러운 빛, 간판 없는 1층, 2020년대의 순환건축 파사드: 유리 너머로 드러난 구조용 직교 집성판(CLT) 구조, 탄소를 적게 쓰는 나무 건물, 건축 사진."
+       }
       },
       {
        "n": 30,
        "en": "",
-       "ko": "지역 재료"
+       "ko": "지역 재료",
+       "ex": {
+        "img": "img/facade_eras/k30.webp",
+        "thumb": "img/facade_eras/tk30.webp",
+        "prompt": "Street-level view of the facade of a five-storey city building, seen at a slight angle, soft overcast daylight, plain ground floor without shop signs, a circular-economy facade from the 2020s: walls of local rammed earth with visible horizontal layers and locally quarried stone, architectural photography.",
+        "promptKo": "도시의 다섯 층 건물 파사드를 길에서 살짝 비스듬히 본 모습, 흐린 날의 부드러운 빛, 간판 없는 1층, 2020년대의 순환건축 파사드: 가로 켜가 보이는 그 고장의 흙다짐 벽과 그 고장에서 캔 돌, 건축 사진."
+       }
       }
      ],
      "note": "기후위기 시대, 건축의 질문이 바뀌었다. 얼마나 아름다운가가 아니라, 얼마나 오래 지속될 수 있는가. 재생 재료, 탄소 저감, 지역성이 파사드의 새로운 문법이 됐다.",
@@ -12125,7 +12305,7 @@ window.JARC_DATA = {
     }
    ],
    "cardPreview": false,
-   "examples": 0
+   "examples": 30
   }
  }
 };

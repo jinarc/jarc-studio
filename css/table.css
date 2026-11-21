@@ -50,6 +50,12 @@
 .swatch:hover code { color: var(--accent-ink); }
 .prow__note { margin-top: 1.3rem; color: var(--ink-2); line-height: 1.75; max-width: 46em; }
 .prow__all { margin-top: 1.1rem; font-size: var(--t-small); font-family: var(--f-mono); letter-spacing: 0; }
+/* 색 · 스타일 예시 그림 — 건축가 이름 아래. 그림 밑에 그 건축가의 색 3개를 띠로 붙인다 */
+.prow__ex { display: block; width: 100%; max-width: 20rem; margin-top: 1.1rem; text-align: left; border: 1.5px solid var(--ink); background: var(--paper-2); }
+.prow__ex img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; }
+.prow__strip { display: grid; grid-template-columns: 6fr 3fr 1fr; height: 0.7rem; border-top: 1.5px solid var(--ink); }
+.prow__ex .label { display: block; padding: 0.45rem 0.6rem; border-top: 1.5px solid var(--ink); transition: background-color var(--fast), color var(--fast); }
+.prow__ex:hover .label, .prow__ex:focus-visible .label { background: var(--ink); color: var(--paper); }
 
 @media (max-width: 1000px) {
   .tsec, .prow { grid-template-columns: 1fr; }
