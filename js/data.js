@@ -4,7 +4,7 @@ window.JARC_DATA = {
   "built": "2026-11-21",
   "cards": 211,
   "prompts": 61,
-  "newImages": 522
+  "newImages": 524
  },
  "groups": [
   {
@@ -11547,7 +11547,13 @@ window.JARC_DATA = {
        "en": "Traditional Pattern",
        "ko": "전통 문양",
        "desc": "",
-       "src": "ceo"
+       "src": "ceo",
+       "ex": {
+        "img": "img/facade_encyclopedia/k89.webp",
+        "thumb": "img/facade_encyclopedia/tk89.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: a screen with a traditional Korean lattice window pattern repeated across it, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 한국 전통 창살 문양을 되풀이한 스크린, 건축 사진."
+       }
       },
       {
        "n": 90,
@@ -11663,7 +11669,13 @@ window.JARC_DATA = {
        "en": "Bio-plastic",
        "ko": "바이오 플라스틱",
        "desc": "",
-       "src": "ceo"
+       "src": "ceo",
+       "ex": {
+        "img": "img/facade_encyclopedia/k97.webp",
+        "thumb": "img/facade_encyclopedia/tk97.webp",
+        "prompt": "Close view of the facade of a small four-storey building, seen at a slight angle from the street, soft daylight: translucent amber-colored bioplastic panels with a slightly organic surface, architectural photography.",
+        "promptKo": "작은 4층 건물의 파사드를 길에서 살짝 비스듬히 가까이 본 모습, 부드러운 낮빛: 표면이 조금 유기적인 반투명 호박색 바이오 플라스틱 패널, 건축 사진."
+       }
       },
       {
        "n": 98,
@@ -11712,7 +11724,7 @@ window.JARC_DATA = {
     }
    ],
    "cardPreview": true,
-   "examples": 98
+   "examples": 100
   },
   "facade_eras": {
    "slug": "facade_eras",
