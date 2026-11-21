@@ -119,6 +119,20 @@
     ]);
   }
 
+  /** 사례 카드의 특징마다 예시 그림이 있으면(시대별 파사드), 카드 판 아래에 사례별 타일로 모아 보인다. 없으면 아무것도 그리지 않는다. */
+  function caseExamples(topic) {
+    const withEx = topic.items.filter((item) => item.list.some((row) => row.ex));
+    if (!withEx.length) return null;
+    return el('div', { class: 'tbody' }, [
+      el('div', { class: 'tbody__lead' }, [
+        el('p', { class: 'label', text: 'Examples · 특징 예시' }),
+        el('h2', { text: '특징을 그림으로 보기' }),
+        el('p', { text: '같은 건물 틀에 시대와 특징만 바꿔 만들었다. 눌러서 크게 보고 프롬프트를 복사한다.' }),
+      ]),
+      ...withEx.map((item) => tableSection(topic, { ...item, note: '' })),
+    ]);
+  }
+
   // ── 색 팔레트 ──────────────────────────────────────────────
   const ROLE_KO = { Main: '주조색', Base: '바탕색', Point: '강조색' };
 
@@ -157,7 +171,7 @@
   function body(topic) {
     if (topic.layout === 'table') return [table(topic)];
     if (topic.layout === 'palette') return [palette(topic)];
-    return [plates(topic), topic.kind === 'prompt' ? keywordWall(topic) : null];
+    return [plates(topic), topic.kind === 'prompt' ? keywordWall(topic) : null, topic.kind === 'case' ? caseExamples(topic) : null];
   }
 
   function render(data, topic) {

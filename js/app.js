@@ -77,6 +77,7 @@
       target.name = 'missing';
     }
     document.body.classList.toggle('is-stage', target.name === 'stage');
+    document.body.dataset.view = target.name;              // 맨 위로 버튼을 화면에 따라 숨긴다 (base.css)
     activeListeners = screen.listeners || [];
     activeListeners.forEach(([type, handler]) => document.addEventListener(type, handler));
     document.title = screen.title;
@@ -94,6 +95,22 @@
     event.preventDefault();
     view.focus();
   });
+  /** 맨 위로 버튼 — 한 화면 높이쯤 내려가면 보이고, 누르면 꼭대기로 올라가 초점을 본문에 돌려준다. */
+  function setupToTop() {
+    const button = document.getElementById('totop');
+    if (!button) return;
+    const still = window.matchMedia('(prefers-reduced-motion: reduce)');
+    let ticking = false;
+    const update = () => { ticking = false; button.classList.toggle('is-on', window.scrollY > window.innerHeight * 0.8); };
+    window.addEventListener('scroll', () => { if (!ticking) { ticking = true; window.requestAnimationFrame(update); } }, { passive: true });
+    button.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: still.matches ? 'auto' : 'smooth' });
+      view.focus({ preventScroll: true });
+    });
+    update();
+  }
+
   window.addEventListener('hashchange', route);
+  setupToTop();
   route();
 })();

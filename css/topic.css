@@ -58,6 +58,10 @@
 .kwall { margin-top: var(--space-section); display: grid; grid-template-columns: minmax(11rem, 0.42fr) minmax(0, 1.58fr); gap: var(--gutter); padding-top: 2rem; border-top: 1.5px solid var(--ink); }
 .kwall h2 { font-size: var(--t-h2); font-weight: 800; line-height: 1.15; margin-top: 0.4rem; }
 .kwall p { color: var(--ink-2); margin-top: 0.5rem; }
+.plates + .tbody, .kwall + .tbody { margin-top: var(--space-section); }   /* 사례 꼭지의 특징 예시 (시대별 파사드) */
+.tbody__lead { padding: 2rem 0 0.4rem; max-width: 40rem; }
+.tbody__lead h2 { font-size: var(--t-h2); font-weight: 800; line-height: 1.15; margin-top: 0.4rem; }
+.tbody__lead p:last-child { color: var(--ink-2); margin-top: 0.5rem; }
 .kwgroup { display: grid; grid-template-columns: 9.5rem minmax(0, 1fr); gap: 1rem; padding: 0.8rem 0; border-bottom: 1px solid var(--hair); align-items: start; }
 .kwgroup__name { font-weight: 700; }
 .kwgroup__name b { font-family: var(--f-display); color: var(--accent-ink); margin-right: 0.5rem; }
