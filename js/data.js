@@ -4,7 +4,7 @@ window.JARC_DATA = {
   "built": "2026-11-21",
   "cards": 211,
   "prompts": 61,
-  "newImages": 554
+  "newImages": 588
  },
  "groups": [
   {
@@ -6466,7 +6466,13 @@ window.JARC_DATA = {
       "#다이어그램",
       "#커뮤니티"
      ],
-     "group": ""
+     "group": "",
+     "ex": {
+      "img": "img/color_nordic/k01.webp",
+      "thumb": "img/color_nordic/tk01.webp",
+      "prompt": "A stepped public building whose whole sloping roof is a walkable lawn of bright saturated grass, with light timber deck paths and small solid black silhouettes of people walking on it, clear daylight. Colour palette: main #66BB6A, base #DEB887, accent #000000, architectural photography.",
+      "promptKo": "경사진 지붕 전체가 걸어 다니는 채도 높은 잔디밭인 계단형 공공 건물, 밝은 나무 데크 길, 그 위를 걷는 작은 검은 사람 실루엣, 맑은 낮빛. 색: 주조색 #66BB6A · 바탕색 #DEB887 · 강조색 #000000, 건축 사진."
+     }
     },
     {
      "no": "02",
@@ -6506,7 +6512,13 @@ window.JARC_DATA = {
       "#자연과의조화",
       "#랜드마크설계"
      ],
-     "group": ""
+     "group": "",
+     "ex": {
+      "img": "img/color_nordic/k02.webp",
+      "thumb": "img/color_nordic/tk02.webp",
+      "prompt": "A low angular building of icy white marble rising from a rocky northern shore like a tilted glacier slab people can walk up, a warm reddish-brown oak interior glowing through tall glass, a cold grey-blue sea beside it, overcast. Colour palette: main #F0FFFF, base #A0522D, accent #778899, architectural photography.",
+      "promptKo": "북쪽 바위 해안에서 기울어진 빙하 판처럼 솟아 사람이 걸어 오를 수 있는 낮고 각진 흰 대리석 건물, 높은 유리 너머로 붉은 갈색 오크 실내가 따뜻하게 빛난다, 옆에 차가운 회청색 바다, 흐린 날. 색: 주조색 #F0FFFF · 바탕색 #A0522D · 강조색 #778899, 건축 사진."
+     }
     },
     {
      "no": "03",
@@ -6546,7 +6558,13 @@ window.JARC_DATA = {
       "#어둠의미학",
       "#성스러운빛"
      ],
-     "group": ""
+     "group": "",
+     "ex": {
+      "img": "img/color_nordic/k03.webp",
+      "thumb": "img/color_nordic/tk03.webp",
+      "prompt": "A dim chapel interior built entirely of very dark brown brick with equally dark rough mortar joints, so the walls read as one heavy mass, a single small window and a few candles giving warm golden light in the darkness. Colour palette: main #3E2723, base #1C1C1C, accent #FFD700, architectural photography.",
+      "promptKo": "줄눈까지 어둡고 거친 아주 짙은 갈색 벽돌로만 지어 벽이 한 덩어리로 보이는 어두운 예배당 내부, 작은 창 하나와 촛불 몇 개가 어둠 속에 따뜻한 금빛을 낸다. 색: 주조색 #3E2723 · 바탕색 #1C1C1C · 강조색 #FFD700, 건축 사진."
+     }
     },
     {
      "no": "04",
@@ -6586,7 +6604,13 @@ window.JARC_DATA = {
       "#인간중심",
       "#재료"
      ],
-     "group": ""
+     "group": "",
+     "ex": {
+      "img": "img/color_nordic/k04.webp",
+      "thumb": "img/color_nordic/tk04.webp",
+      "prompt": "A library reading room with a wavy curved ceiling of warm birch wood strips, soft white walls, an exterior wall of classic red brick seen through the window, warm daylight. Colour palette: main #CD853F, base #FFFFFF, accent #B22222, architectural photography.",
+      "promptKo": "따뜻한 자작나무 띠로 된 물결치는 곡선 천장의 도서관 열람실, 부드러운 흰 벽, 창 너머로 보이는 클래식한 붉은 벽돌 외벽, 따뜻한 낮빛. 색: 주조색 #CD853F · 바탕색 #FFFFFF · 강조색 #B22222, 건축 사진."
+     }
     },
     {
      "no": "05",
@@ -6626,7 +6650,13 @@ window.JARC_DATA = {
       "#나선계단",
       "#역동적"
      ],
-     "group": ""
+     "group": "",
+     "ex": {
+      "img": "img/color_nordic/k05.webp",
+      "thumb": "img/color_nordic/tk05.webp",
+      "prompt": "A bright atrium with a large sweeping spiral staircase of flowing white balustrades, a pale blush-pink floor catching warm sunlight, soft light grey shadows along the curves. Colour palette: main #F4C2C2, base #FFFFFF, accent #D3D3D3, architectural photography.",
+      "promptKo": "흐르는 흰 난간의 크게 휘감아 도는 나선 계단이 있는 밝은 아트리움, 따뜻한 햇빛을 받는 옅은 분홍빛 바닥, 곡선을 따라 생기는 부드러운 연회색 그림자. 색: 주조색 #F4C2C2 · 바탕색 #FFFFFF · 강조색 #D3D3D3, 건축 사진."
+     }
     },
     {
      "no": "06",
@@ -6666,7 +6696,13 @@ window.JARC_DATA = {
       "#곡선콘크리트",
       "#천장디자인"
      ],
-     "group": ""
+     "group": "",
+     "ex": {
+      "img": "img/color_nordic/k06.webp",
+      "thumb": "img/color_nordic/tk06.webp",
+      "prompt": "A church interior with a billowing white curved concrete ceiling like clouds, soft diffused daylight from above, smooth pale grey concrete walls, light birch wood pews. Colour palette: main #F5F5F5, base #E0E0E0, accent #D4C4A8, architectural photography.",
+      "promptKo": "구름처럼 부풀어 오른 흰 곡선 콘크리트 천장의 교회 내부, 위에서 내려오는 부드럽게 퍼진 자연광, 매끈한 연회색 콘크리트 벽, 밝은 자작나무 의자. 색: 주조색 #F5F5F5 · 바탕색 #E0E0E0 · 강조색 #D4C4A8, 건축 사진."
+     }
     },
     {
      "no": "07",
@@ -6706,7 +6742,13 @@ window.JARC_DATA = {
       "#곡선콘크리트",
       "#천장디자인"
      ],
-     "group": ""
+     "group": "",
+     "ex": {
+      "img": "img/color_nordic/k07.webp",
+      "thumb": "img/color_nordic/tk07.webp",
+      "prompt": "A gallery hall under a roof of deep white concrete beams laid in a grid, pale yellow sunlight filtering softly between the beams, dark brown tree trunks growing up through the roof. Colour palette: main #EAEAEA, base #8B5A2B, accent #FFFACD, architectural photography.",
+      "promptKo": "깊은 흰 콘크리트 보가 격자로 걸린 지붕 아래의 전시장, 보 사이로 부드럽게 걸러져 내려오는 옅은 노란 햇살, 지붕을 뚫고 자라는 짙은 갈색 나무 줄기. 색: 주조색 #EAEAEA · 바탕색 #8B5A2B · 강조색 #FFFACD, 건축 사진."
+     }
     },
     {
      "no": "08",
@@ -6746,7 +6788,13 @@ window.JARC_DATA = {
       "#오피스",
       "#미래지향적"
      ],
-     "group": "다른 편에서 섞여 들어온 카드 (영국 건축가 편으로 보인다)"
+     "group": "다른 편에서 섞여 들어온 카드 (영국 건축가 편으로 보인다)",
+     "ex": {
+      "img": "img/color_nordic/k08.webp",
+      "thumb": "img/color_nordic/tk08.webp",
+      "prompt": "An office tower lobby wrapped in a diagonal steel diagrid with dark grey-green structural members, blue-green tinted glass and metallic silver panels, crisp daylight. Colour palette: main #A3C1AD, base #E5E4E2, accent #2F4F4F, architectural photography.",
+      "promptKo": "짙은 회녹색 부재의 대각선 철골 다이아그리드로 감싼 사무 타워 로비, 청록빛 유리와 메탈릭 은색 판, 또렷한 낮빛. 색: 주조색 #A3C1AD · 바탕색 #E5E4E2 · 강조색 #2F4F4F, 건축 사진."
+     }
     },
     {
      "no": "09",
@@ -6786,7 +6834,13 @@ window.JARC_DATA = {
       "#비정형",
       "#파라메트릭"
      ],
-     "group": "다른 편에서 섞여 들어온 카드 (영국 건축가 편으로 보인다)"
+     "group": "다른 편에서 섞여 들어온 카드 (영국 건축가 편으로 보인다)",
+     "ex": {
+      "img": "img/color_nordic/k09.webp",
+      "thumb": "img/color_nordic/tk09.webp",
+      "prompt": "A flowing white interior where walls, floor and ceiling merge in smooth continuous curves, futuristic silver metallic surfaces, soft slate-grey gradient shadows following the curves. Colour palette: main #C0C0C0, base #FFFFFF, accent #708090, architectural photography.",
+      "promptKo": "벽 · 바닥 · 천장이 매끄럽게 이어지는 곡선으로 녹아든 흐르는 흰 실내, 미래적인 은색 금속 면, 곡선을 따라 흐르는 부드러운 청회색 그러데이션 그림자. 색: 주조색 #C0C0C0 · 바탕색 #FFFFFF · 강조색 #708090, 건축 사진."
+     }
     },
     {
      "no": "10",
@@ -6826,7 +6880,13 @@ window.JARC_DATA = {
       "#절제미",
       "#미니멀리즘"
      ],
-     "group": "다른 편에서 섞여 들어온 카드 (영국 건축가 편으로 보인다)"
+     "group": "다른 편에서 섞여 들어온 카드 (영국 건축가 편으로 보인다)",
+     "ex": {
+      "img": "img/color_nordic/k10.webp",
+      "thumb": "img/color_nordic/tk10.webp",
+      "prompt": "A museum gallery where restored old brick walls meet calm new beige stone and matte white plaster, slim zinc-grey metal window frames, soft daylight. Colour palette: main #DCD0C0, base #F5F5F5, accent #696969, architectural photography.",
+      "promptKo": "복원한 옛 벽돌벽이 차분한 새 베이지 석재와 무광 흰 회벽을 만나는 미술관 전시실, 가는 아연 회색 금속 창틀, 부드러운 낮빛. 색: 주조색 #DCD0C0 · 바탕색 #F5F5F5 · 강조색 #696969, 건축 사진."
+     }
     },
     {
      "no": "11",
@@ -6866,11 +6926,17 @@ window.JARC_DATA = {
       "#베슬",
       "#재료혁신"
      ],
-     "group": "다른 편에서 섞여 들어온 카드 (영국 건축가 편으로 보인다)"
+     "group": "다른 편에서 섞여 들어온 카드 (영국 건축가 편으로 보인다)",
+     "ex": {
+      "img": "img/color_nordic/k11.webp",
+      "thumb": "img/color_nordic/tk11.webp",
+      "prompt": "A pavilion made of stacked layers of warm brown timber with a shining polished copper surface and dark bronze details, crafted handmade texture, late afternoon light. Colour palette: main #B87333, base #8B5A2B, accent #4A3B2A, architectural photography.",
+      "promptKo": "따뜻한 갈색 목재를 켜켜이 쌓아 만든 파빌리온, 반짝이는 광택 구리 면과 어두운 브론즈 디테일, 손으로 만든 공예 질감, 늦은 오후 빛. 색: 주조색 #B87333 · 바탕색 #8B5A2B · 강조색 #4A3B2A, 건축 사진."
+     }
     }
    ],
    "cardPreview": false,
-   "examples": 0
+   "examples": 11
   },
   "color_mexico": {
    "slug": "color_mexico",
@@ -6941,7 +7007,13 @@ window.JARC_DATA = {
       "#감성공간",
       "#빛과색"
      ],
-     "group": ""
+     "group": "",
+     "ex": {
+      "img": "img/color_mexico/k01.webp",
+      "thumb": "img/color_mexico/tk01.webp",
+      "prompt": "A minimal courtyard of tall smooth plastered walls painted vivid pink and sun yellow, a deep royal blue sky above, a shallow still pool, strong sunlight and crisp shadows. Colour palette: main #F04E98, base #FFD700, accent #4169E1, architectural photography.",
+      "promptKo": "선명한 분홍과 햇빛 노랑으로 칠한 높고 매끈한 회벽의 미니멀한 안뜰, 위로 짙은 로열 블루 하늘, 얕고 잔잔한 물, 강한 햇빛과 또렷한 그림자. 색: 주조색 #F04E98 · 바탕색 #FFD700 · 강조색 #4169E1, 건축 사진."
+     }
     },
     {
      "no": "02",
@@ -6981,7 +7053,13 @@ window.JARC_DATA = {
       "#신비로움",
       "#강렬한색감"
      ],
-     "group": ""
+     "group": "",
+     "ex": {
+      "img": "img/color_mexico/k02.webp",
+      "thumb": "img/color_mexico/tk02.webp",
+      "prompt": "A hotel entrance courtyard with massive walls in deep purple and heavy gold ochre, a terracotta red tower, small square openings, bright sun. Colour palette: main #6A0DAD, base #D4AF37, accent #C0392B, architectural photography.",
+      "promptKo": "짙은 보라와 묵직한 황금빛 황토색의 거대한 벽이 둘러싼 호텔 입구 안뜰, 테라코타 붉은 탑, 작은 네모 창, 밝은 햇빛. 색: 주조색 #6A0DAD · 바탕색 #D4AF37 · 강조색 #C0392B, 건축 사진."
+     }
     },
     {
      "no": "03",
@@ -7021,7 +7099,13 @@ window.JARC_DATA = {
       "#날것",
       "#소셜하우징"
      ],
-     "group": ""
+     "group": "",
+     "ex": {
+      "img": "img/color_mexico/k03.webp",
+      "thumb": "img/color_mexico/tk03.webp",
+      "prompt": "A rough house of earthy sand-coloured raw concrete and aged dark brown timber, dry olive-green desert plants around it, handmade crafted feel, warm daylight. Colour palette: main #8B4513, base #C2B280, accent #556B2F, architectural photography.",
+      "promptKo": "흙빛 모래색 날것 콘크리트와 오래된 짙은 갈색 목재로 지은 투박한 집, 둘레에 마른 올리브색 사막 식물, 손으로 만든 듯한 공예 감성, 따뜻한 낮빛. 색: 주조색 #8B4513 · 바탕색 #C2B280 · 강조색 #556B2F, 건축 사진."
+     }
     },
     {
      "no": "04",
@@ -7061,7 +7145,13 @@ window.JARC_DATA = {
       "#블록디자인",
       "#파사드"
      ],
-     "group": ""
+     "group": "",
+     "ex": {
+      "img": "img/color_mexico/k04.webp",
+      "thumb": "img/color_mexico/tk04.webp",
+      "prompt": "A courtyard enclosed by dark grey volcanic stone walls and a light grey perforated cement block screen, patterns of pale light filtering through the holes onto the floor. Colour palette: main #424242, base #A9A9A9, accent #E5E5E5, architectural photography.",
+      "promptKo": "짙은 회색 화산석 벽과 밝은 회색 구멍 뚫린 시멘트 블록 스크린(셀로시아)으로 둘러싼 안뜰, 구멍으로 새어 든 옅은 빛이 바닥에 무늬를 만든다. 색: 주조색 #424242 · 바탕색 #A9A9A9 · 강조색 #E5E5E5, 건축 사진."
+     }
     },
     {
      "no": "05",
@@ -7101,11 +7191,17 @@ window.JARC_DATA = {
       "#메가스트럭처",
       "#바스콘셀로스도서관"
      ],
-     "group": ""
+     "group": "",
+     "ex": {
+      "img": "img/color_mexico/k05.webp",
+      "thumb": "img/color_mexico/tk05.webp",
+      "prompt": "A vast library hall with a heavy cold grey steel and concrete structure, lush jungle green plants filling the space, warm orange-brown timber floors. Colour palette: main #228B22, base #708090, accent #D2691E, architectural photography.",
+      "promptKo": "차갑고 묵직한 회색 철골 · 콘크리트 구조의 거대한 도서관 홀, 공간을 가득 채운 울창한 정글 초록 식물, 따뜻한 주황 갈색 나무 바닥. 색: 주조색 #228B22 · 바탕색 #708090 · 강조색 #D2691E, 건축 사진."
+     }
     }
    ],
    "cardPreview": false,
-   "examples": 0
+   "examples": 5
   },
   "color_swiss": {
    "slug": "color_swiss",
@@ -7176,7 +7272,13 @@ window.JARC_DATA = {
       "#분위기",
       "#재료물성"
      ],
-     "group": ""
+     "group": "",
+     "ex": {
+      "img": "img/color_swiss/k01.webp",
+      "thumb": "img/color_swiss/tk01.webp",
+      "prompt": "A dim thermal bath interior of stacked thin layers of grey quartzite stone, deep dark blue water, hazy golden light falling from narrow gaps in the ceiling, light steam. Colour palette: main #5D5C61, base #2C3E50, accent #BFA588, architectural photography.",
+      "promptKo": "얇은 회색 규암을 켜켜이 쌓은 어두운 온천 내부, 깊고 짙은 푸른 물, 천장의 좁은 틈으로 떨어지는 뿌연 금빛, 옅은 김. 색: 주조색 #5D5C61 · 바탕색 #2C3E50 · 강조색 #BFA588, 건축 사진."
+     }
     },
     {
      "no": "02",
@@ -7216,7 +7318,13 @@ window.JARC_DATA = {
       "#텍스처표현",
       "#건축디테일"
      ],
-     "group": ""
+     "group": "",
+     "ex": {
+      "img": "img/color_swiss/k02.webp",
+      "thumb": "img/color_swiss/tk02.webp",
+      "prompt": "A building whose walls are rough dark red brick and dark basalt stones packed in wire gabion baskets, a cold light silver metal mesh screen, overcast. Colour palette: main #A63737, base #2B2B2B, accent #D9D9D9, architectural photography.",
+      "promptKo": "거친 짙은 붉은 벽돌과 철망 돌망태(개비온)에 채운 어두운 현무암으로 된 벽의 건물, 차가운 밝은 은색 금속망 스크린, 흐린 날. 색: 주조색 #A63737 · 바탕색 #2B2B2B · 강조색 #D9D9D9, 건축 사진."
+     }
     },
     {
      "no": "03",
@@ -7256,7 +7364,13 @@ window.JARC_DATA = {
       "#색채론",
       "#빌라사보아"
      ],
-     "group": ""
+     "group": "",
+     "ex": {
+      "img": "img/color_swiss/k03.webp",
+      "thumb": "img/color_swiss/tk03.webp",
+      "prompt": "A white modernist interior with pure white walls, one wall painted strong red and another muted blue, a long ribbon window, clean geometric forms, daylight. Colour palette: main #D93E3E, base #EFEFEF, accent #2E5D8C, architectural photography.",
+      "promptKo": "순수한 흰 벽의 모더니즘 실내, 벽 하나는 강렬한 빨강 · 다른 하나는 차분한 파랑으로 칠했다, 긴 띠창, 깔끔한 기하학 형태, 낮빛. 색: 주조색 #D93E3E · 바탕색 #EFEFEF · 강조색 #2E5D8C, 건축 사진."
+     }
     },
     {
      "no": "04",
@@ -7296,7 +7410,13 @@ window.JARC_DATA = {
       "#기하학",
       "#강한매스"
      ],
-     "group": ""
+     "group": "",
+     "ex": {
+      "img": "img/color_swiss/k04.webp",
+      "thumb": "img/color_swiss/tk04.webp",
+      "prompt": "A symmetrical cylindrical building with bold horizontal stripes of terracotta red brick and light grey bands, a deep dark cut-in shadow at the top, strong sun. Colour palette: main #8B3A3A, base #E0E0E0, accent #1A1A1A, architectural photography.",
+      "promptKo": "테라코타 붉은 벽돌과 밝은 회색 띠가 굵은 가로 줄무늬를 이루는 대칭 원통형 건물, 꼭대기에 깊게 파인 어두운 그림자, 강한 햇빛. 색: 주조색 #8B3A3A · 바탕색 #E0E0E0 · 강조색 #1A1A1A, 건축 사진."
+     }
     },
     {
      "no": "05",
@@ -7336,11 +7456,17 @@ window.JARC_DATA = {
       "#모놀리스",
       "#건축조형"
      ],
-     "group": ""
+     "group": "",
+     "ex": {
+      "img": "img/color_swiss/k05.webp",
+      "thumb": "img/color_swiss/tk05.webp",
+      "prompt": "A monolithic building cast entirely in red-pigmented concrete, warm white concrete inside, large dark rectangular openings, no other materials. Colour palette: main #A55B53, base #EAE6E3, accent #4A4A4A, architectural photography.",
+      "promptKo": "통째로 붉은 안료 콘크리트로 부어 만든 한 덩어리 건물, 안쪽은 따뜻한 흰 콘크리트, 크고 어두운 네모 개구부, 다른 재료 없음. 색: 주조색 #A55B53 · 바탕색 #EAE6E3 · 강조색 #4A4A4A, 건축 사진."
+     }
     }
    ],
    "cardPreview": false,
-   "examples": 0
+   "examples": 5
   },
   "color_spain": {
    "slug": "color_spain",
@@ -7411,7 +7537,13 @@ window.JARC_DATA = {
       "#바이오필릭",
       "#모자이크타일"
      ],
-     "group": ""
+     "group": "",
+     "ex": {
+      "img": "img/color_spain/k01.webp",
+      "thumb": "img/color_spain/tk01.webp",
+      "prompt": "An organic curving facade of warm sandstone with wavy balconies, sea-green curved tiles and broken red mosaic tile accents, sunny. Colour palette: main #E6C288, base #497E76, accent #D9534F, architectural photography.",
+      "promptKo": "물결치는 발코니가 달린 따뜻한 사암의 유기적 곡선 파사드, 청록빛 곡면 타일과 깨진 붉은 모자이크 타일 장식, 맑은 날. 색: 주조색 #E6C288 · 바탕색 #497E76 · 강조색 #D9534F, 건축 사진."
+     }
     },
     {
      "no": "02",
@@ -7451,7 +7583,13 @@ window.JARC_DATA = {
       "#초현실주의",
       "#색채건축"
      ],
-     "group": ""
+     "group": "",
+     "ex": {
+      "img": "img/color_spain/k02.webp",
+      "thumb": "img/color_spain/tk02.webp",
+      "prompt": "A surreal geometric housing block of crossing staircases and walls painted coral pink, set against a Mediterranean blue sky, deep violet-magenta shadows. Colour palette: main #E86E74, base #6BA4C6, accent #B03060, architectural photography.",
+      "promptKo": "엇갈리는 계단과 산호빛 분홍으로 칠한 벽의 초현실적인 기하학 집합 주택, 지중해의 푸른 하늘을 배경으로, 짙은 자주색 그림자. 색: 주조색 #E86E74 · 바탕색 #6BA4C6 · 강조색 #B03060, 건축 사진."
+     }
     },
     {
      "no": "03",
@@ -7491,7 +7629,13 @@ window.JARC_DATA = {
       "#백색건축",
       "#공학적디자인"
      ],
-     "group": ""
+     "group": "",
+     "ex": {
+      "img": "img/color_spain/k03.webp",
+      "thumb": "img/color_spain/tk03.webp",
+      "prompt": "A bridge-like white structure with rib-like bones and wing-shaped arches against a deep azure sky, silver steel cables, bright sun. Colour palette: main #FFFFFF, base #1A4D8C, accent #BCC6CC, architectural photography.",
+      "promptKo": "갈비뼈 같은 뼈대와 날개 모양 아치의 다리 같은 흰 구조물, 짙은 하늘색 배경, 은색 강철 케이블, 밝은 햇빛. 색: 주조색 #FFFFFF · 바탕색 #1A4D8C · 강조색 #BCC6CC, 건축 사진."
+     }
     },
     {
      "no": "04",
@@ -7531,7 +7675,13 @@ window.JARC_DATA = {
       "#재료의시간성",
       "#프리츠커"
      ],
-     "group": ""
+     "group": "",
+     "ex": {
+      "img": "img/color_spain/k04.webp",
+      "thumb": "img/color_spain/tk04.webp",
+      "prompt": "A building of rusted Corten steel plates half-sunk into dark volcanic earth and rock, a narrow gap glowing with amber sunset light. Colour palette: main #8C4B33, base #2F2F2F, accent #D4A017, architectural photography.",
+      "promptKo": "어두운 화산 흙과 바위에 반쯤 묻힌 녹슨 코르텐강 판의 건물, 좁은 틈으로 호박색 석양빛이 빛난다. 색: 주조색 #8C4B33 · 바탕색 #2F2F2F · 강조색 #D4A017, 건축 사진."
+     }
     },
     {
      "no": "05",
@@ -7571,7 +7721,13 @@ window.JARC_DATA = {
       "#역사적맥락",
       "#클래식디자인"
      ],
-     "group": ""
+     "group": "",
+     "ex": {
+      "img": "img/color_spain/k05.webp",
+      "thumb": "img/color_spain/tk05.webp",
+      "prompt": "A public library facade of warm thin Roman-style brick with pale limestone bands and aged weathered stone at the base, calm daylight. Colour palette: main #C57B57, base #EAD7C4, accent #8C7866, architectural photography.",
+      "promptKo": "따뜻한 얇은 로마식 벽돌에 옅은 라임스톤 띠를 두르고 아래쪽에 세월 묻은 돌을 쓴 공공 도서관 파사드, 차분한 낮빛. 색: 주조색 #C57B57 · 바탕색 #EAD7C4 · 강조색 #8C7866, 건축 사진."
+     }
     },
     {
      "no": "06",
@@ -7611,7 +7767,13 @@ window.JARC_DATA = {
       "#백색공간",
       "#미니멀리즘"
      ],
-     "group": ""
+     "group": "",
+     "ex": {
+      "img": "img/color_spain/k06.webp",
+      "thumb": "img/color_spain/tk06.webp",
+      "prompt": "A pure dazzling white room with one high opening, intense pale yellow sunlight entering and casting razor-sharp black shadows on the white walls. Colour palette: main #FFFFFF, base #FDFBD4, accent #000000, architectural photography.",
+      "promptKo": "높은 개구부 하나만 있는 눈부신 순백의 방, 강렬한 옅은 노란 햇빛이 들어와 흰 벽에 칼날처럼 날카로운 검은 그림자를 드리운다. 색: 주조색 #FFFFFF · 바탕색 #FDFBD4 · 강조색 #000000, 건축 사진."
+     }
     },
     {
      "no": "07",
@@ -7651,11 +7813,17 @@ window.JARC_DATA = {
       "#ETFE",
       "#네온컬러"
      ],
-     "group": ""
+     "group": "",
+     "ex": {
+      "img": "img/color_spain/k07.webp",
+      "thumb": "img/color_spain/tk07.webp",
+      "prompt": "A pavilion in a forest made of translucent white ETFE film and neon orange plastic panels with acid lime green accents, daylight glowing through. Colour palette: main #FF9F1C, base #F4F4F4, accent #B2D235, architectural photography.",
+      "promptKo": "반투명 흰 ETFE 막과 네온 주황 플라스틱 판으로 만든 숲속 파빌리온, 형광 연두 포인트, 빛이 비쳐 든다. 색: 주조색 #FF9F1C · 바탕색 #F4F4F4 · 강조색 #B2D235, 건축 사진."
+     }
     }
    ],
    "cardPreview": false,
-   "examples": 0
+   "examples": 7
   },
   "color_japan": {
    "slug": "color_japan",
@@ -7726,7 +7894,13 @@ window.JARC_DATA = {
       "#빛의연출",
       "#매스감"
      ],
-     "group": ""
+     "group": "",
+     "ex": {
+      "img": "img/color_japan/k01.webp",
+      "thumb": "img/color_japan/tk01.webp",
+      "prompt": "A bare grey exposed concrete chapel interior in deep shadow, a thin slit of bright white light cutting through the wall. Colour palette: main #8C8C91, base #1C1C1E, accent #F5F7FA, architectural photography.",
+      "promptKo": "깊은 그림자 속 맨 회색 노출 콘크리트 예배당 내부, 벽을 가르는 가는 틈으로 밝은 흰 빛이 들어온다. 색: 주조색 #8C8C91 · 바탕색 #1C1C1E · 강조색 #F5F7FA, 건축 사진."
+     }
     },
     {
      "no": "02",
@@ -7766,7 +7940,13 @@ window.JARC_DATA = {
       "#나무질감",
       "#입면,"
      ],
-     "group": ""
+     "group": "",
+     "ex": {
+      "img": "img/color_japan/k02.webp",
+      "thumb": "img/color_japan/tk02.webp",
+      "prompt": "A facade of many thin natural cedar wood louvers layered in a rhythmic pattern casting dark brown shadow lines, muted green planting in front. Colour palette: main #C19A6B, base #8D9688, accent #5D4037, architectural photography.",
+      "promptKo": "얇은 천연 삼나무 루버를 리듬 있게 겹친 파사드가 짙은 갈색 그림자 선을 만든다, 앞에 차분한 초록 식재. 색: 주조색 #C19A6B · 바탕색 #8D9688 · 강조색 #5D4037, 건축 사진."
+     }
     },
     {
      "no": "03",
@@ -7807,7 +7987,13 @@ window.JARC_DATA = {
       "#유리파사드",
       "#투명성"
      ],
-     "group": ""
+     "group": "",
+     "ex": {
+      "img": "img/color_japan/k03.webp",
+      "thumb": "img/color_japan/tk03.webp",
+      "prompt": "A light single-storey pavilion with a pure white thin roof and curved clear glass walls reflecting a pale blue sky, very thin silver columns, in a park. Colour palette: main #FFFFFF, base #E3F2FD, accent #D0D0D0, architectural photography.",
+      "promptKo": "얇은 순백 지붕과 옅은 하늘빛을 비추는 휘어진 투명 유리벽의 가벼운 단층 파빌리온, 아주 가는 은색 기둥, 공원 안. 색: 주조색 #FFFFFF · 바탕색 #E3F2FD · 강조색 #D0D0D0, 건축 사진."
+     }
     },
     {
      "no": "04",
@@ -7848,7 +8034,13 @@ window.JARC_DATA = {
       "#친환경",
       "#구조디테일"
      ],
-     "group": ""
+     "group": "",
+     "ex": {
+      "img": "img/color_japan/k04.webp",
+      "thumb": "img/color_japan/tk04.webp",
+      "prompt": "A temporary shelter built of cardboard-coloured paper tubes with a translucent white tent membrane roof, brown timber grid joints. Colour palette: main #E0C097, base #F9F9F9, accent #8B5A2B, architectural photography.",
+      "promptKo": "골판지색 종이관으로 지은 임시 쉼터, 반투명 흰 천막 지붕, 갈색 목재 격자 이음. 색: 주조색 #E0C097 · 바탕색 #F9F9F9 · 강조색 #8B5A2B, 건축 사진."
+     }
     },
     {
      "no": "05",
@@ -7889,7 +8081,13 @@ window.JARC_DATA = {
       "#입체적공간",
       "#파빌리온"
      ],
-     "group": ""
+     "group": "",
+     "ex": {
+      "img": "img/color_japan/k05.webp",
+      "thumb": "img/color_japan/tk05.webp",
+      "prompt": "A pavilion of thin white grid frames stacked like a cloud, fresh green plants placed among the frames, pale sky visible through the grid. Colour palette: main #FFFFFF, base #7CB342, accent #E1F5FE, architectural photography.",
+      "promptKo": "구름처럼 쌓인 가는 흰 격자 프레임의 파빌리온, 프레임 사이사이에 놓인 싱그러운 초록 식물, 격자 사이로 보이는 옅은 하늘. 색: 주조색 #FFFFFF · 바탕색 #7CB342 · 강조색 #E1F5FE, 건축 사진."
+     }
     },
     {
      "no": "06",
@@ -7930,11 +8128,17 @@ window.JARC_DATA = {
       "#공간의유동성",
       "#감성디자인"
      ],
-     "group": ""
+     "group": "",
+     "ex": {
+      "img": "img/color_japan/k06.webp",
+      "thumb": "img/color_japan/tk06.webp",
+      "prompt": "A glass building with extremely thin dark steel columns, deep moss green plants and trees filling the interior, clear glass making inside and outside one landscape. Colour palette: main #F0F4F8, base #556B2F, accent #2B2B2B, architectural photography.",
+      "promptKo": "아주 가는 어두운 철 기둥의 유리 건물, 짙은 이끼색 식물과 나무가 실내를 채운다, 투명한 유리로 안과 밖이 하나의 풍경이 된다. 색: 주조색 #F0F4F8 · 바탕색 #556B2F · 강조색 #2B2B2B, 건축 사진."
+     }
     }
    ],
    "cardPreview": false,
-   "examples": 0
+   "examples": 6
   },
   "lighting_weather": {
    "slug": "lighting_weather",
